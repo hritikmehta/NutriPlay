@@ -1,0 +1,3484 @@
+{
+  "questions": [
+    {
+      "id": "q001",
+      "category": "myths",
+      "difficulty": "easy",
+      "type": "true-false",
+      "question": "Which cooking method retains the most nutrients?",
+      "options": [
+        "Deep frying",
+        "Boiling",
+        "Steaming",
+        "Microwaving"
+      ],
+      "correct": 2,
+      "explanation": "Steaming preserves most nutrients since it minimizes water loss and oxidation.",
+      "source": "WHO Nutrition Guidelines",
+      "tags": [
+        "cooking",
+        "nutrition"
+      ],
+      "funFact": "Steam your veggies for maximum vitamins!"
+    },
+    {
+      "id": "q002",
+      "category": "vitamins",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "How much water should you drink per kg of body weight? (A)",
+      "options": [
+        "10 ml",
+        "20 ml",
+        "30 ml",
+        "50 ml"
+      ],
+      "correct": 2,
+      "explanation": "30–35 ml/kg body weight daily supports hydration and metabolism.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "hydration",
+        "healthy-habits"
+      ],
+      "funFact": "Hydration improves focus and energy!"
+    },
+    {
+      "id": "q003",
+      "category": "vitamins",
+      "difficulty": "hard",
+      "type": "true-false",
+      "question": "True or False: Protein helps build muscle.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explanation": "Protein is essential for muscle growth and repair.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "protein",
+        "basics"
+      ],
+      "funFact": "Protein-rich foods support strength and recovery."
+    },
+    {
+      "id": "q004",
+      "category": "hydration",
+      "difficulty": "hard",
+      "type": "true-false",
+      "question": "Which cooking method retains the most nutrients?",
+      "options": [
+        "Deep frying",
+        "Boiling",
+        "Steaming",
+        "Microwaving"
+      ],
+      "correct": 2,
+      "explanation": "Steaming preserves most nutrients since it minimizes water loss and oxidation.",
+      "source": "WHO Nutrition Guidelines",
+      "tags": [
+        "cooking",
+        "nutrition"
+      ],
+      "funFact": "Steam your veggies for maximum vitamins!"
+    },
+    {
+      "id": "q005",
+      "category": "carbohydrates",
+      "difficulty": "hard",
+      "type": "true-false",
+      "question": "Which cooking method retains the most nutrients?",
+      "options": [
+        "Deep frying",
+        "Boiling",
+        "Steaming",
+        "Microwaving"
+      ],
+      "correct": 2,
+      "explanation": "Steaming preserves most nutrients since it minimizes water loss and oxidation.",
+      "source": "WHO Nutrition Guidelines",
+      "tags": [
+        "cooking",
+        "nutrition"
+      ],
+      "funFact": "Steam your veggies for maximum vitamins!"
+    },
+    {
+      "id": "q006",
+      "category": "carbohydrates",
+      "difficulty": "medium",
+      "type": "true-false",
+      "question": "How much water should you drink per kg of body weight?",
+      "options": [
+        "10 ml",
+        "20 ml",
+        "30 ml",
+        "50 ml"
+      ],
+      "correct": 2,
+      "explanation": "30–35 ml/kg body weight daily supports hydration and metabolism.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "hydration",
+        "healthy-habits"
+      ],
+      "funFact": "Hydration improves focus and energy!"
+    },
+    {
+      "id": "q007",
+      "category": "protein",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "question": "How much water should you drink per kg of body weight? (B)",
+      "options": [
+        "10 ml",
+        "20 ml",
+        "30 ml",
+        "50 ml"
+      ],
+      "correct": 2,
+      "explanation": "30–35 ml/kg body weight daily supports hydration and metabolism.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "hydration",
+        "healthy-habits"
+      ],
+      "funFact": "Hydration improves focus and energy!"
+    },
+    {
+      "id": "q008",
+      "category": "myths",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "question": "True or False: Protein helps build muscle. (B)",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explanation": "Protein is essential for muscle growth and repair.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "protein",
+        "basics"
+      ],
+      "funFact": "Protein-rich foods support strength and recovery."
+    },
+    {
+      "id": "q009",
+      "category": "carbohydrates",
+      "difficulty": "easy",
+      "type": "true-false",
+      "question": "How much water should you drink per kg of body weight?",
+      "options": [
+        "10 ml",
+        "20 ml",
+        "30 ml",
+        "50 ml"
+      ],
+      "correct": 2,
+      "explanation": "30–35 ml/kg body weight daily supports hydration and metabolism.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "hydration",
+        "healthy-habits"
+      ],
+      "funFact": "Hydration improves focus and energy!"
+    },
+    {
+      "id": "q010",
+      "category": "carbohydrates",
+      "difficulty": "medium",
+      "type": "true-false",
+      "question": "How many calories are approximately in one medium-sized roti?",
+      "options": [
+        "50 cal",
+        "80 cal",
+        "120 cal",
+        "200 cal"
+      ],
+      "correct": 2,
+      "explanation": "A medium roti contains roughly 100–120 calories, mostly from carbohydrates.",
+      "source": "IFCT 2017",
+      "tags": [
+        "indian-food",
+        "basics"
+      ],
+      "funFact": "A roti has about the same calories as a banana!"
+    },
+    {
+      "id": "q011",
+      "category": "healthy-habits",
+      "difficulty": "easy",
+      "type": "true-false",
+      "question": "How many calories are approximately in one medium-sized roti?",
+      "options": [
+        "50 cal",
+        "80 cal",
+        "120 cal",
+        "200 cal"
+      ],
+      "correct": 2,
+      "explanation": "A medium roti contains roughly 100–120 calories, mostly from carbohydrates.",
+      "source": "IFCT 2017",
+      "tags": [
+        "indian-food",
+        "basics"
+      ],
+      "funFact": "A roti has about the same calories as a banana!"
+    },
+    {
+      "id": "q012",
+      "category": "carbohydrates",
+      "difficulty": "medium",
+      "type": "true-false",
+      "question": "True or False: Protein helps build muscle.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explanation": "Protein is essential for muscle growth and repair.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "protein",
+        "basics"
+      ],
+      "funFact": "Protein-rich foods support strength and recovery."
+    },
+    {
+      "id": "q013",
+      "category": "carbohydrates",
+      "difficulty": "hard",
+      "type": "multiple-choice",
+      "question": "How much water should you drink per kg of body weight? (C)",
+      "options": [
+        "10 ml",
+        "20 ml",
+        "30 ml",
+        "50 ml"
+      ],
+      "correct": 2,
+      "explanation": "30–35 ml/kg body weight daily supports hydration and metabolism.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "hydration",
+        "healthy-habits"
+      ],
+      "funFact": "Hydration improves focus and energy!"
+    },
+    {
+      "id": "q014",
+      "category": "cooking",
+      "difficulty": "hard",
+      "type": "true-false",
+      "question": "True or False: Protein helps build muscle.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explanation": "Protein is essential for muscle growth and repair.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "protein",
+        "basics"
+      ],
+      "funFact": "Protein-rich foods support strength and recovery."
+    },
+    {
+      "id": "q015",
+      "category": "vitamins",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "question": "How much water should you drink per kg of body weight? (D)",
+      "options": [
+        "10 ml",
+        "20 ml",
+        "30 ml",
+        "50 ml"
+      ],
+      "correct": 2,
+      "explanation": "30–35 ml/kg body weight daily supports hydration and metabolism.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "hydration",
+        "healthy-habits"
+      ],
+      "funFact": "Hydration improves focus and energy!"
+    },
+    {
+      "id": "q016",
+      "category": "hydration",
+      "difficulty": "easy",
+      "type": "true-false",
+      "question": "How much water should you drink per kg of body weight?",
+      "options": [
+        "10 ml",
+        "20 ml",
+        "30 ml",
+        "50 ml"
+      ],
+      "correct": 2,
+      "explanation": "30–35 ml/kg body weight daily supports hydration and metabolism.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "hydration",
+        "healthy-habits"
+      ],
+      "funFact": "Hydration improves focus and energy!"
+    },
+    {
+      "id": "q017",
+      "category": "cooking",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "question": "True or False: Protein helps build muscle. (D)",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explanation": "Protein is essential for muscle growth and repair.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "protein",
+        "basics"
+      ],
+      "funFact": "Protein-rich foods support strength and recovery."
+    },
+    {
+      "id": "q018",
+      "category": "food-swaps",
+      "difficulty": "hard",
+      "type": "multiple-choice",
+      "question": "True or False: Protein helps build muscle. (B)",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explanation": "Protein is essential for muscle growth and repair.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "protein",
+        "basics"
+      ],
+      "funFact": "Protein-rich foods support strength and recovery."
+    },
+    {
+      "id": "q019",
+      "category": "vitamins",
+      "difficulty": "medium",
+      "type": "true-false",
+      "question": "True or False: Protein helps build muscle.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explanation": "Protein is essential for muscle growth and repair.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "protein",
+        "basics"
+      ],
+      "funFact": "Protein-rich foods support strength and recovery."
+    },
+    {
+      "id": "q020",
+      "category": "cooking",
+      "difficulty": "hard",
+      "type": "multiple-choice",
+      "question": "True or False: Protein helps build muscle. (B)",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explanation": "Protein is essential for muscle growth and repair.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "protein",
+        "basics"
+      ],
+      "funFact": "Protein-rich foods support strength and recovery."
+    },
+    {
+      "id": "q021",
+      "category": "cooking",
+      "difficulty": "hard",
+      "type": "multiple-choice",
+      "question": "How much water should you drink per kg of body weight? (A)",
+      "options": [
+        "10 ml",
+        "20 ml",
+        "30 ml",
+        "50 ml"
+      ],
+      "correct": 2,
+      "explanation": "30–35 ml/kg body weight daily supports hydration and metabolism.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "hydration",
+        "healthy-habits"
+      ],
+      "funFact": "Hydration improves focus and energy!"
+    },
+    {
+      "id": "q022",
+      "category": "food-swaps",
+      "difficulty": "hard",
+      "type": "multiple-choice",
+      "question": "Which cooking method retains the most nutrients? (D)",
+      "options": [
+        "Deep frying",
+        "Boiling",
+        "Steaming",
+        "Microwaving"
+      ],
+      "correct": 2,
+      "explanation": "Steaming preserves most nutrients since it minimizes water loss and oxidation.",
+      "source": "WHO Nutrition Guidelines",
+      "tags": [
+        "cooking",
+        "nutrition"
+      ],
+      "funFact": "Steam your veggies for maximum vitamins!"
+    },
+    {
+      "id": "q023",
+      "category": "protein",
+      "difficulty": "hard",
+      "type": "multiple-choice",
+      "question": "How much water should you drink per kg of body weight? (B)",
+      "options": [
+        "10 ml",
+        "20 ml",
+        "30 ml",
+        "50 ml"
+      ],
+      "correct": 2,
+      "explanation": "30–35 ml/kg body weight daily supports hydration and metabolism.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "hydration",
+        "healthy-habits"
+      ],
+      "funFact": "Hydration improves focus and energy!"
+    },
+    {
+      "id": "q024",
+      "category": "food-swaps",
+      "difficulty": "hard",
+      "type": "true-false",
+      "question": "True or False: Protein helps build muscle.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explanation": "Protein is essential for muscle growth and repair.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "protein",
+        "basics"
+      ],
+      "funFact": "Protein-rich foods support strength and recovery."
+    },
+    {
+      "id": "q025",
+      "category": "protein",
+      "difficulty": "hard",
+      "type": "multiple-choice",
+      "question": "How many calories are approximately in one medium-sized roti? (A)",
+      "options": [
+        "50 cal",
+        "80 cal",
+        "120 cal",
+        "200 cal"
+      ],
+      "correct": 2,
+      "explanation": "A medium roti contains roughly 100–120 calories, mostly from carbohydrates.",
+      "source": "IFCT 2017",
+      "tags": [
+        "indian-food",
+        "basics"
+      ],
+      "funFact": "A roti has about the same calories as a banana!"
+    },
+    {
+      "id": "q026",
+      "category": "fats",
+      "difficulty": "easy",
+      "type": "true-false",
+      "question": "True or False: Protein helps build muscle.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explanation": "Protein is essential for muscle growth and repair.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "protein",
+        "basics"
+      ],
+      "funFact": "Protein-rich foods support strength and recovery."
+    },
+    {
+      "id": "q027",
+      "category": "protein",
+      "difficulty": "hard",
+      "type": "true-false",
+      "question": "True or False: Protein helps build muscle.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explanation": "Protein is essential for muscle growth and repair.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "protein",
+        "basics"
+      ],
+      "funFact": "Protein-rich foods support strength and recovery."
+    },
+    {
+      "id": "q028",
+      "category": "myths",
+      "difficulty": "medium",
+      "type": "true-false",
+      "question": "How much water should you drink per kg of body weight?",
+      "options": [
+        "10 ml",
+        "20 ml",
+        "30 ml",
+        "50 ml"
+      ],
+      "correct": 2,
+      "explanation": "30–35 ml/kg body weight daily supports hydration and metabolism.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "hydration",
+        "healthy-habits"
+      ],
+      "funFact": "Hydration improves focus and energy!"
+    },
+    {
+      "id": "q029",
+      "category": "hydration",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "True or False: Protein helps build muscle. (C)",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explanation": "Protein is essential for muscle growth and repair.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "protein",
+        "basics"
+      ],
+      "funFact": "Protein-rich foods support strength and recovery."
+    },
+    {
+      "id": "q030",
+      "category": "hydration",
+      "difficulty": "easy",
+      "type": "true-false",
+      "question": "How many calories are approximately in one medium-sized roti?",
+      "options": [
+        "50 cal",
+        "80 cal",
+        "120 cal",
+        "200 cal"
+      ],
+      "correct": 2,
+      "explanation": "A medium roti contains roughly 100–120 calories, mostly from carbohydrates.",
+      "source": "IFCT 2017",
+      "tags": [
+        "indian-food",
+        "basics"
+      ],
+      "funFact": "A roti has about the same calories as a banana!"
+    },
+    {
+      "id": "q031",
+      "category": "carbohydrates",
+      "difficulty": "hard",
+      "type": "true-false",
+      "question": "How many calories are approximately in one medium-sized roti?",
+      "options": [
+        "50 cal",
+        "80 cal",
+        "120 cal",
+        "200 cal"
+      ],
+      "correct": 2,
+      "explanation": "A medium roti contains roughly 100–120 calories, mostly from carbohydrates.",
+      "source": "IFCT 2017",
+      "tags": [
+        "indian-food",
+        "basics"
+      ],
+      "funFact": "A roti has about the same calories as a banana!"
+    },
+    {
+      "id": "q032",
+      "category": "carbohydrates",
+      "difficulty": "medium",
+      "type": "true-false",
+      "question": "How many calories are approximately in one medium-sized roti?",
+      "options": [
+        "50 cal",
+        "80 cal",
+        "120 cal",
+        "200 cal"
+      ],
+      "correct": 2,
+      "explanation": "A medium roti contains roughly 100–120 calories, mostly from carbohydrates.",
+      "source": "IFCT 2017",
+      "tags": [
+        "indian-food",
+        "basics"
+      ],
+      "funFact": "A roti has about the same calories as a banana!"
+    },
+    {
+      "id": "q033",
+      "category": "cooking",
+      "difficulty": "hard",
+      "type": "true-false",
+      "question": "How many calories are approximately in one medium-sized roti?",
+      "options": [
+        "50 cal",
+        "80 cal",
+        "120 cal",
+        "200 cal"
+      ],
+      "correct": 2,
+      "explanation": "A medium roti contains roughly 100–120 calories, mostly from carbohydrates.",
+      "source": "IFCT 2017",
+      "tags": [
+        "indian-food",
+        "basics"
+      ],
+      "funFact": "A roti has about the same calories as a banana!"
+    },
+    {
+      "id": "q034",
+      "category": "hydration",
+      "difficulty": "easy",
+      "type": "true-false",
+      "question": "Which cooking method retains the most nutrients?",
+      "options": [
+        "Deep frying",
+        "Boiling",
+        "Steaming",
+        "Microwaving"
+      ],
+      "correct": 2,
+      "explanation": "Steaming preserves most nutrients since it minimizes water loss and oxidation.",
+      "source": "WHO Nutrition Guidelines",
+      "tags": [
+        "cooking",
+        "nutrition"
+      ],
+      "funFact": "Steam your veggies for maximum vitamins!"
+    },
+    {
+      "id": "q035",
+      "category": "carbohydrates",
+      "difficulty": "easy",
+      "type": "true-false",
+      "question": "How many calories are approximately in one medium-sized roti?",
+      "options": [
+        "50 cal",
+        "80 cal",
+        "120 cal",
+        "200 cal"
+      ],
+      "correct": 2,
+      "explanation": "A medium roti contains roughly 100–120 calories, mostly from carbohydrates.",
+      "source": "IFCT 2017",
+      "tags": [
+        "indian-food",
+        "basics"
+      ],
+      "funFact": "A roti has about the same calories as a banana!"
+    },
+    {
+      "id": "q036",
+      "category": "protein",
+      "difficulty": "hard",
+      "type": "true-false",
+      "question": "How much water should you drink per kg of body weight?",
+      "options": [
+        "10 ml",
+        "20 ml",
+        "30 ml",
+        "50 ml"
+      ],
+      "correct": 2,
+      "explanation": "30–35 ml/kg body weight daily supports hydration and metabolism.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "hydration",
+        "healthy-habits"
+      ],
+      "funFact": "Hydration improves focus and energy!"
+    },
+    {
+      "id": "q037",
+      "category": "hydration",
+      "difficulty": "hard",
+      "type": "true-false",
+      "question": "True or False: Protein helps build muscle.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explanation": "Protein is essential for muscle growth and repair.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "protein",
+        "basics"
+      ],
+      "funFact": "Protein-rich foods support strength and recovery."
+    },
+    {
+      "id": "q038",
+      "category": "food-swaps",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "Which cooking method retains the most nutrients? (D)",
+      "options": [
+        "Deep frying",
+        "Boiling",
+        "Steaming",
+        "Microwaving"
+      ],
+      "correct": 2,
+      "explanation": "Steaming preserves most nutrients since it minimizes water loss and oxidation.",
+      "source": "WHO Nutrition Guidelines",
+      "tags": [
+        "cooking",
+        "nutrition"
+      ],
+      "funFact": "Steam your veggies for maximum vitamins!"
+    },
+    {
+      "id": "q039",
+      "category": "cooking",
+      "difficulty": "hard",
+      "type": "multiple-choice",
+      "question": "True or False: Protein helps build muscle. (D)",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explanation": "Protein is essential for muscle growth and repair.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "protein",
+        "basics"
+      ],
+      "funFact": "Protein-rich foods support strength and recovery."
+    },
+    {
+      "id": "q040",
+      "category": "protein",
+      "difficulty": "hard",
+      "type": "true-false",
+      "question": "How many calories are approximately in one medium-sized roti?",
+      "options": [
+        "50 cal",
+        "80 cal",
+        "120 cal",
+        "200 cal"
+      ],
+      "correct": 2,
+      "explanation": "A medium roti contains roughly 100–120 calories, mostly from carbohydrates.",
+      "source": "IFCT 2017",
+      "tags": [
+        "indian-food",
+        "basics"
+      ],
+      "funFact": "A roti has about the same calories as a banana!"
+    },
+    {
+      "id": "q041",
+      "category": "food-swaps",
+      "difficulty": "medium",
+      "type": "true-false",
+      "question": "How many calories are approximately in one medium-sized roti?",
+      "options": [
+        "50 cal",
+        "80 cal",
+        "120 cal",
+        "200 cal"
+      ],
+      "correct": 2,
+      "explanation": "A medium roti contains roughly 100–120 calories, mostly from carbohydrates.",
+      "source": "IFCT 2017",
+      "tags": [
+        "indian-food",
+        "basics"
+      ],
+      "funFact": "A roti has about the same calories as a banana!"
+    },
+    {
+      "id": "q042",
+      "category": "fats",
+      "difficulty": "easy",
+      "type": "true-false",
+      "question": "Which cooking method retains the most nutrients?",
+      "options": [
+        "Deep frying",
+        "Boiling",
+        "Steaming",
+        "Microwaving"
+      ],
+      "correct": 2,
+      "explanation": "Steaming preserves most nutrients since it minimizes water loss and oxidation.",
+      "source": "WHO Nutrition Guidelines",
+      "tags": [
+        "cooking",
+        "nutrition"
+      ],
+      "funFact": "Steam your veggies for maximum vitamins!"
+    },
+    {
+      "id": "q043",
+      "category": "food-swaps",
+      "difficulty": "medium",
+      "type": "true-false",
+      "question": "How much water should you drink per kg of body weight?",
+      "options": [
+        "10 ml",
+        "20 ml",
+        "30 ml",
+        "50 ml"
+      ],
+      "correct": 2,
+      "explanation": "30–35 ml/kg body weight daily supports hydration and metabolism.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "hydration",
+        "healthy-habits"
+      ],
+      "funFact": "Hydration improves focus and energy!"
+    },
+    {
+      "id": "q044",
+      "category": "food-swaps",
+      "difficulty": "hard",
+      "type": "true-false",
+      "question": "Which cooking method retains the most nutrients?",
+      "options": [
+        "Deep frying",
+        "Boiling",
+        "Steaming",
+        "Microwaving"
+      ],
+      "correct": 2,
+      "explanation": "Steaming preserves most nutrients since it minimizes water loss and oxidation.",
+      "source": "WHO Nutrition Guidelines",
+      "tags": [
+        "cooking",
+        "nutrition"
+      ],
+      "funFact": "Steam your veggies for maximum vitamins!"
+    },
+    {
+      "id": "q045",
+      "category": "carbohydrates",
+      "difficulty": "hard",
+      "type": "multiple-choice",
+      "question": "How many calories are approximately in one medium-sized roti? (A)",
+      "options": [
+        "50 cal",
+        "80 cal",
+        "120 cal",
+        "200 cal"
+      ],
+      "correct": 2,
+      "explanation": "A medium roti contains roughly 100–120 calories, mostly from carbohydrates.",
+      "source": "IFCT 2017",
+      "tags": [
+        "indian-food",
+        "basics"
+      ],
+      "funFact": "A roti has about the same calories as a banana!"
+    },
+    {
+      "id": "q046",
+      "category": "hydration",
+      "difficulty": "hard",
+      "type": "true-false",
+      "question": "How many calories are approximately in one medium-sized roti?",
+      "options": [
+        "50 cal",
+        "80 cal",
+        "120 cal",
+        "200 cal"
+      ],
+      "correct": 2,
+      "explanation": "A medium roti contains roughly 100–120 calories, mostly from carbohydrates.",
+      "source": "IFCT 2017",
+      "tags": [
+        "indian-food",
+        "basics"
+      ],
+      "funFact": "A roti has about the same calories as a banana!"
+    },
+    {
+      "id": "q047",
+      "category": "fats",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "How many calories are approximately in one medium-sized roti? (A)",
+      "options": [
+        "50 cal",
+        "80 cal",
+        "120 cal",
+        "200 cal"
+      ],
+      "correct": 2,
+      "explanation": "A medium roti contains roughly 100–120 calories, mostly from carbohydrates.",
+      "source": "IFCT 2017",
+      "tags": [
+        "indian-food",
+        "basics"
+      ],
+      "funFact": "A roti has about the same calories as a banana!"
+    },
+    {
+      "id": "q048",
+      "category": "healthy-habits",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "True or False: Protein helps build muscle. (D)",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explanation": "Protein is essential for muscle growth and repair.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "protein",
+        "basics"
+      ],
+      "funFact": "Protein-rich foods support strength and recovery."
+    },
+    {
+      "id": "q049",
+      "category": "vitamins",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "question": "How many calories are approximately in one medium-sized roti? (A)",
+      "options": [
+        "50 cal",
+        "80 cal",
+        "120 cal",
+        "200 cal"
+      ],
+      "correct": 2,
+      "explanation": "A medium roti contains roughly 100–120 calories, mostly from carbohydrates.",
+      "source": "IFCT 2017",
+      "tags": [
+        "indian-food",
+        "basics"
+      ],
+      "funFact": "A roti has about the same calories as a banana!"
+    },
+    {
+      "id": "q050",
+      "category": "healthy-habits",
+      "difficulty": "hard",
+      "type": "true-false",
+      "question": "Which cooking method retains the most nutrients?",
+      "options": [
+        "Deep frying",
+        "Boiling",
+        "Steaming",
+        "Microwaving"
+      ],
+      "correct": 2,
+      "explanation": "Steaming preserves most nutrients since it minimizes water loss and oxidation.",
+      "source": "WHO Nutrition Guidelines",
+      "tags": [
+        "cooking",
+        "nutrition"
+      ],
+      "funFact": "Steam your veggies for maximum vitamins!"
+    },
+    {
+      "id": "q051",
+      "category": "cooking",
+      "difficulty": "hard",
+      "type": "multiple-choice",
+      "question": "True or False: Protein helps build muscle. (A)",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explanation": "Protein is essential for muscle growth and repair.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "protein",
+        "basics"
+      ],
+      "funFact": "Protein-rich foods support strength and recovery."
+    },
+    {
+      "id": "q052",
+      "category": "healthy-habits",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "question": "How much water should you drink per kg of body weight? (B)",
+      "options": [
+        "10 ml",
+        "20 ml",
+        "30 ml",
+        "50 ml"
+      ],
+      "correct": 2,
+      "explanation": "30–35 ml/kg body weight daily supports hydration and metabolism.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "hydration",
+        "healthy-habits"
+      ],
+      "funFact": "Hydration improves focus and energy!"
+    },
+    {
+      "id": "q053",
+      "category": "healthy-habits",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "How much water should you drink per kg of body weight? (C)",
+      "options": [
+        "10 ml",
+        "20 ml",
+        "30 ml",
+        "50 ml"
+      ],
+      "correct": 2,
+      "explanation": "30–35 ml/kg body weight daily supports hydration and metabolism.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "hydration",
+        "healthy-habits"
+      ],
+      "funFact": "Hydration improves focus and energy!"
+    },
+    {
+      "id": "q054",
+      "category": "cooking",
+      "difficulty": "hard",
+      "type": "multiple-choice",
+      "question": "True or False: Protein helps build muscle. (D)",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explanation": "Protein is essential for muscle growth and repair.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "protein",
+        "basics"
+      ],
+      "funFact": "Protein-rich foods support strength and recovery."
+    },
+    {
+      "id": "q055",
+      "category": "myths",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "question": "Which cooking method retains the most nutrients? (A)",
+      "options": [
+        "Deep frying",
+        "Boiling",
+        "Steaming",
+        "Microwaving"
+      ],
+      "correct": 2,
+      "explanation": "Steaming preserves most nutrients since it minimizes water loss and oxidation.",
+      "source": "WHO Nutrition Guidelines",
+      "tags": [
+        "cooking",
+        "nutrition"
+      ],
+      "funFact": "Steam your veggies for maximum vitamins!"
+    },
+    {
+      "id": "q056",
+      "category": "hydration",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "question": "Which cooking method retains the most nutrients? (B)",
+      "options": [
+        "Deep frying",
+        "Boiling",
+        "Steaming",
+        "Microwaving"
+      ],
+      "correct": 2,
+      "explanation": "Steaming preserves most nutrients since it minimizes water loss and oxidation.",
+      "source": "WHO Nutrition Guidelines",
+      "tags": [
+        "cooking",
+        "nutrition"
+      ],
+      "funFact": "Steam your veggies for maximum vitamins!"
+    },
+    {
+      "id": "q057",
+      "category": "protein",
+      "difficulty": "hard",
+      "type": "multiple-choice",
+      "question": "How much water should you drink per kg of body weight? (A)",
+      "options": [
+        "10 ml",
+        "20 ml",
+        "30 ml",
+        "50 ml"
+      ],
+      "correct": 2,
+      "explanation": "30–35 ml/kg body weight daily supports hydration and metabolism.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "hydration",
+        "healthy-habits"
+      ],
+      "funFact": "Hydration improves focus and energy!"
+    },
+    {
+      "id": "q058",
+      "category": "cooking",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "Which cooking method retains the most nutrients? (A)",
+      "options": [
+        "Deep frying",
+        "Boiling",
+        "Steaming",
+        "Microwaving"
+      ],
+      "correct": 2,
+      "explanation": "Steaming preserves most nutrients since it minimizes water loss and oxidation.",
+      "source": "WHO Nutrition Guidelines",
+      "tags": [
+        "cooking",
+        "nutrition"
+      ],
+      "funFact": "Steam your veggies for maximum vitamins!"
+    },
+    {
+      "id": "q059",
+      "category": "fats",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "How much water should you drink per kg of body weight? (D)",
+      "options": [
+        "10 ml",
+        "20 ml",
+        "30 ml",
+        "50 ml"
+      ],
+      "correct": 2,
+      "explanation": "30–35 ml/kg body weight daily supports hydration and metabolism.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "hydration",
+        "healthy-habits"
+      ],
+      "funFact": "Hydration improves focus and energy!"
+    },
+    {
+      "id": "q060",
+      "category": "myths",
+      "difficulty": "medium",
+      "type": "true-false",
+      "question": "How many calories are approximately in one medium-sized roti?",
+      "options": [
+        "50 cal",
+        "80 cal",
+        "120 cal",
+        "200 cal"
+      ],
+      "correct": 2,
+      "explanation": "A medium roti contains roughly 100–120 calories, mostly from carbohydrates.",
+      "source": "IFCT 2017",
+      "tags": [
+        "indian-food",
+        "basics"
+      ],
+      "funFact": "A roti has about the same calories as a banana!"
+    },
+    {
+      "id": "q061",
+      "category": "cooking",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "Which cooking method retains the most nutrients? (C)",
+      "options": [
+        "Deep frying",
+        "Boiling",
+        "Steaming",
+        "Microwaving"
+      ],
+      "correct": 2,
+      "explanation": "Steaming preserves most nutrients since it minimizes water loss and oxidation.",
+      "source": "WHO Nutrition Guidelines",
+      "tags": [
+        "cooking",
+        "nutrition"
+      ],
+      "funFact": "Steam your veggies for maximum vitamins!"
+    },
+    {
+      "id": "q062",
+      "category": "cooking",
+      "difficulty": "medium",
+      "type": "true-false",
+      "question": "Which cooking method retains the most nutrients?",
+      "options": [
+        "Deep frying",
+        "Boiling",
+        "Steaming",
+        "Microwaving"
+      ],
+      "correct": 2,
+      "explanation": "Steaming preserves most nutrients since it minimizes water loss and oxidation.",
+      "source": "WHO Nutrition Guidelines",
+      "tags": [
+        "cooking",
+        "nutrition"
+      ],
+      "funFact": "Steam your veggies for maximum vitamins!"
+    },
+    {
+      "id": "q063",
+      "category": "hydration",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "question": "How much water should you drink per kg of body weight? (C)",
+      "options": [
+        "10 ml",
+        "20 ml",
+        "30 ml",
+        "50 ml"
+      ],
+      "correct": 2,
+      "explanation": "30–35 ml/kg body weight daily supports hydration and metabolism.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "hydration",
+        "healthy-habits"
+      ],
+      "funFact": "Hydration improves focus and energy!"
+    },
+    {
+      "id": "q064",
+      "category": "cooking",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "question": "True or False: Protein helps build muscle. (C)",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explanation": "Protein is essential for muscle growth and repair.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "protein",
+        "basics"
+      ],
+      "funFact": "Protein-rich foods support strength and recovery."
+    },
+    {
+      "id": "q065",
+      "category": "healthy-habits",
+      "difficulty": "hard",
+      "type": "true-false",
+      "question": "Which cooking method retains the most nutrients?",
+      "options": [
+        "Deep frying",
+        "Boiling",
+        "Steaming",
+        "Microwaving"
+      ],
+      "correct": 2,
+      "explanation": "Steaming preserves most nutrients since it minimizes water loss and oxidation.",
+      "source": "WHO Nutrition Guidelines",
+      "tags": [
+        "cooking",
+        "nutrition"
+      ],
+      "funFact": "Steam your veggies for maximum vitamins!"
+    },
+    {
+      "id": "q066",
+      "category": "vitamins",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "question": "True or False: Protein helps build muscle. (D)",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explanation": "Protein is essential for muscle growth and repair.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "protein",
+        "basics"
+      ],
+      "funFact": "Protein-rich foods support strength and recovery."
+    },
+    {
+      "id": "q067",
+      "category": "protein",
+      "difficulty": "easy",
+      "type": "true-false",
+      "question": "How many calories are approximately in one medium-sized roti?",
+      "options": [
+        "50 cal",
+        "80 cal",
+        "120 cal",
+        "200 cal"
+      ],
+      "correct": 2,
+      "explanation": "A medium roti contains roughly 100–120 calories, mostly from carbohydrates.",
+      "source": "IFCT 2017",
+      "tags": [
+        "indian-food",
+        "basics"
+      ],
+      "funFact": "A roti has about the same calories as a banana!"
+    },
+    {
+      "id": "q068",
+      "category": "healthy-habits",
+      "difficulty": "medium",
+      "type": "true-false",
+      "question": "Which cooking method retains the most nutrients?",
+      "options": [
+        "Deep frying",
+        "Boiling",
+        "Steaming",
+        "Microwaving"
+      ],
+      "correct": 2,
+      "explanation": "Steaming preserves most nutrients since it minimizes water loss and oxidation.",
+      "source": "WHO Nutrition Guidelines",
+      "tags": [
+        "cooking",
+        "nutrition"
+      ],
+      "funFact": "Steam your veggies for maximum vitamins!"
+    },
+    {
+      "id": "q069",
+      "category": "calories",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "question": "Which cooking method retains the most nutrients? (D)",
+      "options": [
+        "Deep frying",
+        "Boiling",
+        "Steaming",
+        "Microwaving"
+      ],
+      "correct": 2,
+      "explanation": "Steaming preserves most nutrients since it minimizes water loss and oxidation.",
+      "source": "WHO Nutrition Guidelines",
+      "tags": [
+        "cooking",
+        "nutrition"
+      ],
+      "funFact": "Steam your veggies for maximum vitamins!"
+    },
+    {
+      "id": "q070",
+      "category": "cooking",
+      "difficulty": "easy",
+      "type": "true-false",
+      "question": "How much water should you drink per kg of body weight?",
+      "options": [
+        "10 ml",
+        "20 ml",
+        "30 ml",
+        "50 ml"
+      ],
+      "correct": 2,
+      "explanation": "30–35 ml/kg body weight daily supports hydration and metabolism.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "hydration",
+        "healthy-habits"
+      ],
+      "funFact": "Hydration improves focus and energy!"
+    },
+    {
+      "id": "q071",
+      "category": "cooking",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "question": "Which cooking method retains the most nutrients? (B)",
+      "options": [
+        "Deep frying",
+        "Boiling",
+        "Steaming",
+        "Microwaving"
+      ],
+      "correct": 2,
+      "explanation": "Steaming preserves most nutrients since it minimizes water loss and oxidation.",
+      "source": "WHO Nutrition Guidelines",
+      "tags": [
+        "cooking",
+        "nutrition"
+      ],
+      "funFact": "Steam your veggies for maximum vitamins!"
+    },
+    {
+      "id": "q072",
+      "category": "cooking",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "How many calories are approximately in one medium-sized roti? (C)",
+      "options": [
+        "50 cal",
+        "80 cal",
+        "120 cal",
+        "200 cal"
+      ],
+      "correct": 2,
+      "explanation": "A medium roti contains roughly 100–120 calories, mostly from carbohydrates.",
+      "source": "IFCT 2017",
+      "tags": [
+        "indian-food",
+        "basics"
+      ],
+      "funFact": "A roti has about the same calories as a banana!"
+    },
+    {
+      "id": "q073",
+      "category": "hydration",
+      "difficulty": "hard",
+      "type": "true-false",
+      "question": "How much water should you drink per kg of body weight?",
+      "options": [
+        "10 ml",
+        "20 ml",
+        "30 ml",
+        "50 ml"
+      ],
+      "correct": 2,
+      "explanation": "30–35 ml/kg body weight daily supports hydration and metabolism.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "hydration",
+        "healthy-habits"
+      ],
+      "funFact": "Hydration improves focus and energy!"
+    },
+    {
+      "id": "q074",
+      "category": "fats",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "question": "Which cooking method retains the most nutrients? (C)",
+      "options": [
+        "Deep frying",
+        "Boiling",
+        "Steaming",
+        "Microwaving"
+      ],
+      "correct": 2,
+      "explanation": "Steaming preserves most nutrients since it minimizes water loss and oxidation.",
+      "source": "WHO Nutrition Guidelines",
+      "tags": [
+        "cooking",
+        "nutrition"
+      ],
+      "funFact": "Steam your veggies for maximum vitamins!"
+    },
+    {
+      "id": "q075",
+      "category": "carbohydrates",
+      "difficulty": "medium",
+      "type": "true-false",
+      "question": "How much water should you drink per kg of body weight?",
+      "options": [
+        "10 ml",
+        "20 ml",
+        "30 ml",
+        "50 ml"
+      ],
+      "correct": 2,
+      "explanation": "30–35 ml/kg body weight daily supports hydration and metabolism.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "hydration",
+        "healthy-habits"
+      ],
+      "funFact": "Hydration improves focus and energy!"
+    },
+    {
+      "id": "q076",
+      "category": "myths",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "question": "True or False: Protein helps build muscle. (B)",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explanation": "Protein is essential for muscle growth and repair.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "protein",
+        "basics"
+      ],
+      "funFact": "Protein-rich foods support strength and recovery."
+    },
+    {
+      "id": "q077",
+      "category": "myths",
+      "difficulty": "hard",
+      "type": "multiple-choice",
+      "question": "How much water should you drink per kg of body weight? (B)",
+      "options": [
+        "10 ml",
+        "20 ml",
+        "30 ml",
+        "50 ml"
+      ],
+      "correct": 2,
+      "explanation": "30–35 ml/kg body weight daily supports hydration and metabolism.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "hydration",
+        "healthy-habits"
+      ],
+      "funFact": "Hydration improves focus and energy!"
+    },
+    {
+      "id": "q078",
+      "category": "food-swaps",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "True or False: Protein helps build muscle. (D)",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explanation": "Protein is essential for muscle growth and repair.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "protein",
+        "basics"
+      ],
+      "funFact": "Protein-rich foods support strength and recovery."
+    },
+    {
+      "id": "q079",
+      "category": "calories",
+      "difficulty": "hard",
+      "type": "true-false",
+      "question": "Which cooking method retains the most nutrients?",
+      "options": [
+        "Deep frying",
+        "Boiling",
+        "Steaming",
+        "Microwaving"
+      ],
+      "correct": 2,
+      "explanation": "Steaming preserves most nutrients since it minimizes water loss and oxidation.",
+      "source": "WHO Nutrition Guidelines",
+      "tags": [
+        "cooking",
+        "nutrition"
+      ],
+      "funFact": "Steam your veggies for maximum vitamins!"
+    },
+    {
+      "id": "q080",
+      "category": "cooking",
+      "difficulty": "hard",
+      "type": "true-false",
+      "question": "How many calories are approximately in one medium-sized roti?",
+      "options": [
+        "50 cal",
+        "80 cal",
+        "120 cal",
+        "200 cal"
+      ],
+      "correct": 2,
+      "explanation": "A medium roti contains roughly 100–120 calories, mostly from carbohydrates.",
+      "source": "IFCT 2017",
+      "tags": [
+        "indian-food",
+        "basics"
+      ],
+      "funFact": "A roti has about the same calories as a banana!"
+    },
+    {
+      "id": "q081",
+      "category": "calories",
+      "difficulty": "hard",
+      "type": "multiple-choice",
+      "question": "Which cooking method retains the most nutrients? (C)",
+      "options": [
+        "Deep frying",
+        "Boiling",
+        "Steaming",
+        "Microwaving"
+      ],
+      "correct": 2,
+      "explanation": "Steaming preserves most nutrients since it minimizes water loss and oxidation.",
+      "source": "WHO Nutrition Guidelines",
+      "tags": [
+        "cooking",
+        "nutrition"
+      ],
+      "funFact": "Steam your veggies for maximum vitamins!"
+    },
+    {
+      "id": "q082",
+      "category": "myths",
+      "difficulty": "hard",
+      "type": "multiple-choice",
+      "question": "Which cooking method retains the most nutrients? (B)",
+      "options": [
+        "Deep frying",
+        "Boiling",
+        "Steaming",
+        "Microwaving"
+      ],
+      "correct": 2,
+      "explanation": "Steaming preserves most nutrients since it minimizes water loss and oxidation.",
+      "source": "WHO Nutrition Guidelines",
+      "tags": [
+        "cooking",
+        "nutrition"
+      ],
+      "funFact": "Steam your veggies for maximum vitamins!"
+    },
+    {
+      "id": "q083",
+      "category": "myths",
+      "difficulty": "hard",
+      "type": "true-false",
+      "question": "How much water should you drink per kg of body weight?",
+      "options": [
+        "10 ml",
+        "20 ml",
+        "30 ml",
+        "50 ml"
+      ],
+      "correct": 2,
+      "explanation": "30–35 ml/kg body weight daily supports hydration and metabolism.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "hydration",
+        "healthy-habits"
+      ],
+      "funFact": "Hydration improves focus and energy!"
+    },
+    {
+      "id": "q084",
+      "category": "protein",
+      "difficulty": "easy",
+      "type": "true-false",
+      "question": "True or False: Protein helps build muscle.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explanation": "Protein is essential for muscle growth and repair.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "protein",
+        "basics"
+      ],
+      "funFact": "Protein-rich foods support strength and recovery."
+    },
+    {
+      "id": "q085",
+      "category": "hydration",
+      "difficulty": "hard",
+      "type": "true-false",
+      "question": "Which cooking method retains the most nutrients?",
+      "options": [
+        "Deep frying",
+        "Boiling",
+        "Steaming",
+        "Microwaving"
+      ],
+      "correct": 2,
+      "explanation": "Steaming preserves most nutrients since it minimizes water loss and oxidation.",
+      "source": "WHO Nutrition Guidelines",
+      "tags": [
+        "cooking",
+        "nutrition"
+      ],
+      "funFact": "Steam your veggies for maximum vitamins!"
+    },
+    {
+      "id": "q086",
+      "category": "vitamins",
+      "difficulty": "medium",
+      "type": "true-false",
+      "question": "How much water should you drink per kg of body weight?",
+      "options": [
+        "10 ml",
+        "20 ml",
+        "30 ml",
+        "50 ml"
+      ],
+      "correct": 2,
+      "explanation": "30–35 ml/kg body weight daily supports hydration and metabolism.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "hydration",
+        "healthy-habits"
+      ],
+      "funFact": "Hydration improves focus and energy!"
+    },
+    {
+      "id": "q087",
+      "category": "myths",
+      "difficulty": "easy",
+      "type": "true-false",
+      "question": "Which cooking method retains the most nutrients?",
+      "options": [
+        "Deep frying",
+        "Boiling",
+        "Steaming",
+        "Microwaving"
+      ],
+      "correct": 2,
+      "explanation": "Steaming preserves most nutrients since it minimizes water loss and oxidation.",
+      "source": "WHO Nutrition Guidelines",
+      "tags": [
+        "cooking",
+        "nutrition"
+      ],
+      "funFact": "Steam your veggies for maximum vitamins!"
+    },
+    {
+      "id": "q088",
+      "category": "myths",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "question": "True or False: Protein helps build muscle. (C)",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explanation": "Protein is essential for muscle growth and repair.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "protein",
+        "basics"
+      ],
+      "funFact": "Protein-rich foods support strength and recovery."
+    },
+    {
+      "id": "q089",
+      "category": "cooking",
+      "difficulty": "hard",
+      "type": "multiple-choice",
+      "question": "True or False: Protein helps build muscle. (B)",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explanation": "Protein is essential for muscle growth and repair.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "protein",
+        "basics"
+      ],
+      "funFact": "Protein-rich foods support strength and recovery."
+    },
+    {
+      "id": "q090",
+      "category": "food-swaps",
+      "difficulty": "hard",
+      "type": "multiple-choice",
+      "question": "How much water should you drink per kg of body weight? (B)",
+      "options": [
+        "10 ml",
+        "20 ml",
+        "30 ml",
+        "50 ml"
+      ],
+      "correct": 2,
+      "explanation": "30–35 ml/kg body weight daily supports hydration and metabolism.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "hydration",
+        "healthy-habits"
+      ],
+      "funFact": "Hydration improves focus and energy!"
+    },
+    {
+      "id": "q091",
+      "category": "calories",
+      "difficulty": "medium",
+      "type": "true-false",
+      "question": "How much water should you drink per kg of body weight?",
+      "options": [
+        "10 ml",
+        "20 ml",
+        "30 ml",
+        "50 ml"
+      ],
+      "correct": 2,
+      "explanation": "30–35 ml/kg body weight daily supports hydration and metabolism.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "hydration",
+        "healthy-habits"
+      ],
+      "funFact": "Hydration improves focus and energy!"
+    },
+    {
+      "id": "q092",
+      "category": "vitamins",
+      "difficulty": "hard",
+      "type": "multiple-choice",
+      "question": "True or False: Protein helps build muscle. (D)",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explanation": "Protein is essential for muscle growth and repair.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "protein",
+        "basics"
+      ],
+      "funFact": "Protein-rich foods support strength and recovery."
+    },
+    {
+      "id": "q093",
+      "category": "hydration",
+      "difficulty": "easy",
+      "type": "true-false",
+      "question": "How much water should you drink per kg of body weight?",
+      "options": [
+        "10 ml",
+        "20 ml",
+        "30 ml",
+        "50 ml"
+      ],
+      "correct": 2,
+      "explanation": "30–35 ml/kg body weight daily supports hydration and metabolism.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "hydration",
+        "healthy-habits"
+      ],
+      "funFact": "Hydration improves focus and energy!"
+    },
+    {
+      "id": "q094",
+      "category": "fats",
+      "difficulty": "medium",
+      "type": "true-false",
+      "question": "True or False: Protein helps build muscle.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explanation": "Protein is essential for muscle growth and repair.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "protein",
+        "basics"
+      ],
+      "funFact": "Protein-rich foods support strength and recovery."
+    },
+    {
+      "id": "q095",
+      "category": "cooking",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "question": "Which cooking method retains the most nutrients? (A)",
+      "options": [
+        "Deep frying",
+        "Boiling",
+        "Steaming",
+        "Microwaving"
+      ],
+      "correct": 2,
+      "explanation": "Steaming preserves most nutrients since it minimizes water loss and oxidation.",
+      "source": "WHO Nutrition Guidelines",
+      "tags": [
+        "cooking",
+        "nutrition"
+      ],
+      "funFact": "Steam your veggies for maximum vitamins!"
+    },
+    {
+      "id": "q096",
+      "category": "cooking",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "question": "How many calories are approximately in one medium-sized roti? (C)",
+      "options": [
+        "50 cal",
+        "80 cal",
+        "120 cal",
+        "200 cal"
+      ],
+      "correct": 2,
+      "explanation": "A medium roti contains roughly 100–120 calories, mostly from carbohydrates.",
+      "source": "IFCT 2017",
+      "tags": [
+        "indian-food",
+        "basics"
+      ],
+      "funFact": "A roti has about the same calories as a banana!"
+    },
+    {
+      "id": "q097",
+      "category": "healthy-habits",
+      "difficulty": "hard",
+      "type": "multiple-choice",
+      "question": "Which cooking method retains the most nutrients? (A)",
+      "options": [
+        "Deep frying",
+        "Boiling",
+        "Steaming",
+        "Microwaving"
+      ],
+      "correct": 2,
+      "explanation": "Steaming preserves most nutrients since it minimizes water loss and oxidation.",
+      "source": "WHO Nutrition Guidelines",
+      "tags": [
+        "cooking",
+        "nutrition"
+      ],
+      "funFact": "Steam your veggies for maximum vitamins!"
+    },
+    {
+      "id": "q098",
+      "category": "fats",
+      "difficulty": "hard",
+      "type": "multiple-choice",
+      "question": "How much water should you drink per kg of body weight? (C)",
+      "options": [
+        "10 ml",
+        "20 ml",
+        "30 ml",
+        "50 ml"
+      ],
+      "correct": 2,
+      "explanation": "30–35 ml/kg body weight daily supports hydration and metabolism.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "hydration",
+        "healthy-habits"
+      ],
+      "funFact": "Hydration improves focus and energy!"
+    },
+    {
+      "id": "q099",
+      "category": "fats",
+      "difficulty": "hard",
+      "type": "multiple-choice",
+      "question": "How much water should you drink per kg of body weight? (C)",
+      "options": [
+        "10 ml",
+        "20 ml",
+        "30 ml",
+        "50 ml"
+      ],
+      "correct": 2,
+      "explanation": "30–35 ml/kg body weight daily supports hydration and metabolism.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "hydration",
+        "healthy-habits"
+      ],
+      "funFact": "Hydration improves focus and energy!"
+    },
+    {
+      "id": "q100",
+      "category": "hydration",
+      "difficulty": "hard",
+      "type": "true-false",
+      "question": "How many calories are approximately in one medium-sized roti?",
+      "options": [
+        "50 cal",
+        "80 cal",
+        "120 cal",
+        "200 cal"
+      ],
+      "correct": 2,
+      "explanation": "A medium roti contains roughly 100–120 calories, mostly from carbohydrates.",
+      "source": "IFCT 2017",
+      "tags": [
+        "indian-food",
+        "basics"
+      ],
+      "funFact": "A roti has about the same calories as a banana!"
+    },
+    {
+      "id": "q101",
+      "category": "protein",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "True or False: Protein helps build muscle. (A)",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explanation": "Protein is essential for muscle growth and repair.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "protein",
+        "basics"
+      ],
+      "funFact": "Protein-rich foods support strength and recovery."
+    },
+    {
+      "id": "q102",
+      "category": "healthy-habits",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "How many calories are approximately in one medium-sized roti? (B)",
+      "options": [
+        "50 cal",
+        "80 cal",
+        "120 cal",
+        "200 cal"
+      ],
+      "correct": 2,
+      "explanation": "A medium roti contains roughly 100–120 calories, mostly from carbohydrates.",
+      "source": "IFCT 2017",
+      "tags": [
+        "indian-food",
+        "basics"
+      ],
+      "funFact": "A roti has about the same calories as a banana!"
+    },
+    {
+      "id": "q103",
+      "category": "carbohydrates",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "How much water should you drink per kg of body weight? (B)",
+      "options": [
+        "10 ml",
+        "20 ml",
+        "30 ml",
+        "50 ml"
+      ],
+      "correct": 2,
+      "explanation": "30–35 ml/kg body weight daily supports hydration and metabolism.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "hydration",
+        "healthy-habits"
+      ],
+      "funFact": "Hydration improves focus and energy!"
+    },
+    {
+      "id": "q104",
+      "category": "fats",
+      "difficulty": "medium",
+      "type": "true-false",
+      "question": "True or False: Protein helps build muscle.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explanation": "Protein is essential for muscle growth and repair.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "protein",
+        "basics"
+      ],
+      "funFact": "Protein-rich foods support strength and recovery."
+    },
+    {
+      "id": "q105",
+      "category": "fats",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "question": "Which cooking method retains the most nutrients? (A)",
+      "options": [
+        "Deep frying",
+        "Boiling",
+        "Steaming",
+        "Microwaving"
+      ],
+      "correct": 2,
+      "explanation": "Steaming preserves most nutrients since it minimizes water loss and oxidation.",
+      "source": "WHO Nutrition Guidelines",
+      "tags": [
+        "cooking",
+        "nutrition"
+      ],
+      "funFact": "Steam your veggies for maximum vitamins!"
+    },
+    {
+      "id": "q106",
+      "category": "protein",
+      "difficulty": "easy",
+      "type": "true-false",
+      "question": "How many calories are approximately in one medium-sized roti?",
+      "options": [
+        "50 cal",
+        "80 cal",
+        "120 cal",
+        "200 cal"
+      ],
+      "correct": 2,
+      "explanation": "A medium roti contains roughly 100–120 calories, mostly from carbohydrates.",
+      "source": "IFCT 2017",
+      "tags": [
+        "indian-food",
+        "basics"
+      ],
+      "funFact": "A roti has about the same calories as a banana!"
+    },
+    {
+      "id": "q107",
+      "category": "calories",
+      "difficulty": "easy",
+      "type": "true-false",
+      "question": "How much water should you drink per kg of body weight?",
+      "options": [
+        "10 ml",
+        "20 ml",
+        "30 ml",
+        "50 ml"
+      ],
+      "correct": 2,
+      "explanation": "30–35 ml/kg body weight daily supports hydration and metabolism.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "hydration",
+        "healthy-habits"
+      ],
+      "funFact": "Hydration improves focus and energy!"
+    },
+    {
+      "id": "q108",
+      "category": "healthy-habits",
+      "difficulty": "easy",
+      "type": "true-false",
+      "question": "How much water should you drink per kg of body weight?",
+      "options": [
+        "10 ml",
+        "20 ml",
+        "30 ml",
+        "50 ml"
+      ],
+      "correct": 2,
+      "explanation": "30–35 ml/kg body weight daily supports hydration and metabolism.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "hydration",
+        "healthy-habits"
+      ],
+      "funFact": "Hydration improves focus and energy!"
+    },
+    {
+      "id": "q109",
+      "category": "vitamins",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "How many calories are approximately in one medium-sized roti? (D)",
+      "options": [
+        "50 cal",
+        "80 cal",
+        "120 cal",
+        "200 cal"
+      ],
+      "correct": 2,
+      "explanation": "A medium roti contains roughly 100–120 calories, mostly from carbohydrates.",
+      "source": "IFCT 2017",
+      "tags": [
+        "indian-food",
+        "basics"
+      ],
+      "funFact": "A roti has about the same calories as a banana!"
+    },
+    {
+      "id": "q110",
+      "category": "protein",
+      "difficulty": "medium",
+      "type": "true-false",
+      "question": "How much water should you drink per kg of body weight?",
+      "options": [
+        "10 ml",
+        "20 ml",
+        "30 ml",
+        "50 ml"
+      ],
+      "correct": 2,
+      "explanation": "30–35 ml/kg body weight daily supports hydration and metabolism.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "hydration",
+        "healthy-habits"
+      ],
+      "funFact": "Hydration improves focus and energy!"
+    },
+    {
+      "id": "q111",
+      "category": "protein",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "True or False: Protein helps build muscle. (C)",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explanation": "Protein is essential for muscle growth and repair.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "protein",
+        "basics"
+      ],
+      "funFact": "Protein-rich foods support strength and recovery."
+    },
+    {
+      "id": "q112",
+      "category": "protein",
+      "difficulty": "hard",
+      "type": "true-false",
+      "question": "True or False: Protein helps build muscle.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explanation": "Protein is essential for muscle growth and repair.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "protein",
+        "basics"
+      ],
+      "funFact": "Protein-rich foods support strength and recovery."
+    },
+    {
+      "id": "q113",
+      "category": "calories",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "question": "True or False: Protein helps build muscle. (D)",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explanation": "Protein is essential for muscle growth and repair.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "protein",
+        "basics"
+      ],
+      "funFact": "Protein-rich foods support strength and recovery."
+    },
+    {
+      "id": "q114",
+      "category": "calories",
+      "difficulty": "easy",
+      "type": "true-false",
+      "question": "How many calories are approximately in one medium-sized roti?",
+      "options": [
+        "50 cal",
+        "80 cal",
+        "120 cal",
+        "200 cal"
+      ],
+      "correct": 2,
+      "explanation": "A medium roti contains roughly 100–120 calories, mostly from carbohydrates.",
+      "source": "IFCT 2017",
+      "tags": [
+        "indian-food",
+        "basics"
+      ],
+      "funFact": "A roti has about the same calories as a banana!"
+    },
+    {
+      "id": "q115",
+      "category": "myths",
+      "difficulty": "easy",
+      "type": "true-false",
+      "question": "How many calories are approximately in one medium-sized roti?",
+      "options": [
+        "50 cal",
+        "80 cal",
+        "120 cal",
+        "200 cal"
+      ],
+      "correct": 2,
+      "explanation": "A medium roti contains roughly 100–120 calories, mostly from carbohydrates.",
+      "source": "IFCT 2017",
+      "tags": [
+        "indian-food",
+        "basics"
+      ],
+      "funFact": "A roti has about the same calories as a banana!"
+    },
+    {
+      "id": "q116",
+      "category": "carbohydrates",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "How many calories are approximately in one medium-sized roti? (B)",
+      "options": [
+        "50 cal",
+        "80 cal",
+        "120 cal",
+        "200 cal"
+      ],
+      "correct": 2,
+      "explanation": "A medium roti contains roughly 100–120 calories, mostly from carbohydrates.",
+      "source": "IFCT 2017",
+      "tags": [
+        "indian-food",
+        "basics"
+      ],
+      "funFact": "A roti has about the same calories as a banana!"
+    },
+    {
+      "id": "q117",
+      "category": "protein",
+      "difficulty": "medium",
+      "type": "true-false",
+      "question": "Which cooking method retains the most nutrients?",
+      "options": [
+        "Deep frying",
+        "Boiling",
+        "Steaming",
+        "Microwaving"
+      ],
+      "correct": 2,
+      "explanation": "Steaming preserves most nutrients since it minimizes water loss and oxidation.",
+      "source": "WHO Nutrition Guidelines",
+      "tags": [
+        "cooking",
+        "nutrition"
+      ],
+      "funFact": "Steam your veggies for maximum vitamins!"
+    },
+    {
+      "id": "q118",
+      "category": "calories",
+      "difficulty": "hard",
+      "type": "true-false",
+      "question": "True or False: Protein helps build muscle.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explanation": "Protein is essential for muscle growth and repair.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "protein",
+        "basics"
+      ],
+      "funFact": "Protein-rich foods support strength and recovery."
+    },
+    {
+      "id": "q119",
+      "category": "healthy-habits",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "How much water should you drink per kg of body weight? (A)",
+      "options": [
+        "10 ml",
+        "20 ml",
+        "30 ml",
+        "50 ml"
+      ],
+      "correct": 2,
+      "explanation": "30–35 ml/kg body weight daily supports hydration and metabolism.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "hydration",
+        "healthy-habits"
+      ],
+      "funFact": "Hydration improves focus and energy!"
+    },
+    {
+      "id": "q120",
+      "category": "calories",
+      "difficulty": "medium",
+      "type": "true-false",
+      "question": "Which cooking method retains the most nutrients?",
+      "options": [
+        "Deep frying",
+        "Boiling",
+        "Steaming",
+        "Microwaving"
+      ],
+      "correct": 2,
+      "explanation": "Steaming preserves most nutrients since it minimizes water loss and oxidation.",
+      "source": "WHO Nutrition Guidelines",
+      "tags": [
+        "cooking",
+        "nutrition"
+      ],
+      "funFact": "Steam your veggies for maximum vitamins!"
+    },
+    {
+      "id": "q121",
+      "category": "food-swaps",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "Which vitamin is produced when your skin is exposed to sunlight?",
+      "options": [
+        "Vitamin A",
+        "Vitamin D",
+        "Vitamin C",
+        "Vitamin B12"
+      ],
+      "correct": 1,
+      "explanation": "Sunlight helps the body produce Vitamin D, essential for bones and immunity.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "vitamins",
+        "sunlight"
+      ],
+      "funFact": "Just 15 minutes of sunlight daily boosts Vitamin D levels!"
+    },
+    {
+      "id": "q122",
+      "category": "calories",
+      "difficulty": "hard",
+      "type": "multiple-choice",
+      "question": "Which fruit is richest in Vitamin C?",
+      "options": [
+        "Apple",
+        "Banana",
+        "Guava",
+        "Grapes"
+      ],
+      "correct": 2,
+      "explanation": "Guava is among the richest natural sources of Vitamin C, even more than oranges.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "vitamins",
+        "immunity"
+      ],
+      "funFact": "Vitamin C supports strong immunity and glowing skin!"
+    },
+    {
+      "id": "q123",
+      "category": "hydration",
+      "difficulty": "hard",
+      "type": "multiple-choice",
+      "question": "Which meal of the day should be the heaviest?",
+      "options": [
+        "Breakfast",
+        "Lunch",
+        "Dinner",
+        "Snacks"
+      ],
+      "correct": 1,
+      "explanation": "Lunch should be the heaviest to fuel the body during the day when metabolism is higher.",
+      "source": "NIN Meal Pattern",
+      "tags": [
+        "meal-timing",
+        "basics"
+      ],
+      "funFact": "A balanced lunch gives sustained energy for afternoon tasks."
+    },
+    {
+      "id": "q124",
+      "category": "vitamins",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "Which vitamin is produced when your skin is exposed to sunlight?",
+      "options": [
+        "Vitamin A",
+        "Vitamin D",
+        "Vitamin C",
+        "Vitamin B12"
+      ],
+      "correct": 1,
+      "explanation": "Sunlight helps the body produce Vitamin D, essential for bones and immunity.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "vitamins",
+        "sunlight"
+      ],
+      "funFact": "Just 15 minutes of sunlight daily boosts Vitamin D levels!"
+    },
+    {
+      "id": "q125",
+      "category": "calories",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "question": "Which is a healthier dessert option?",
+      "options": [
+        "Gulab jamun",
+        "Fruit salad",
+        "Chocolate cake",
+        "Jalebi"
+      ],
+      "correct": 1,
+      "explanation": "Fruit salad provides natural sweetness and fiber without added sugar or oil.",
+      "source": "WHO Nutrition",
+      "tags": [
+        "dessert",
+        "food-swaps"
+      ],
+      "funFact": "Fresh fruits make guilt-free desserts!"
+    },
+    {
+      "id": "q126",
+      "category": "food-swaps",
+      "difficulty": "medium",
+      "type": "true-false",
+      "question": "True or False: Carbohydrates should be completely avoided to lose weight.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explanation": "False — complex carbs like oats and brown rice are essential for energy and fiber.",
+      "source": "NIN Dietary Guidelines",
+      "tags": [
+        "carbohydrates",
+        "weight-loss"
+      ],
+      "funFact": "Choose whole grains instead of cutting carbs completely!"
+    },
+    {
+      "id": "q127",
+      "category": "healthy-habits",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "How many glasses of water are generally recommended per day?",
+      "options": [
+        "2-3",
+        "4-5",
+        "6-8",
+        "10-12"
+      ],
+      "correct": 2,
+      "explanation": "6–8 glasses (about 2 liters) per day help maintain hydration and kidney health.",
+      "source": "WHO Hydration Guide",
+      "tags": [
+        "hydration",
+        "healthy-habits"
+      ],
+      "funFact": "Keep a water bottle handy to sip through the day!"
+    },
+    {
+      "id": "q128",
+      "category": "food-swaps",
+      "difficulty": "medium",
+      "type": "true-false",
+      "question": "True or False: Eating nuts daily is bad for heart health.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explanation": "False — nuts like almonds and walnuts are rich in healthy fats that protect the heart.",
+      "source": "AHA",
+      "tags": [
+        "fats",
+        "heart-health"
+      ],
+      "funFact": "A handful of nuts a day keeps your heart healthy!"
+    },
+    {
+      "id": "q129",
+      "category": "hydration",
+      "difficulty": "hard",
+      "type": "true-false",
+      "question": "True or False: Eating nuts daily is bad for heart health.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explanation": "False — nuts like almonds and walnuts are rich in healthy fats that protect the heart.",
+      "source": "AHA",
+      "tags": [
+        "fats",
+        "heart-health"
+      ],
+      "funFact": "A handful of nuts a day keeps your heart healthy!"
+    },
+    {
+      "id": "q130",
+      "category": "protein",
+      "difficulty": "medium",
+      "type": "true-false",
+      "question": "True or False: Drinking warm water helps digestion.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explanation": "True — warm water can aid digestion and improve circulation.",
+      "source": "Ayush Guidelines",
+      "tags": [
+        "hydration",
+        "digestion"
+      ],
+      "funFact": "A glass of warm water after meals can ease digestion."
+    },
+    {
+      "id": "q131",
+      "category": "protein",
+      "difficulty": "hard",
+      "type": "multiple-choice",
+      "question": "Which vitamin is produced when your skin is exposed to sunlight?",
+      "options": [
+        "Vitamin A",
+        "Vitamin D",
+        "Vitamin C",
+        "Vitamin B12"
+      ],
+      "correct": 1,
+      "explanation": "Sunlight helps the body produce Vitamin D, essential for bones and immunity.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "vitamins",
+        "sunlight"
+      ],
+      "funFact": "Just 15 minutes of sunlight daily boosts Vitamin D levels!"
+    },
+    {
+      "id": "q132",
+      "category": "vitamins",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "Which meal of the day should be the heaviest?",
+      "options": [
+        "Breakfast",
+        "Lunch",
+        "Dinner",
+        "Snacks"
+      ],
+      "correct": 1,
+      "explanation": "Lunch should be the heaviest to fuel the body during the day when metabolism is higher.",
+      "source": "NIN Meal Pattern",
+      "tags": [
+        "meal-timing",
+        "basics"
+      ],
+      "funFact": "A balanced lunch gives sustained energy for afternoon tasks."
+    },
+    {
+      "id": "q133",
+      "category": "cooking",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "Which vitamin is produced when your skin is exposed to sunlight?",
+      "options": [
+        "Vitamin A",
+        "Vitamin D",
+        "Vitamin C",
+        "Vitamin B12"
+      ],
+      "correct": 1,
+      "explanation": "Sunlight helps the body produce Vitamin D, essential for bones and immunity.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "vitamins",
+        "sunlight"
+      ],
+      "funFact": "Just 15 minutes of sunlight daily boosts Vitamin D levels!"
+    },
+    {
+      "id": "q134",
+      "category": "calories",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "question": "How many glasses of water are generally recommended per day?",
+      "options": [
+        "2-3",
+        "4-5",
+        "6-8",
+        "10-12"
+      ],
+      "correct": 2,
+      "explanation": "6–8 glasses (about 2 liters) per day help maintain hydration and kidney health.",
+      "source": "WHO Hydration Guide",
+      "tags": [
+        "hydration",
+        "healthy-habits"
+      ],
+      "funFact": "Keep a water bottle handy to sip through the day!"
+    },
+    {
+      "id": "q135",
+      "category": "cooking",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "Which is a healthier dessert option?",
+      "options": [
+        "Gulab jamun",
+        "Fruit salad",
+        "Chocolate cake",
+        "Jalebi"
+      ],
+      "correct": 1,
+      "explanation": "Fruit salad provides natural sweetness and fiber without added sugar or oil.",
+      "source": "WHO Nutrition",
+      "tags": [
+        "dessert",
+        "food-swaps"
+      ],
+      "funFact": "Fresh fruits make guilt-free desserts!"
+    },
+    {
+      "id": "q136",
+      "category": "calories",
+      "difficulty": "hard",
+      "type": "multiple-choice",
+      "question": "Which nutrient helps improve vision?",
+      "options": [
+        "Vitamin D",
+        "Vitamin A",
+        "Vitamin C",
+        "Iron"
+      ],
+      "correct": 1,
+      "explanation": "Vitamin A supports eye health and helps prevent night blindness.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "vitamins",
+        "eyesight"
+      ],
+      "funFact": "Carrots and spinach are great for your eyes!"
+    },
+    {
+      "id": "q137",
+      "category": "calories",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "Which is a healthier dessert option?",
+      "options": [
+        "Gulab jamun",
+        "Fruit salad",
+        "Chocolate cake",
+        "Jalebi"
+      ],
+      "correct": 1,
+      "explanation": "Fruit salad provides natural sweetness and fiber without added sugar or oil.",
+      "source": "WHO Nutrition",
+      "tags": [
+        "dessert",
+        "food-swaps"
+      ],
+      "funFact": "Fresh fruits make guilt-free desserts!"
+    },
+    {
+      "id": "q138",
+      "category": "healthy-habits",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "Which vitamin is produced when your skin is exposed to sunlight?",
+      "options": [
+        "Vitamin A",
+        "Vitamin D",
+        "Vitamin C",
+        "Vitamin B12"
+      ],
+      "correct": 1,
+      "explanation": "Sunlight helps the body produce Vitamin D, essential for bones and immunity.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "vitamins",
+        "sunlight"
+      ],
+      "funFact": "Just 15 minutes of sunlight daily boosts Vitamin D levels!"
+    },
+    {
+      "id": "q139",
+      "category": "food-swaps",
+      "difficulty": "easy",
+      "type": "true-false",
+      "question": "True or False: Eating nuts daily is bad for heart health.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explanation": "False — nuts like almonds and walnuts are rich in healthy fats that protect the heart.",
+      "source": "AHA",
+      "tags": [
+        "fats",
+        "heart-health"
+      ],
+      "funFact": "A handful of nuts a day keeps your heart healthy!"
+    },
+    {
+      "id": "q140",
+      "category": "protein",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "Which is a healthier dessert option?",
+      "options": [
+        "Gulab jamun",
+        "Fruit salad",
+        "Chocolate cake",
+        "Jalebi"
+      ],
+      "correct": 1,
+      "explanation": "Fruit salad provides natural sweetness and fiber without added sugar or oil.",
+      "source": "WHO Nutrition",
+      "tags": [
+        "dessert",
+        "food-swaps"
+      ],
+      "funFact": "Fresh fruits make guilt-free desserts!"
+    },
+    {
+      "id": "q141",
+      "category": "vitamins",
+      "difficulty": "hard",
+      "type": "multiple-choice",
+      "question": "Which is a healthier cooking oil option?",
+      "options": [
+        "Palm oil",
+        "Coconut oil",
+        "Mustard oil",
+        "Vanaspati"
+      ],
+      "correct": 2,
+      "explanation": "Mustard oil contains healthy monounsaturated fats and omega-3s, beneficial for the heart.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "fats",
+        "indian-food"
+      ],
+      "funFact": "Traditional oils like mustard are heart-friendly when used in moderation."
+    },
+    {
+      "id": "q142",
+      "category": "hydration",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "question": "Which meal of the day should be the heaviest?",
+      "options": [
+        "Breakfast",
+        "Lunch",
+        "Dinner",
+        "Snacks"
+      ],
+      "correct": 1,
+      "explanation": "Lunch should be the heaviest to fuel the body during the day when metabolism is higher.",
+      "source": "NIN Meal Pattern",
+      "tags": [
+        "meal-timing",
+        "basics"
+      ],
+      "funFact": "A balanced lunch gives sustained energy for afternoon tasks."
+    },
+    {
+      "id": "q143",
+      "category": "food-swaps",
+      "difficulty": "hard",
+      "type": "true-false",
+      "question": "True or False: Carbohydrates should be completely avoided to lose weight.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explanation": "False — complex carbs like oats and brown rice are essential for energy and fiber.",
+      "source": "NIN Dietary Guidelines",
+      "tags": [
+        "carbohydrates",
+        "weight-loss"
+      ],
+      "funFact": "Choose whole grains instead of cutting carbs completely!"
+    },
+    {
+      "id": "q144",
+      "category": "vitamins",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "Which meal of the day should be the heaviest?",
+      "options": [
+        "Breakfast",
+        "Lunch",
+        "Dinner",
+        "Snacks"
+      ],
+      "correct": 1,
+      "explanation": "Lunch should be the heaviest to fuel the body during the day when metabolism is higher.",
+      "source": "NIN Meal Pattern",
+      "tags": [
+        "meal-timing",
+        "basics"
+      ],
+      "funFact": "A balanced lunch gives sustained energy for afternoon tasks."
+    },
+    {
+      "id": "q145",
+      "category": "hydration",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "Which vitamin is produced when your skin is exposed to sunlight?",
+      "options": [
+        "Vitamin A",
+        "Vitamin D",
+        "Vitamin C",
+        "Vitamin B12"
+      ],
+      "correct": 1,
+      "explanation": "Sunlight helps the body produce Vitamin D, essential for bones and immunity.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "vitamins",
+        "sunlight"
+      ],
+      "funFact": "Just 15 minutes of sunlight daily boosts Vitamin D levels!"
+    },
+    {
+      "id": "q146",
+      "category": "food-swaps",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "question": "Which is a healthier cooking oil option?",
+      "options": [
+        "Palm oil",
+        "Coconut oil",
+        "Mustard oil",
+        "Vanaspati"
+      ],
+      "correct": 2,
+      "explanation": "Mustard oil contains healthy monounsaturated fats and omega-3s, beneficial for the heart.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "fats",
+        "indian-food"
+      ],
+      "funFact": "Traditional oils like mustard are heart-friendly when used in moderation."
+    },
+    {
+      "id": "q147",
+      "category": "calories",
+      "difficulty": "hard",
+      "type": "multiple-choice",
+      "question": "Which is a healthier dessert option?",
+      "options": [
+        "Gulab jamun",
+        "Fruit salad",
+        "Chocolate cake",
+        "Jalebi"
+      ],
+      "correct": 1,
+      "explanation": "Fruit salad provides natural sweetness and fiber without added sugar or oil.",
+      "source": "WHO Nutrition",
+      "tags": [
+        "dessert",
+        "food-swaps"
+      ],
+      "funFact": "Fresh fruits make guilt-free desserts!"
+    },
+    {
+      "id": "q148",
+      "category": "food-swaps",
+      "difficulty": "hard",
+      "type": "multiple-choice",
+      "question": "Which vitamin is produced when your skin is exposed to sunlight?",
+      "options": [
+        "Vitamin A",
+        "Vitamin D",
+        "Vitamin C",
+        "Vitamin B12"
+      ],
+      "correct": 1,
+      "explanation": "Sunlight helps the body produce Vitamin D, essential for bones and immunity.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "vitamins",
+        "sunlight"
+      ],
+      "funFact": "Just 15 minutes of sunlight daily boosts Vitamin D levels!"
+    },
+    {
+      "id": "q149",
+      "category": "cooking",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "question": "Which nutrient helps improve vision?",
+      "options": [
+        "Vitamin D",
+        "Vitamin A",
+        "Vitamin C",
+        "Iron"
+      ],
+      "correct": 1,
+      "explanation": "Vitamin A supports eye health and helps prevent night blindness.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "vitamins",
+        "eyesight"
+      ],
+      "funFact": "Carrots and spinach are great for your eyes!"
+    },
+    {
+      "id": "q150",
+      "category": "cooking",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "Which nutrient helps improve vision?",
+      "options": [
+        "Vitamin D",
+        "Vitamin A",
+        "Vitamin C",
+        "Iron"
+      ],
+      "correct": 1,
+      "explanation": "Vitamin A supports eye health and helps prevent night blindness.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "vitamins",
+        "eyesight"
+      ],
+      "funFact": "Carrots and spinach are great for your eyes!"
+    },
+    {
+      "id": "q151",
+      "category": "food-swaps",
+      "difficulty": "hard",
+      "type": "true-false",
+      "question": "True or False: Carbohydrates should be completely avoided to lose weight.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explanation": "False — complex carbs like oats and brown rice are essential for energy and fiber.",
+      "source": "NIN Dietary Guidelines",
+      "tags": [
+        "carbohydrates",
+        "weight-loss"
+      ],
+      "funFact": "Choose whole grains instead of cutting carbs completely!"
+    },
+    {
+      "id": "q152",
+      "category": "healthy-habits",
+      "difficulty": "hard",
+      "type": "multiple-choice",
+      "question": "Which is a healthier cooking oil option?",
+      "options": [
+        "Palm oil",
+        "Coconut oil",
+        "Mustard oil",
+        "Vanaspati"
+      ],
+      "correct": 2,
+      "explanation": "Mustard oil contains healthy monounsaturated fats and omega-3s, beneficial for the heart.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "fats",
+        "indian-food"
+      ],
+      "funFact": "Traditional oils like mustard are heart-friendly when used in moderation."
+    },
+    {
+      "id": "q153",
+      "category": "cooking",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "Which meal of the day should be the heaviest?",
+      "options": [
+        "Breakfast",
+        "Lunch",
+        "Dinner",
+        "Snacks"
+      ],
+      "correct": 1,
+      "explanation": "Lunch should be the heaviest to fuel the body during the day when metabolism is higher.",
+      "source": "NIN Meal Pattern",
+      "tags": [
+        "meal-timing",
+        "basics"
+      ],
+      "funFact": "A balanced lunch gives sustained energy for afternoon tasks."
+    },
+    {
+      "id": "q154",
+      "category": "hydration",
+      "difficulty": "medium",
+      "type": "true-false",
+      "question": "True or False: Carbohydrates should be completely avoided to lose weight.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explanation": "False — complex carbs like oats and brown rice are essential for energy and fiber.",
+      "source": "NIN Dietary Guidelines",
+      "tags": [
+        "carbohydrates",
+        "weight-loss"
+      ],
+      "funFact": "Choose whole grains instead of cutting carbs completely!"
+    },
+    {
+      "id": "q155",
+      "category": "hydration",
+      "difficulty": "hard",
+      "type": "multiple-choice",
+      "question": "Which meal of the day should be the heaviest?",
+      "options": [
+        "Breakfast",
+        "Lunch",
+        "Dinner",
+        "Snacks"
+      ],
+      "correct": 1,
+      "explanation": "Lunch should be the heaviest to fuel the body during the day when metabolism is higher.",
+      "source": "NIN Meal Pattern",
+      "tags": [
+        "meal-timing",
+        "basics"
+      ],
+      "funFact": "A balanced lunch gives sustained energy for afternoon tasks."
+    },
+    {
+      "id": "q156",
+      "category": "food-swaps",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "question": "Which vitamin is produced when your skin is exposed to sunlight?",
+      "options": [
+        "Vitamin A",
+        "Vitamin D",
+        "Vitamin C",
+        "Vitamin B12"
+      ],
+      "correct": 1,
+      "explanation": "Sunlight helps the body produce Vitamin D, essential for bones and immunity.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "vitamins",
+        "sunlight"
+      ],
+      "funFact": "Just 15 minutes of sunlight daily boosts Vitamin D levels!"
+    },
+    {
+      "id": "q157",
+      "category": "vitamins",
+      "difficulty": "easy",
+      "type": "true-false",
+      "question": "True or False: Drinking warm water helps digestion.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explanation": "True — warm water can aid digestion and improve circulation.",
+      "source": "Ayush Guidelines",
+      "tags": [
+        "hydration",
+        "digestion"
+      ],
+      "funFact": "A glass of warm water after meals can ease digestion."
+    },
+    {
+      "id": "q158",
+      "category": "healthy-habits",
+      "difficulty": "hard",
+      "type": "true-false",
+      "question": "True or False: Eating nuts daily is bad for heart health.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explanation": "False — nuts like almonds and walnuts are rich in healthy fats that protect the heart.",
+      "source": "AHA",
+      "tags": [
+        "fats",
+        "heart-health"
+      ],
+      "funFact": "A handful of nuts a day keeps your heart healthy!"
+    },
+    {
+      "id": "q159",
+      "category": "protein",
+      "difficulty": "hard",
+      "type": "multiple-choice",
+      "question": "Which meal of the day should be the heaviest?",
+      "options": [
+        "Breakfast",
+        "Lunch",
+        "Dinner",
+        "Snacks"
+      ],
+      "correct": 1,
+      "explanation": "Lunch should be the heaviest to fuel the body during the day when metabolism is higher.",
+      "source": "NIN Meal Pattern",
+      "tags": [
+        "meal-timing",
+        "basics"
+      ],
+      "funFact": "A balanced lunch gives sustained energy for afternoon tasks."
+    },
+    {
+      "id": "q160",
+      "category": "vitamins",
+      "difficulty": "hard",
+      "type": "multiple-choice",
+      "question": "Which meal of the day should be the heaviest?",
+      "options": [
+        "Breakfast",
+        "Lunch",
+        "Dinner",
+        "Snacks"
+      ],
+      "correct": 1,
+      "explanation": "Lunch should be the heaviest to fuel the body during the day when metabolism is higher.",
+      "source": "NIN Meal Pattern",
+      "tags": [
+        "meal-timing",
+        "basics"
+      ],
+      "funFact": "A balanced lunch gives sustained energy for afternoon tasks."
+    },
+    {
+      "id": "q161",
+      "category": "healthy-habits",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "Which is a healthier cooking oil option?",
+      "options": [
+        "Palm oil",
+        "Coconut oil",
+        "Mustard oil",
+        "Vanaspati"
+      ],
+      "correct": 2,
+      "explanation": "Mustard oil contains healthy monounsaturated fats and omega-3s, beneficial for the heart.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "fats",
+        "indian-food"
+      ],
+      "funFact": "Traditional oils like mustard are heart-friendly when used in moderation."
+    },
+    {
+      "id": "q162",
+      "category": "hydration",
+      "difficulty": "hard",
+      "type": "multiple-choice",
+      "question": "Which nutrient helps improve vision?",
+      "options": [
+        "Vitamin D",
+        "Vitamin A",
+        "Vitamin C",
+        "Iron"
+      ],
+      "correct": 1,
+      "explanation": "Vitamin A supports eye health and helps prevent night blindness.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "vitamins",
+        "eyesight"
+      ],
+      "funFact": "Carrots and spinach are great for your eyes!"
+    },
+    {
+      "id": "q163",
+      "category": "calories",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "question": "Which is a healthier cooking oil option?",
+      "options": [
+        "Palm oil",
+        "Coconut oil",
+        "Mustard oil",
+        "Vanaspati"
+      ],
+      "correct": 2,
+      "explanation": "Mustard oil contains healthy monounsaturated fats and omega-3s, beneficial for the heart.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "fats",
+        "indian-food"
+      ],
+      "funFact": "Traditional oils like mustard are heart-friendly when used in moderation."
+    },
+    {
+      "id": "q164",
+      "category": "protein",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "question": "Which nutrient helps improve vision?",
+      "options": [
+        "Vitamin D",
+        "Vitamin A",
+        "Vitamin C",
+        "Iron"
+      ],
+      "correct": 1,
+      "explanation": "Vitamin A supports eye health and helps prevent night blindness.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "vitamins",
+        "eyesight"
+      ],
+      "funFact": "Carrots and spinach are great for your eyes!"
+    },
+    {
+      "id": "q165",
+      "category": "healthy-habits",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "Which vitamin is produced when your skin is exposed to sunlight?",
+      "options": [
+        "Vitamin A",
+        "Vitamin D",
+        "Vitamin C",
+        "Vitamin B12"
+      ],
+      "correct": 1,
+      "explanation": "Sunlight helps the body produce Vitamin D, essential for bones and immunity.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "vitamins",
+        "sunlight"
+      ],
+      "funFact": "Just 15 minutes of sunlight daily boosts Vitamin D levels!"
+    },
+    {
+      "id": "q166",
+      "category": "vitamins",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "Which fruit is richest in Vitamin C?",
+      "options": [
+        "Apple",
+        "Banana",
+        "Guava",
+        "Grapes"
+      ],
+      "correct": 2,
+      "explanation": "Guava is among the richest natural sources of Vitamin C, even more than oranges.",
+      "source": "ICMR-NIN 2020",
+      "tags": [
+        "vitamins",
+        "immunity"
+      ],
+      "funFact": "Vitamin C supports strong immunity and glowing skin!"
+    },
+    {
+      "id": "q167",
+      "category": "food-swaps",
+      "difficulty": "medium",
+      "type": "true-false",
+      "question": "True or False: Drinking warm water helps digestion.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explanation": "True — warm water can aid digestion and improve circulation.",
+      "source": "Ayush Guidelines",
+      "tags": [
+        "hydration",
+        "digestion"
+      ],
+      "funFact": "A glass of warm water after meals can ease digestion."
+    },
+    {
+      "id": "q168",
+      "category": "healthy-habits",
+      "difficulty": "medium",
+      "type": "true-false",
+      "question": "True or False: Carbohydrates should be completely avoided to lose weight.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explanation": "False — complex carbs like oats and brown rice are essential for energy and fiber.",
+      "source": "NIN Dietary Guidelines",
+      "tags": [
+        "carbohydrates",
+        "weight-loss"
+      ],
+      "funFact": "Choose whole grains instead of cutting carbs completely!"
+    },
+    {
+      "id": "q169",
+      "category": "food-swaps",
+      "difficulty": "easy",
+      "type": "true-false",
+      "question": "True or False: Drinking warm water helps digestion.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explanation": "True — warm water can aid digestion and improve circulation.",
+      "source": "Ayush Guidelines",
+      "tags": [
+        "hydration",
+        "digestion"
+      ],
+      "funFact": "A glass of warm water after meals can ease digestion."
+    },
+    {
+      "id": "q170",
+      "category": "healthy-habits",
+      "difficulty": "hard",
+      "type": "multiple-choice",
+      "question": "How many glasses of water are generally recommended per day?",
+      "options": [
+        "2-3",
+        "4-5",
+        "6-8",
+        "10-12"
+      ],
+      "correct": 2,
+      "explanation": "6–8 glasses (about 2 liters) per day help maintain hydration and kidney health.",
+      "source": "WHO Hydration Guide",
+      "tags": [
+        "hydration",
+        "healthy-habits"
+      ],
+      "funFact": "Keep a water bottle handy to sip through the day!"
+    }
+  ]
+}

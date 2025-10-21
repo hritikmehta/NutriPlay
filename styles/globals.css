@@ -1,0 +1,144 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #__next {
+  height: 100%;
+}
+
+body {
+  background-color: #FFFFFF;
+  font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+}
+
+/* custom color mapping for tailwind (optional) */
+:root {
+  --orange-primary: #FF7A00;
+}
+
+/* Custom animations for the trivia game */
+@keyframes shake {
+  10%, 90% { transform: translateX(-1px); }
+  20%, 80% { transform: translateX(2px); }
+  30%, 50%, 70% { transform: translateX(-4px); }
+  40%, 60% { transform: translateX(4px); }
+}
+
+@keyframes moveUp {
+  from { transform: translateY(0); }
+  to { transform: translateY(-12px); }
+}
+
+@keyframes moveDown {
+  from { transform: translateY(0); }
+  to { transform: translateY(12px); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideInLeft {
+  from { opacity: 0; transform: translateX(-30px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes slideInRight {
+  from { opacity: 0; transform: translateX(30px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+.answered {
+  animation: shake 0.45s;
+}
+
+.move-up {
+  animation: moveUp 0.5s ease-out forwards;
+}
+
+.move-down {
+  animation: moveDown 0.5s ease-out forwards;
+}
+
+/* Carrot icon styling */
+.carrot-icon {
+  transition: all 0.3s ease;
+}
+
+.carrot-icon.filled {
+  color: #FF7A00;
+}
+
+.carrot-icon.empty {
+  color: #E5E7EB;
+}
+
+/* Button hover effects */
+.btn-primary {
+  transition: all 0.2s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(255, 122, 0, 0.3);
+}
+
+/* Option button animations */
+.option-btn {
+  transition: all 0.2s ease;
+}
+
+.option-btn:hover:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.option-btn:disabled {
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+/* Screen transition animations */
+.screen-enter {
+  animation: fadeIn 0.5s ease-out;
+}
+
+.screen-slide-left {
+  animation: slideInLeft 0.5s ease-out;
+}
+
+.screen-slide-right {
+  animation: slideInRight 0.5s ease-out;
+}
+
+/* Mascot animation */
+.mascot-bounce {
+  animation: bounce 2s infinite;
+}
+
+/* Custom scrollbar styling */
+.overflow-y-auto::-webkit-scrollbar {
+  width: 6px;
+}
+
+.overflow-y-auto::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.overflow-y-auto::-webkit-scrollbar-thumb {
+  background: #d1d5db;
+  border-radius: 3px;
+  border: 1px solid #f3f4f6;
+}
+
+.overflow-y-auto::-webkit-scrollbar-thumb:hover {
+  background: #9ca3af;
+}
+
+/* Carrot fill animation */
+.carrot-fill-20 { background: linear-gradient(to top, #FF7A00 20%, transparent 20%); }
+.carrot-fill-40 { background: linear-gradient(to top, #FF7A00 40%, transparent 40%); }
+.carrot-fill-60 { background: linear-gradient(to top, #FF7A00 60%, transparent 60%); }
+.carrot-fill-80 { background: linear-gradient(to top, #FF7A00 80%, transparent 80%); }
+.carrot-fill-100 { background: #FF7A00; }
