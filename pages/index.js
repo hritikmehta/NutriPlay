@@ -16,6 +16,7 @@ const GAME_STATES = {
 const CATEGORIES = [
   { id: 'random', name: 'Random', description: 'Mix of all categories' },
   { id: 'myths', name: 'Myths', description: 'Nutrition myths and facts' },
+  { id: 'indian-foods', name: 'Indian Foods', description: 'Traditional Indian nutrition' },
   { id: 'vitamins', name: 'Vitamins', description: 'Vitamin knowledge' },
   { id: 'hydration', name: 'Hydration', description: 'Water and hydration' },
   { id: 'protein', name: 'Protein', description: 'Protein and muscle building' },
@@ -24,8 +25,7 @@ const CATEGORIES = [
   { id: 'healthy-habits', name: 'Healthy Habits', description: 'Daily health practices' },
   { id: 'food-swaps', name: 'Food Swaps', description: 'Healthy food alternatives' },
   { id: 'fats', name: 'Fats', description: 'Healthy and unhealthy fats' },
-  { id: 'calories', name: 'Calories', description: 'Calorie knowledge' },
-  { id: 'indian-foods', name: 'Indian Foods', description: 'Traditional Indian nutrition' }
+  { id: 'calories', name: 'Calories', description: 'Calorie knowledge' }
 ]
 
 export default function Home() {
