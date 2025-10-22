@@ -24,7 +24,8 @@ const CATEGORIES = [
   { id: 'healthy-habits', name: 'Healthy Habits', description: 'Daily health practices' },
   { id: 'food-swaps', name: 'Food Swaps', description: 'Healthy food alternatives' },
   { id: 'fats', name: 'Fats', description: 'Healthy and unhealthy fats' },
-  { id: 'calories', name: 'Calories', description: 'Calorie knowledge' }
+  { id: 'calories', name: 'Calories', description: 'Calorie knowledge' },
+  { id: 'indian-foods', name: 'Indian Foods', description: 'Traditional Indian nutrition' }
 ]
 
 export default function Home() {
