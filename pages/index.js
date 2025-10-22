@@ -44,6 +44,12 @@ export default function Home() {
   const [selectedCategories, setSelectedCategories] = useState(['random'])
   const optionRef = useRef({})
 
+  // feedback (optional) for Game Over
+  const [email, setEmail] = useState('')
+  const [userFeedback, setUserFeedback] = useState('')
+  const [feedbackSubmitted, setFeedbackSubmitted] = useState(false)
+  const [submittingFeedback, setSubmittingFeedback] = useState(false)
+
   useEffect(() => {
     fetch('/api/questions')
       .then(r => r.json())
@@ -319,6 +325,69 @@ export default function Home() {
               <div className="text-gray-600">Accuracy</div>
             </div>
           </div>
+
+          {!feedbackSubmitted ? (
+            <form
+              onSubmit={async (e) => {
+                e.preventDefault()
+                if (submittingFeedback) return
+                setSubmittingFeedback(true)
+                try {
+                  await fetch('/api/feedback', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                      email: email || null,
+                      feedback: userFeedback || null,
+                      attempts,
+                      correctAnswers,
+                      accuracy,
+                      selectedCategories,
+                      ts: new Date().toISOString()
+                    })
+                  })
+                  setFeedbackSubmitted(true)
+                } catch (err) {
+                  console.error(err)
+                } finally {
+                  setSubmittingFeedback(false)
+                }
+              }}
+              className="mb-6 text-left space-y-3"
+            >
+              <label className="text-sm font-medium text-gray-700">Email (optional)</label>
+              <input
+                type="email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                placeholder="you@example.com"
+                className="w-full border rounded px-3 py-2"
+              />
+              <label className="text-sm font-medium text-gray-700">Feedback (optional)</label>
+              <textarea
+                value={userFeedback}
+                onChange={(e) => setUserFeedback(e.target.value)}
+                rows={4}
+                placeholder="Share your thoughts..."
+                className="w-full border rounded px-3 py-2"
+              />
+              <div className="flex items-center justify-between">
+                <button
+                  type="submit"
+                  disabled={submittingFeedback}
+                  className="bg-orangePrimary text-white px-6 py-2 rounded-lg font-semibold"
+                >
+                  {submittingFeedback ? 'Sending…' : 'Submit Feedback'}
+                </button>
+                <button type="button" onClick={() => setFeedbackSubmitted(true)} className="text-sm text-gray-500">
+                  Skip
+                </button>
+              </div>
+            </form>
+          ) : (
+            <div className="mb-6 text-sm text-green-600">Thanks for your feedback!</div>
+          )}
+
           <button
             onClick={resetGame}
             className="bg-orangePrimary text-white px-6 py-3 rounded-lg font-semibold btn-primary"
