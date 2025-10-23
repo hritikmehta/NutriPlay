@@ -43,8 +43,24 @@ export default function Home() {
   const [showInfo, setShowInfo] = useState(false)
   const [gameState, setGameState] = useState(GAME_STATES.WELCOME)
   const [selectedCategories, setSelectedCategories] = useState(['random'])
+  // difficulty selection (none selected by default)
+  const [selectedDifficulties, setSelectedDifficulties] = useState([]) // e.g. ['easy','hard']
   const optionRef = useRef({})
 
+  const toggleDifficulty = (level) => {
+    setSelectedDifficulties(prev => {
+      if (prev.includes(level)) return prev.filter(d => d !== level)
+      return [...prev, level]
+    })
+  }
+  
+  // feedback form fields / submitting state (fixes ReferenceError: email / userFeedback / submittingFeedback)
+  const [email, setEmail] = useState('')
+  const [userFeedback, setUserFeedback] = useState('')
+  const [submittingFeedback, setSubmittingFeedback] = useState(false)
+
+  // feedback form state (fixes ReferenceError)
+  const [feedbackSubmitted, setFeedbackSubmitted] = useState(false)
   // --- NEW: Local High Score Tracking ---
   const [highScore, setHighScore] = useState({
     score: 0,
@@ -153,13 +169,22 @@ export default function Home() {
     return shuffled
   }
 
-  const filterQuestionsByCategories = (categories) => {
-    if (categories.includes('random')) {
-      return shuffleArray(allQuestions)
-    }
-    return shuffleArray(allQuestions.filter(q => categories.includes(q.category)))
-  }
+  const filterQuestionsByCategories = (categories, difficulties = []) => {
+    let pool = allQuestions
 
+    // category filter
+    if (!categories.includes('random')) {
+      pool = pool.filter(q => categories.includes(q.category))
+    }
+
+    // difficulty filter: if none selected -> allow all
+    if (Array.isArray(difficulties) && difficulties.length > 0) {
+      pool = pool.filter(q => difficulties.includes((q.difficulty || '').toLowerCase()))
+    }
+
+    return shuffleArray(pool)
+  }
+  
   useEffect(() => {
     setSelected(null)
     setFeedback(null)
@@ -173,21 +198,21 @@ export default function Home() {
   }, [lives, gameState])
 
   const startGame = () => {
+    // use current selectedCategories & selectedDifficulties
+    const filtered = filterQuestionsByCategories(selectedCategories, selectedDifficulties)
+    setQuestions(filtered)
+    setIndex(0)
     setGameState(GAME_STATES.LOADING)
-    setTimeout(() => {
-      setGameState(GAME_STATES.PLAYING)
-    }, 2000)
+    setTimeout(() => setGameState(GAME_STATES.PLAYING), 2000)
   }
-
+ 
   const startGameWithCategories = (categories) => {
     setSelectedCategories(categories)
-    const filteredQuestions = filterQuestionsByCategories(categories)
+    const filteredQuestions = filterQuestionsByCategories(categories, selectedDifficulties)
     setQuestions(filteredQuestions)
     setIndex(0)
     setGameState(GAME_STATES.LOADING)
-    setTimeout(() => {
-      setGameState(GAME_STATES.PLAYING)
-    }, 2000)
+    setTimeout(() => setGameState(GAME_STATES.PLAYING), 2000)
   }
 
   const toggleCategory = (categoryId) => {
@@ -309,7 +334,7 @@ export default function Home() {
     return (
       <div className="min-h-screen bg-orangePrimary flex items-center justify-center p-4">
         <div className="w-full max-w-md bg-white rounded-2xl shadow-lg p-8 text-center">
-          <h1 className="text-2xl font-bold text-gray-900 mb-2">Select Category</h1>
+          <h1 className="text-2xl font-bold text-gray-900 mb-2">Select Questions Type</h1>
           <p className="text-gray-600 mb-6">Every question helps you grow healthier!</p>
           <div className="mb-6">
             <button
@@ -329,7 +354,7 @@ export default function Home() {
               </div>
             </button>
           </div>
-          <div className="grid grid-cols-2 gap-3 mb-8 max-h-64 overflow-y-auto">
+          <div className="grid grid-cols-2 gap-3 mb-4 max-h-64 overflow-y-auto">
             {CATEGORIES.filter(cat => cat.id !== 'random').map((category) => (
               <button
                 key={category.id}
@@ -349,6 +374,28 @@ export default function Home() {
               </button>
             ))}
           </div>
+
+          {/* Difficulty selector - horizontal */}
+          <div className="mb-6">
+            <div className="flex justify-center gap-3">
+               {['easy','medium','hard'].map(level => {
+                 const cap = level[0].toUpperCase() + level.slice(1)
+                 const active = selectedDifficulties.includes(level)
+                 return (
+                   <button
+                     key={level}
+                     onClick={() => toggleDifficulty(level)}
+                     className={`px-4 py-2 rounded-lg border-2 text-sm font-medium transition ${
+                       active ? 'border-orangePrimary bg-orange-50' : 'border-gray-200 hover:border-orangePrimary'
+                     }`}
+                   >
+                     {cap}
+                   </button>
+                 )
+               })}
+             </div>
+           </div>
+
           <button
             onClick={() => startGameWithCategories(selectedCategories)}
             className="bg-orangePrimary text-white px-8 py-4 rounded-lg font-semibold btn-primary text-lg w-full"
@@ -362,16 +409,17 @@ export default function Home() {
 
   // Loading Screen
   if (gameState === GAME_STATES.LOADING) {
-    const selectedCategoryNames = selectedCategories.map(catId => 
+    const selectedCategoryNames = selectedCategories.map(catId =>
       CATEGORIES.find(c => c.id === catId)?.name || 'Random'
     ).join(', ')
+    const selectedDifficultyNames = selectedDifficulties.length ? selectedDifficulties.map(d => d[0].toUpperCase() + d.slice(1)).join(', ') : 'Any'
     return (
       <div className="min-h-screen bg-orangePrimary flex items-center justify-center p-4">
         <div className="w-full max-w-md bg-white rounded-2xl shadow-lg p-8 text-center">
           <div className="text-6xl mb-6 animate-bounce">🐼</div>
           <h1 className="text-2xl font-bold text-gray-900 mb-2">Loading Your NutriPlay Challenge…</h1>
           <p className="text-gray-600 mb-2">Fetching questions for your health journey 🥦</p>
-          <p className="text-sm text-orangePrimary font-medium mb-6">Categories: {selectedCategoryNames}</p>
+          <p className="text-sm text-orangePrimary font-medium mb-6">Categories: {selectedCategoryNames} • Difficulty: {selectedDifficultyNames}</p>
           <div className="w-full bg-gray-200 rounded-full h-3 mb-6">
             <div className="bg-orangePrimary h-3 rounded-full animate-pulse" style={{ width: '100%' }}></div>
           </div>
@@ -412,7 +460,6 @@ export default function Home() {
             <form
               onSubmit={async (e) => {
                 e.preventDefault()
-                if (submittingFeedback) return
                 setSubmittingFeedback(true)
                 try {
                   await fetch('/api/feedback', {
@@ -425,34 +472,38 @@ export default function Home() {
                       correctAnswers,
                       accuracy,
                       selectedCategories,
+                      selectedDifficulties, // new: include selected difficulty(s)
                       ts: new Date().toISOString()
                     })
                   })
                   setFeedbackSubmitted(true)
                 } catch (err) {
-                  console.error(err)
+                  console.error('Feedback submit error', err)
                 } finally {
                   setSubmittingFeedback(false)
                 }
               }}
-              className="mb-6 text-left space-y-3"
             >
-              <label className="text-sm font-medium text-gray-700">Email (optional)</label>
-              <input
-                type="email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                placeholder="you@example.com"
-                className="w-full border rounded px-3 py-2"
-              />
-              <label className="text-sm font-medium text-gray-700">Feedback (optional)</label>
-              <textarea
-                value={userFeedback}
-                onChange={(e) => setUserFeedback(e.target.value)}
-                rows={4}
-                placeholder="Share your thoughts..."
-                className="w-full border rounded px-3 py-2"
-              />
+              <div className="mb-4">
+                <label className="block text-sm font-medium text-gray-700 mb-1">Email (optional)</label>
+                <input
+                  type="email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  placeholder="you@example.com"
+                  className="w-full border rounded px-3 py-2 text-sm"
+                />
+              </div>
+              <div className="mb-4">
+                <label className="block text-sm font-medium text-gray-700 mb-1">Feedback (optional)</label>
+                <textarea
+                  value={userFeedback}
+                  onChange={(e) => setUserFeedback(e.target.value)}
+                  rows={4}
+                  placeholder="Share your thoughts..."
+                  className="w-full border rounded px-3 py-2 text-sm"
+                />
+              </div>
               <div className="flex items-center justify-between">
                 <button
                   type="submit"
@@ -467,7 +518,7 @@ export default function Home() {
               </div>
             </form>
           ) : (
-            <div className="mb-6 text-sm text-green-600">Thanks for your feedback!</div>
+            <div>Thank you for your feedback</div>
           )}
 
           <button
@@ -592,9 +643,11 @@ export default function Home() {
                 )
               })}
             </div>
-            {/* Attempts on the right */}
-            <div className="text-sm text-gray-500">
-              Attempts: {attempts}
+            {/* Scores on the right: High Score (local) + Current Score */}
+            <div className="text-sm text-gray-500 text-right">
+              <div>Your High Score: <span className="font-semibold text-orangePrimary">{highScore?.score ?? 0}</span></div>
+              <div>Current Score: <span className="font-semibold text-gray-900">{correctAnswers}</span></div>
+              {/* <div className="mt-1 text-xs text-gray-400">Attempts: {attempts}</div> */}
             </div>
           </div>
         </div>
