@@ -45,12 +45,93 @@ export default function Home() {
   const [selectedCategories, setSelectedCategories] = useState(['random'])
   const optionRef = useRef({})
 
-  // feedback (optional) for Game Over
-  const [email, setEmail] = useState('')
-  const [userFeedback, setUserFeedback] = useState('')
-  const [feedbackSubmitted, setFeedbackSubmitted] = useState(false)
-  const [submittingFeedback, setSubmittingFeedback] = useState(false)
+  // --- NEW: Local High Score Tracking ---
+  const [highScore, setHighScore] = useState({
+    score: 0,
+    correctAnswers: 0,
+    accuracy: 0,
+    totalAttempts: 0,
+    lastPlayed: null
+  })
+  const [showNewHighScoreAnimation, setShowNewHighScoreAnimation] = useState(false)
+  const [animatingScore, setAnimatingScore] = useState(0)
 
+  // Load saved high score on mount
+  useEffect(() => {
+    try {
+      const saved = localStorage.getItem('nutriplay_user_level_highscore')
+      if (saved) {
+        const parsed = JSON.parse(saved)
+        setHighScore(parsed)
+        setAnimatingScore(parsed.score || 0)
+      }
+    } catch (e) {
+      console.error('Failed to load high score', e)
+    }
+  }, [])
+
+  // Check and update high score when game ends
+  const checkHighScore = (calculatedScore, correct, total, accuracy) => {
+    const prev = highScore.score || 0
+    if (calculatedScore > prev) {
+      const payload = {
+        score: calculatedScore,
+        correctAnswers: correct,
+        accuracy,
+        totalAttempts: total,
+        lastPlayed: new Date().toISOString()
+      }
+      setHighScore(payload)
+      localStorage.setItem('nutriplay_user_level_highscore', JSON.stringify(payload))
+
+      // trigger animation / counter
+      setShowNewHighScoreAnimation(true)
+      setAnimatingScore(prev)
+      const duration = 900
+      const frameRate = 30
+      const steps = Math.ceil((duration / 1000) * frameRate)
+      const delta = (calculatedScore - prev) / steps
+      let step = 0
+      const iv = setInterval(() => {
+        step++
+        setAnimatingScore(old => {
+          const next = Math.min(calculatedScore, Math.round(old + delta))
+          return next
+        })
+        if (step >= steps) {
+          clearInterval(iv)
+          setAnimatingScore(calculatedScore)
+          // hide celebration after a short delay
+          setTimeout(() => setShowNewHighScoreAnimation(false), 2200)
+        }
+      }, duration / steps)
+    } else {
+      // update lastPlayed timestamp even if not a new high score
+      try {
+        const updated = { ...highScore, lastPlayed: new Date().toISOString() }
+        setHighScore(updated)
+        localStorage.setItem('nutriplay_user_level_highscore', JSON.stringify(updated))
+      } catch (e) {}
+    }
+  }
+
+  // When game becomes GAME_OVER, evaluate current score
+  useEffect(() => {
+    if (gameState === GAME_STATES.GAME_OVER) {
+      const calculatedScore = correctAnswers // choose score metric
+      const accuracy = attempts ? (correctAnswers / attempts) * 100 : 0
+      checkHighScore(calculatedScore, correctAnswers, attempts, Number(accuracy.toFixed(1)))
+    }
+  }, [gameState]) // eslint-disable-line react-hooks/exhaustive-deps
+
+  const resetHighScore = () => {
+    localStorage.removeItem('nutriplay_user_level_highscore')
+    const empty = { score: 0, correctAnswers: 0, accuracy: 0, totalAttempts: 0, lastPlayed: null }
+    setHighScore(empty)
+    setAnimatingScore(0)
+  }
+  // --- END NEW ---
+  
   useEffect(() => {
     fetch('/api/questions')
       .then(r => r.json())
@@ -518,6 +599,31 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      {/* New High Score Celebration Overlay */}
+      {showNewHighScoreAnimation && (
+        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
+          <div className="bg-white rounded-lg shadow-lg p-6 max-w-sm w-full text-center">
+            <div className="text-4xl mb-4">
+              <span className="text-orangePrimary">🎉</span>
+              <span className="text-green-600">New High Score!</span>
+              <span className="text-orangePrimary">🎉</span>
+            </div>
+            <div className="text-6xl font-bold text-gray-900 mb-4">
+              <animated.div className="inline-block" style={{}}>
+                {animatingScore}
+              </animated.div>
+            </div>
+            <p className="text-gray-700 mb-4">You've set a new personal best!</p>
+            <button
+              onClick={() => setShowNewHighScoreAnimation(false)}
+              className="bg-orangePrimary text-white px-6 py-3 rounded-lg font-semibold"
+            >
+              Continue
+            </button>
+          </div>
+        </div>
+      )}
 
       {/* Question Card */}
       <main className="flex-1 w-full max-w-md flex items-center justify-center">

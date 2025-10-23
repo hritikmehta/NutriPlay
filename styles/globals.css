@@ -142,3 +142,89 @@ body {
 .carrot-fill-60 { background: linear-gradient(to top, #FF7A00 60%, transparent 60%); }
 .carrot-fill-80 { background: linear-gradient(to top, #FF7A00 80%, transparent 80%); }
 .carrot-fill-100 { background: #FF7A00; }
+
+/* High score / header styles */
+.game-header .score-block {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+}
+.game-header .score-block .label {
+  font-size: 0.75rem;
+  color: #666;
+}
+.game-header .score-block .value {
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: #ff7a18; /* orangePrimary */
+}
+
+/* small pulse/shake when new record */
+.pulse-shake {
+  animation: pulse 900ms ease-in-out, shake 700ms ease-in-out;
+}
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.06); }
+  100% { transform: scale(1); }
+}
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-4px); }
+  50% { transform: translateX(4px); }
+  75% { transform: translateX(-3px); }
+  100% { transform: translateX(0); }
+}
+
+/* New high score overlay */
+.new-high-overlay {
+  position: fixed;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  background: rgba(0,0,0,0.35);
+  z-index: 9999;
+  pointer-events: none;
+}
+.new-high-card {
+  background: white;
+  padding: 1.25rem 1.5rem;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.25);
+  pointer-events: auto;
+}
+.new-high-card h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1.15rem;
+}
+.animated-counter {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #ff7a18;
+  letter-spacing: -0.02em;
+}
+.confetti {
+  position: absolute;
+  top: 10%;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6rem;
+  transform: translateY(-10px);
+  animation: floatConfetti 1.6s ease-in-out infinite;
+}
+@keyframes floatConfetti {
+  0% { transform: translateY(-8px); opacity: 0.9 }
+  50% { transform: translateY(0px); opacity: 1 }
+  100% { transform: translateY(-8px); opacity: 0.9 }
+}
+
+/* small helper button somewhere (settings) you can style where needed */
+.reset-high-btn {
+  background: transparent;
+  border: 1px solid rgba(0,0,0,0.08);
+  padding: 6px 8px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+}
