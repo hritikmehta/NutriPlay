@@ -1,4 +1,5 @@
 import React, { useEffect, useState, useRef } from 'react'
+import { useSession, signIn, signOut, getSession } from "next-auth/react"
 
 const ORANGE = 'orangePrimary'
 
@@ -9,7 +10,8 @@ const GAME_STATES = {
   CATEGORY_SELECTION: 'categorySelection',
   LOADING: 'loading',
   PLAYING: 'playing',
-  GAME_OVER: 'gameOver'
+  GAME_OVER: 'gameOver',
+  LEADERBOARD: 'leaderboard' 
 }
 
 // Available categories
@@ -29,13 +31,17 @@ const CATEGORIES = [
 ]
 
 export default function Home() {
+  const { data: session, status } = useSession()
+  const sessionLoading = status === "loading"
+  const isSignedIn = !!session?.user
+  
   const [allQuestions, setAllQuestions] = useState([])
   const [questions, setQuestions] = useState([])
   const [index, setIndex] = useState(0)
   const [loading, setLoading] = useState(true)
   const [selected, setSelected] = useState(null)
   const [feedback, setFeedback] = useState(null)
-  const [lives, setLives] = useState(5)
+  const [lives, setLives, ] = useState(5)
   const [streak, setStreak] = useState(0)
   const [attempts, setAttempts] = useState(0)
   const [correctAnswers, setCorrectAnswers] = useState(0)
@@ -43,8 +49,7 @@ export default function Home() {
   const [showInfo, setShowInfo] = useState(false)
   const [gameState, setGameState] = useState(GAME_STATES.WELCOME)
   const [selectedCategories, setSelectedCategories] = useState(['random'])
-  // difficulty selection (none selected by default)
-  const [selectedDifficulties, setSelectedDifficulties] = useState([]) // e.g. ['easy','hard']
+  const [selectedDifficulties, setSelectedDifficulties] = useState([])
   const optionRef = useRef({})
 
   const toggleDifficulty = (level) => {
@@ -54,14 +59,14 @@ export default function Home() {
     })
   }
   
-  // feedback form fields / submitting state (fixes ReferenceError: email / userFeedback / submittingFeedback)
   const [email, setEmail] = useState('')
   const [userFeedback, setUserFeedback] = useState('')
   const [submittingFeedback, setSubmittingFeedback] = useState(false)
+  const [feedbackSubmitted, setFeedbackSubmitted] = useState(false) 
 
-  // feedback form state (fixes ReferenceError)
-  const [feedbackSubmitted, setFeedbackSubmitted] = useState(false)
-  // --- NEW: Local High Score Tracking ---
+  const [leaderboardData, setLeaderboardData] = useState(null)
+  const [isFetchingLeaderboard, setIsFetchingLeaderboard] = useState(false)
+
   const [highScore, setHighScore] = useState({
     score: 0,
     correctAnswers: 0,
@@ -71,8 +76,32 @@ export default function Home() {
   })
   const [showNewHighScoreAnimation, setShowNewHighScoreAnimation] = useState(false)
   const [animatingScore, setAnimatingScore] = useState(0)
+  
+  // STATE PERSISTENCE ON REFRESH - LOAD
+  useEffect(() => {
+    const savedState = localStorage.getItem('nutriplay_game_state');
+    const savedCategories = localStorage.getItem('nutriplay_categories');
+    const savedDifficulty = localStorage.getItem('nutriplay_difficulty');
 
-  // Load saved high score on mount
+    if (savedState && savedState !== GAME_STATES.WELCOME) {
+        setGameState(savedState);
+        if (savedCategories) setSelectedCategories(JSON.parse(savedCategories));
+        if (savedDifficulty) setSelectedDifficulties(JSON.parse(savedDifficulty));
+    }
+  }, []);
+
+  // STATE PERSISTENCE ON REFRESH - SAVE
+  useEffect(() => {
+      localStorage.setItem('nutriplay_game_state', gameState);
+
+      if (session?.user?.email) {
+          setEmail(session.user.email)
+      } else if (gameState === GAME_STATES.WELCOME) {
+          setEmail('')
+      }
+
+  }, [gameState, session])
+  
   useEffect(() => {
     try {
       const saved = localStorage.getItem('nutriplay_user_level_highscore')
@@ -85,22 +114,56 @@ export default function Home() {
       console.error('Failed to load high score', e)
     }
   }, [])
+  
+  const uploadScore = async (scorePayload) => {
+      if (!session?.user?.email) return;
 
-  // Check and update high score when game ends
+      try {
+          const res = await fetch('/api/score', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify(scorePayload) 
+          });
+          if (!res.ok) throw new Error(`Failed to upload score. Status: ${res.status}`);
+          console.log('Score uploaded successfully.');
+      } catch (err) {
+          console.error('Error uploading score:', err);
+      }
+  }
+
   const checkHighScore = (calculatedScore, correct, total, accuracy) => {
     const prev = highScore.score || 0
-    if (calculatedScore > prev) {
-      const payload = {
+    const payload = {
         score: calculatedScore,
         correctAnswers: correct,
         accuracy,
         totalAttempts: total,
         lastPlayed: new Date().toISOString()
-      }
+    }
+
+    let newHighScore = false
+    if (calculatedScore > prev) {
+      newHighScore = true
       setHighScore(payload)
       localStorage.setItem('nutriplay_user_level_highscore', JSON.stringify(payload))
+    } else {
+      try {
+        const updated = { ...highScore, lastPlayed: new Date().toISOString() }
+        setHighScore(updated)
+        localStorage.setItem('nutriplay_user_level_highscore', JSON.stringify(updated))
+      } catch (e) {}
+    }
 
-      // trigger animation / counter
+    if (session?.user?.email) {
+        uploadScore({
+            score: calculatedScore, 
+            correctAnswers: correct,
+            totalAttempts: total,
+            accuracy: accuracy
+        });
+    }
+
+    if (newHighScore) {
       setShowNewHighScoreAnimation(true)
       setAnimatingScore(prev)
       const duration = 900
@@ -117,24 +180,15 @@ export default function Home() {
         if (step >= steps) {
           clearInterval(iv)
           setAnimatingScore(calculatedScore)
-          // hide celebration after a short delay
           setTimeout(() => setShowNewHighScoreAnimation(false), 2200)
         }
       }, duration / steps)
-    } else {
-      // update lastPlayed timestamp even if not a new high score
-      try {
-        const updated = { ...highScore, lastPlayed: new Date().toISOString() }
-        setHighScore(updated)
-        localStorage.setItem('nutriplay_user_level_highscore', JSON.stringify(updated))
-      } catch (e) {}
     }
   }
 
-  // When game becomes GAME_OVER, evaluate current score
   useEffect(() => {
     if (gameState === GAME_STATES.GAME_OVER) {
-      const calculatedScore = correctAnswers // choose score metric
+      const calculatedScore = correctAnswers
       const accuracy = attempts ? (correctAnswers / attempts) * 100 : 0
       checkHighScore(calculatedScore, correctAnswers, attempts, Number(accuracy.toFixed(1)))
     }
@@ -146,7 +200,35 @@ export default function Home() {
     setHighScore(empty)
     setAnimatingScore(0)
   }
-  // --- END NEW ---
+  
+  const fetchLeaderboard = async () => {
+      if (isFetchingLeaderboard || !isSignedIn) return; 
+      
+      setIsFetchingLeaderboard(true);
+      setLeaderboardData(null); 
+      setGameState(GAME_STATES.LEADERBOARD); 
+
+      try {
+          const session = await getSession(); 
+          if (!session) throw new Error('User not signed in for leaderboard fetch.');
+
+          const res = await fetch(`/api/leaderboard`);
+          
+          if (res.status === 200) {
+              const data = await res.json();
+              setLeaderboardData(data); 
+          } else if (res.status !== 304) {
+              throw new Error(`Failed to fetch leaderboard: ${res.status} ${res.statusText}`);
+          }
+      } catch (error) {
+          console.error("Failed to fetch leaderboard", error);
+          alert("Failed to load leaderboard. Please try again.")
+          setGameState(GAME_STATES.GAME_OVER); 
+          setLeaderboardData(null); 
+      } finally {
+          setIsFetchingLeaderboard(false);
+      }
+  }
   
   useEffect(() => {
     fetch('/api/questions')
@@ -172,12 +254,10 @@ export default function Home() {
   const filterQuestionsByCategories = (categories, difficulties = []) => {
     let pool = allQuestions
 
-    // category filter
     if (!categories.includes('random')) {
       pool = pool.filter(q => categories.includes(q.category))
     }
 
-    // difficulty filter: if none selected -> allow all
     if (Array.isArray(difficulties) && difficulties.length > 0) {
       pool = pool.filter(q => difficulties.includes((q.difficulty || '').toLowerCase()))
     }
@@ -197,20 +277,15 @@ export default function Home() {
     }
   }, [lives, gameState])
 
-  const startGame = () => {
-    // use current selectedCategories & selectedDifficulties
-    const filtered = filterQuestionsByCategories(selectedCategories, selectedDifficulties)
-    setQuestions(filtered)
-    setIndex(0)
-    setGameState(GAME_STATES.LOADING)
-    setTimeout(() => setGameState(GAME_STATES.PLAYING), 2000)
-  }
- 
   const startGameWithCategories = (categories) => {
     setSelectedCategories(categories)
     const filteredQuestions = filterQuestionsByCategories(categories, selectedDifficulties)
     setQuestions(filteredQuestions)
     setIndex(0)
+    
+    localStorage.setItem('nutriplay_categories', JSON.stringify(categories));
+    localStorage.setItem('nutriplay_difficulty', JSON.stringify(selectedDifficulties));
+
     setGameState(GAME_STATES.LOADING)
     setTimeout(() => setGameState(GAME_STATES.PLAYING), 2000)
   }
@@ -232,6 +307,10 @@ export default function Home() {
   }
 
   const resetGame = () => {
+    localStorage.removeItem('nutriplay_game_state');
+    localStorage.removeItem('nutriplay_categories');
+    localStorage.removeItem('nutriplay_difficulty');
+
     setGameState(GAME_STATES.WELCOME)
     setLives(5)
     setStreak(0)
@@ -240,6 +319,10 @@ export default function Home() {
     setUsedQuestions([])
     setIndex(0)
     setSelectedCategories(['random'])
+    setUserFeedback('')
+    setEmail(session?.user?.email || '')
+    setFeedbackSubmitted(false)
+    setLeaderboardData(null) 
   }
 
   if (loading) {
@@ -265,7 +348,154 @@ export default function Home() {
       </div>
     )
   }
+  
+  // LEADERBOARD SCREEN
+  if (gameState === GAME_STATES.LEADERBOARD) {
+    const { topPlayers, currentUserRank } = leaderboardData || {};
 
+    const renderRank = (rank) => {
+      if (typeof rank === 'number' && rank > 100) return '100+';
+      return rank;
+    }
+
+    // Leaderboard Loading State
+    if (isFetchingLeaderboard || leaderboardData === null) {
+      return (
+        <div className="min-h-screen bg-orangePrimary flex items-center justify-center p-4">
+            <div className="w-full max-w-md bg-white rounded-2xl shadow-lg p-8 text-center">
+                <h1 className="text-3xl font-bold mb-4 flex items-center justify-center gap-2 text-gray-900">
+                    🏆 LEADERBOARD 🏆
+                </h1>
+                <div className="text-gray-400 my-8 flex flex-col items-center">
+                    <div className="animate-spin text-4xl text-orangePrimary">🔄</div>
+                    <div className='mt-3 text-lg font-semibold text-gray-700'>Fetching Leaderboard...</div>
+                </div>
+                <div className="flex justify-center space-x-4 mt-8">
+                    <button
+                        onClick={resetGame}
+                        className="bg-orangePrimary text-white px-6 py-3 rounded-lg font-semibold flex-1"
+                    >
+                        PLAY AGAIN
+                    </button>
+                    <button
+                        onClick={() => setGameState(GAME_STATES.GAME_OVER)}
+                        className="bg-gray-200 text-gray-700 px-6 py-3 rounded-lg font-semibold hover:bg-gray-300 flex-1"
+                    >
+                        BACK
+                    </button>
+                </div>
+            </div>
+        </div>
+      );
+    }
+    
+    // Leaderboard Empty State
+    const isDataEmpty = (topPlayers?.length === 0 && !currentUserRank);
+
+    if (isDataEmpty) {
+        return (
+            <div className="min-h-screen bg-orangePrimary flex items-center justify-center p-4">
+                <div className="w-full max-w-md bg-white rounded-2xl shadow-lg p-8 text-center">
+                    <h1 className="text-3xl font-bold mb-4 flex items-center justify-center gap-2 text-gray-900">
+                        🏆 LEADERBOARD 🏆
+                    </h1>
+                    <p className="text-gray-600 my-8 text-lg font-medium">No leaderboard data found. Play a game to submit your first score!</p>
+                    <div className="flex justify-center space-x-4 mt-8">
+                        <button
+                            onClick={resetGame}
+                            className="bg-orangePrimary text-white px-6 py-3 rounded-lg font-semibold flex-1"
+                        >
+                            PLAY AGAIN
+                        </button>
+                        <button
+                            onClick={() => setGameState(GAME_STATES.GAME_OVER)}
+                            className="bg-gray-200 text-gray-700 px-6 py-3 rounded-lg font-semibold hover:bg-gray-300 flex-1"
+                        >
+                            BACK
+                        </button>
+                    </div>
+                </div>
+            </div>
+        )
+    }
+
+    
+    // Leaderboard Content
+    return (
+        <div className="min-h-screen bg-orangePrimary flex items-center justify-center p-4">
+            <div className="w-full max-w-md bg-white rounded-2xl shadow-lg p-8 text-center">
+                <h1 className="text-3xl font-bold mb-6 flex items-center justify-center gap-2 text-gray-900">
+                    🏆 LEADERBOARD 🏆
+                </h1>
+
+                <div className="space-y-2 max-h-96 overflow-y-auto pr-1 mb-4">
+                    {topPlayers && topPlayers.slice(0, 15).map((player, index) => {
+                        const isHighlighted = isSignedIn && player.email === session?.user?.email; 
+                        const rank = index + 1;
+                        
+                        return (
+                            <div
+                                key={rank}
+                                className={`flex justify-between items-center p-3 rounded-lg transition-all border ${
+                                    isHighlighted 
+                                        ? 'bg-orangePrimary text-white shadow-lg scale-[1.01] border-yellow-400' 
+                                        : 'bg-gray-50 hover:bg-gray-100 border-gray-200'
+                                }`}
+                            >
+                                <div className="font-bold text-lg w-1/12">#{rank}</div>
+                                <div className="text-left flex-1 truncate pl-3">
+                                    <span className={`font-semibold ${isHighlighted ? 'text-white' : 'text-gray-800'}`}>{player.name || 'Anonymous'}</span>
+                                    {isHighlighted && <span className="text-sm ml-2 text-white/90">(You)</span>}
+                                </div>
+                                <div className="text-right flex flex-col items-end">
+                                    <div className="font-bold text-lg">{player.score}</div>
+                                    <div className={`text-xs ${isHighlighted ? 'text-white/80' : 'text-gray-500'}`}>{Number(player.accuracy || 0).toFixed(1)}% Acc</div>
+                                </div>
+                            </div>
+                        )
+                    })}
+                </div>
+                
+                {currentUserRank && (
+                   currentUserRank.rank > 15 || currentUserRank.rank === '100+' || !topPlayers.slice(0, 15).some(p => p.email === session?.user?.email)
+                ) && (
+                    <div className="mt-4 pt-4 border-t border-gray-200">
+                        <div className="text-sm font-semibold text-gray-500 mb-2">YOUR POSITION</div>
+                        <div className="flex justify-between items-center p-3 rounded-lg bg-blue-50 border-2 border-blue-400">
+                            <div className="font-bold text-lg w-1/12 text-blue-600">#{renderRank(currentUserRank.rank)}</div>
+                            <div className="text-left flex-1 truncate pl-3 font-semibold text-blue-700">You</div>
+                            <div className="text-right flex flex-col items-end">
+                                <div className="font-bold text-lg text-blue-600">Score: {currentUserRank.score}</div>
+                                <div className="text-xs text-blue-500">{Number(currentUserRank.accuracy || 0).toFixed(1)}% Acc</div>
+                            </div>
+                        </div>
+                        <p className="text-sm text-gray-500 mt-2">
+                            You ranked #{renderRank(currentUserRank.rank)} out of {currentUserRank.totalPlayers} players!
+                        </p>
+                    </div>
+                )}
+
+
+                <div className="flex justify-center space-x-4 mt-8">
+                    <button
+                        onClick={resetGame}
+                        className="bg-orangePrimary text-white px-6 py-3 rounded-lg font-semibold flex-1"
+                    >
+                        PLAY AGAIN
+                    </button>
+                    <button
+                        onClick={() => setGameState(GAME_STATES.GAME_OVER)}
+                        className="bg-gray-200 text-gray-700 px-6 py-3 rounded-lg font-semibold hover:bg-gray-300 flex-1"
+                    >
+                        BACK
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    );
+  }; // END LEADERBOARD SCREEN
+  
   // Welcome Screen
   if (gameState === GAME_STATES.WELCOME) {
     return (
@@ -274,15 +504,57 @@ export default function Home() {
           <div className="text-6xl mb-6">🐰</div>
           <h1 className="text-3xl font-bold text-gray-900 mb-2">NutriPlay</h1>
           <p className="text-lg text-gray-600 mb-8">Learn to Eat Smart — One Bite at a Time 🥕</p>
-          <p className="text-gray-600 mb-8 leading-relaxed">
-            Ready to test your nutrition knowledge and build healthy habits?
-          </p>
-          <button
-            onClick={() => setGameState(GAME_STATES.HOW_TO_PLAY)}
-            className="bg-orangePrimary text-white px-8 py-3 rounded-lg font-semibold btn-primary text-lg"
-          >
-            ➡️ Let's Begin!
-          </button>
+          
+          {sessionLoading ? (
+            <div className="mb-8">
+              <p className="text-gray-600">🔄 Connecting to Google...</p>
+            </div>
+          ) : session ? (
+            <div className="mb-8">
+              <div className="flex items-center justify-center gap-3 mb-4">
+                {session.user?.image && (
+                  <img src={session.user.image} alt="" className="w-10 h-10 rounded-full" />
+                )}
+                <p className="text-gray-700">Welcome, {session.user?.name}!</p>
+              </div>
+              <button
+                onClick={() => setGameState(GAME_STATES.HOW_TO_PLAY)}
+                className="bg-orangePrimary text-white px-8 py-3 rounded-lg font-semibold btn-primary text-lg w-full mb-4"
+              >
+                ➡️ Let's Begin!
+              </button>
+              <button
+                onClick={() => signOut()}
+                className="text-gray-600 text-sm hover:underline"
+              >
+                Sign out
+              </button>
+            </div>
+          ) : (
+            <div className="space-y-4 mb-8">
+              <button
+                onClick={() => signIn('google')}
+                className="flex items-center justify-center gap-2 w-full bg-white border-2 border-gray-200 text-gray-700 px-8 py-3 rounded-lg font-semibold hover:border-gray-300 transition-colors"
+              >
+                <span>🔐</span>
+                <span>Sign in with Google</span>
+              </button>
+              <div className="relative">
+                <div className="absolute inset-0 flex items-center">
+                  <div className="w-full border-t border-gray-200"></div>
+                </div>
+                <div className="relative flex justify-center text-sm">
+                  <span className="px-2 bg-white text-gray-500">or</span>
+                </div>
+              </div>
+              <button
+                onClick={() => setGameState(GAME_STATES.HOW_TO_PLAY)}
+                className="w-full bg-gray-100 text-gray-700 px-8 py-3 rounded-lg font-semibold hover:bg-gray-200 transition-colors"
+              >
+                Play as Guest
+              </button>
+            </div>
+          )}
         </div>
       </div>
     )
@@ -331,6 +603,11 @@ export default function Home() {
 
   // Category Selection Screen
   if (gameState === GAME_STATES.CATEGORY_SELECTION) {
+    const selectedCategoryNames = selectedCategories.map(catId =>
+      CATEGORIES.find(c => c.id === catId)?.name || 'Random'
+    ).join(', ')
+    const selectedDifficultyNames = selectedDifficulties.length ? selectedDifficulties.map(d => d[0].toUpperCase() + d.slice(1)).join(', ') : 'Any'
+    
     return (
       <div className="min-h-screen bg-orangePrimary flex items-center justify-center p-4">
         <div className="w-full max-w-md bg-white rounded-2xl shadow-lg p-8 text-center">
@@ -375,7 +652,6 @@ export default function Home() {
             ))}
           </div>
 
-          {/* Difficulty selector - horizontal */}
           <div className="mb-6">
             <div className="flex justify-center gap-3">
                {['easy','medium','hard'].map(level => {
@@ -395,6 +671,8 @@ export default function Home() {
                })}
              </div>
            </div>
+           
+           <p className="text-sm text-orangePrimary font-medium mb-6">Current Selection: {selectedCategoryNames} • Difficulty: {selectedDifficultyNames}</p>
 
           <button
             onClick={() => startGameWithCategories(selectedCategories)}
@@ -432,6 +710,11 @@ export default function Home() {
   // Game Over Screen
   if (gameState === GAME_STATES.GAME_OVER) {
     const accuracy = attempts > 0 ? Math.round((correctAnswers / attempts) * 100) : 0
+    const emailValue = isSignedIn ? (session.user.email || '') : email
+    // REVISED: Placeholder now uses name@gmail.com if not signed in
+    const placeholderEmail = isSignedIn ? (session.user.email || 'Your email will be pre-filled') : 'name@gmail.com'
+
+
     return (
       <div className="min-h-screen bg-orangePrimary flex items-center justify-center p-4">
         <div className="w-full max-w-md bg-white rounded-2xl shadow-lg p-8 text-center">
@@ -454,79 +737,118 @@ export default function Home() {
               <div className="text-lg font-bold text-blue-600">{accuracy}%</div>
               <div className="text-gray-600">Accuracy</div>
             </div>
+            <div className="mt-3 text-center border-t pt-2 mt-2">
+              <div className="text-lg font-bold text-orangePrimary">High Score: {highScore?.score ?? 0}</div>
+            </div>
           </div>
+
+          {/* New Button Order: Play Again, Leaderboard, then Feedback */}
+          <div className="space-y-3 mb-6">
+              <button
+                onClick={resetGame}
+                className="w-full bg-orangePrimary text-white px-6 py-3 rounded-lg font-semibold btn-primary"
+              >
+                Play Again
+              </button>
+              
+              {isSignedIn ? (
+                <button
+                  onClick={fetchLeaderboard}
+                  disabled={isFetchingLeaderboard}
+                  className="w-full bg-gray-100 text-gray-700 px-6 py-3 rounded-lg font-semibold hover:bg-gray-200 transition-colors flex items-center justify-center gap-2"
+                >
+                  {isFetchingLeaderboard ? 'Loading Leaderboard...' : 'View LeaderBoard 🏆'}
+                </button>
+              ) : (
+                <button
+                  onClick={() => signIn('google')}
+                  className="w-full bg-gray-100 text-gray-500 px-6 py-3 rounded-lg font-semibold transition-colors flex items-center justify-center gap-2"
+                  title="Sign in to view the leaderboard"
+                >
+                  View Leaderboard 🏆 (Sign in required)
+                </button>
+              )}
+          </div>
+          {/* End New Button Order */}
+
 
           {!feedbackSubmitted ? (
             <form
               onSubmit={async (e) => {
                 e.preventDefault()
+                
+                // If no feedback, prevent submission.
+                if(userFeedback.length === 0) return;
+                
                 setSubmittingFeedback(true)
                 try {
-                  await fetch('/api/feedback', {
+                  const res = await fetch('/api/feedback', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({
-                      email: email || null,
+                      email: emailValue || null, 
                       feedback: userFeedback || null,
                       attempts,
                       correctAnswers,
                       accuracy,
                       selectedCategories,
-                      selectedDifficulties, // new: include selected difficulty(s)
+                      selectedDifficulties,
                       ts: new Date().toISOString()
                     })
                   })
+                  if (!res.ok) throw new Error('Failed to submit feedback');
+                  
                   setFeedbackSubmitted(true)
                 } catch (err) {
                   console.error('Feedback submit error', err)
+                  alert("Failed to submit feedback. Please try again.") 
                 } finally {
                   setSubmittingFeedback(false)
                 }
               }}
             >
               <div className="mb-4">
-                <label className="block text-sm font-medium text-gray-700 mb-1">Email (optional)</label>
+                {/* REVISED: New label text */}
+                <label className="block text-sm font-bold text-gray-700 mb-2">Share Your Experience</label>
                 <input
                   type="email"
-                  value={email}
+                  value={emailValue}
+                  readOnly={isSignedIn}
                   onChange={(e) => setEmail(e.target.value)}
-                  placeholder="you@example.com"
-                  className="w-full border rounded px-3 py-2 text-sm"
+                  placeholder={placeholderEmail}
+                  className={`w-full border rounded px-3 py-2 text-sm ${isSignedIn ? 'bg-gray-100 text-gray-500' : 'bg-white'}`}
                 />
               </div>
               <div className="mb-4">
-                <label className="block text-sm font-medium text-gray-700 mb-1">Feedback (optional)</label>
+                {/* REMOVED: 'Feedback' label */}
                 <textarea
                   value={userFeedback}
                   onChange={(e) => setUserFeedback(e.target.value)}
-                  rows={4}
+                  rows={3} // OPTIMIZED: Reduced rows for better space
                   placeholder="Share your thoughts..."
                   className="w-full border rounded px-3 py-2 text-sm"
                 />
               </div>
-              <div className="flex items-center justify-between">
-                <button
-                  type="submit"
-                  disabled={submittingFeedback}
-                  className="bg-orangePrimary text-white px-6 py-2 rounded-lg font-semibold"
-                >
-                  {submittingFeedback ? 'Sending…' : 'Submit Feedback'}
-                </button>
-                <button type="button" onClick={() => setFeedbackSubmitted(true)} className="text-sm text-gray-500">
-                  Skip
-                </button>
-              </div>
+
+              {/* MODIFIED: Conditionally render the submit button only if feedback exists, with "Play Again" styling */}
+              {userFeedback.length > 0 && (
+                  <div className="flex items-center justify-center mb-4">
+                    <button
+                      type="submit"
+                      disabled={submittingFeedback}
+                      className={`w-full bg-orangePrimary text-white px-6 py-3 rounded-lg font-semibold btn-primary disabled:opacity-50`}
+                    >
+                      {submittingFeedback ? 'Sending…' : 'Submit Feedback'}
+                    </button>
+                  </div>
+              )}
+
             </form>
           ) : (
-            <div>Thank you for your feedback</div>
+            <div className="mb-4 pt-4 border-t border-gray-200">
+              <p className="text-green-600 font-semibold">Thank you for your feedback! 🥕</p>
+            </div>
           )}
-
-          <button
-            onClick={resetGame}
-            className="bg-orangePrimary text-white px-6 py-3 rounded-lg font-semibold btn-primary"
-          >
-            Play Again
-          </button>
         </div>
       </div>
     )
@@ -594,18 +916,8 @@ export default function Home() {
     }
   }
 
-  const getDifficultyColor = (difficulty) => {
-    switch (difficulty) {
-      case 'easy': return 'text-green-600 bg-green-100'
-      case 'medium': return 'text-yellow-600 bg-yellow-100'
-      case 'hard': return 'text-red-600 bg-red-100'
-      default: return 'text-gray-600 bg-gray-100'
-    }
-  }
-
   return (
     <div className="min-h-screen bg-orangePrimary font-sans flex flex-col items-center p-4">
-      {/* Header, subtitle, carrots and attempts - White Box, single row */}
       <div className="w-full max-w-md mt-8">
         <div className="bg-white rounded-2xl shadow-lg p-6 border border-gray-100">
           <div className="mb-2">
@@ -613,7 +925,6 @@ export default function Home() {
             <p className="text-sm text-gray-500">Learn to Eat Smart — One Bite at a Time!</p>
           </div>
           <div className="flex items-center justify-between">
-            {/* Carrots on the left */}
             <div className="flex items-center space-x-1">
               {Array.from({ length: 5 }).map((_, i) => {
                 let carrotClass = 'text-2xl'
@@ -643,17 +954,14 @@ export default function Home() {
                 )
               })}
             </div>
-            {/* Scores on the right: High Score (local) + Current Score */}
             <div className="text-sm text-gray-500 text-right">
               <div>Your High Score: <span className="font-semibold text-orangePrimary">{highScore?.score ?? 0}</span></div>
               <div>Current Score: <span className="font-semibold text-gray-900">{correctAnswers}</span></div>
-              {/* <div className="mt-1 text-xs text-gray-400">Attempts: {attempts}</div> */}
             </div>
           </div>
         </div>
       </div>
 
-      {/* New High Score Celebration Overlay */}
       {showNewHighScoreAnimation && (
         <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
           <div className="bg-white rounded-lg shadow-lg p-6 max-w-sm w-full text-center">
@@ -663,9 +971,7 @@ export default function Home() {
               <span className="text-orangePrimary">🎉</span>
             </div>
             <div className="text-6xl font-bold text-gray-900 mb-4">
-              <animated.div className="inline-block" style={{}}>
-                {animatingScore}
-              </animated.div>
+              {animatingScore}
             </div>
             <p className="text-gray-700 mb-4">You've set a new personal best!</p>
             <button
@@ -678,7 +984,6 @@ export default function Home() {
         </div>
       )}
 
-      {/* Question Card */}
       <main className="flex-1 w-full max-w-md flex items-center justify-center">
         <div className="w-full bg-white rounded-2xl shadow-lg p-6 border border-gray-100">
             <div className="flex items-center justify-end mb-4">
@@ -766,11 +1071,9 @@ export default function Home() {
         </div>
       </main>
 
-      {/* Footer */}
       <footer className="w-full max-w-md text-center text-xs text-white pb-6 mt-4">
         Made with ❤️ for smarter eating
       </footer>
-      {/* Mascot */}
       <div className="fixed bottom-4 right-4 text-4xl animate-bounce">
         🐰
       </div>

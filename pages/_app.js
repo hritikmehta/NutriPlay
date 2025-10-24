@@ -1,8 +1,13 @@
+// pages/_app.js
+
 import '../styles/globals.css'
 import Head from 'next/head'
 import { Analytics } from '@vercel/analytics/react'
+import { SessionProvider } from 'next-auth/react' // 👈 Import SessionProvider
 
-export default function MyApp({ Component, pageProps }) {
+export default function MyApp({ Component, pageProps: { session, ...pageProps } }) {
+  // 👈 Destructure the 'session' object from pageProps
+  
   return (
     <>
       <Head>
@@ -14,7 +19,14 @@ export default function MyApp({ Component, pageProps }) {
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
         <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🥕</text></svg>" />
       </Head>
-      <Component {...pageProps} />
+      
+      {/* This is the fix for the "[next-auth]: useSession must be wrapped in a <SessionProvider />" error.
+        It wraps the component with the session context. 
+      */}
+      <SessionProvider session={session}>
+        <Component {...pageProps} />
+      </SessionProvider>
+      
       <Analytics />
     </>
   )
