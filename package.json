@@ -12,6 +12,8 @@
     "@vercel/analytics": "^1.5.0",
     "googleapis": "^164.1.0",
     "next": "14.2.33",
+    "next-auth": "^4.24.5",
+    "@auth/google": "^0.2.0",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
