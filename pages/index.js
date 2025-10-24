@@ -986,16 +986,30 @@ export default function Home() {
 
       <main className="flex-1 w-full max-w-md flex items-center justify-center">
         <div className="w-full bg-white rounded-2xl shadow-lg p-6 border border-gray-100">
-            <div className="flex items-center justify-end mb-4">
+            {/* MODIFIED: Consolidated the category/difficulty display and the next button into one row */}
+            <div className="flex items-center justify-between mb-4">
+              {/* Category and Difficulty on the left */}
               <div className="flex items-center space-x-2">
                 <span className="px-2 py-1 rounded-full text-xs font-medium border border-orangePrimary text-gray-600 capitalize">
                   {q.category}
                 </span>
-                <span className="px-2 py-1 rounded-full text-xs font-medium border border-orangePrimary text-gray-600">
+                <span className="px-2 py-1 rounded-full text-xs font-medium border border-orangePrimary text-gray-600 capitalize">
                   {q.difficulty}
                 </span>
               </div>
+              
+              {/* Next Question CTA on the right */}
+              <div>
+                <button
+                  onClick={onNext}
+                  className="bg-orangePrimary text-white px-6 py-2 rounded-lg font-semibold btn-primary disabled:opacity-50 disabled:cursor-not-allowed"
+                  disabled={!showInfo}
+                >
+                  Next Question
+                </button>
+              </div>
             </div>
+            
           <div className="text-lg font-semibold mb-6 text-gray-800 leading-relaxed">
             {q.question}
           </div>
@@ -1050,24 +1064,7 @@ export default function Home() {
               </div>
             </div>
           )}
-          <div className="mt-6 flex justify-between items-center">
-            <div className="text-sm text-gray-500">
-              {lives > 0 ? (
-                <span>Lives: {lives}</span>
-              ) : (
-                <span className="text-red-500">No lives left!</span>
-              )}
-            </div>
-            <div>
-              <button
-                onClick={onNext}
-                className="bg-orangePrimary text-white px-6 py-2 rounded-lg font-semibold btn-primary disabled:opacity-50 disabled:cursor-not-allowed"
-                disabled={!showInfo}
-              >
-                Next Question
-              </button>
-            </div>
-          </div>
+          {/* REMOVED: The previous bottom row which contained the lives count and the next question button */}
         </div>
       </main>
 

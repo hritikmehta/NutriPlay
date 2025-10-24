@@ -2,9 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/api/leaderboard": "pages/api/leaderboard.js",
-  "/api/auth/[...nextauth]": "pages/api/auth/[...nextauth].js",
   "/api/questions": "pages/api/questions.js",
-  "/": "pages/index.js",
-  "/api/score": "pages/api/score.js"
+  "/api/auth/[...nextauth]": "pages/api/auth/[...nextauth].js",
+  "/": "pages/index.js"
 }
