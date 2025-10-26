@@ -2103,6 +2103,3192 @@
         "nausea"
       ],
       "funFact": "Ginger is often used in traditional medicine for stomach issues!"
+    },
+    {
+      "id": "q300",
+      "category": "calories",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "question": "Which macronutrient provides 9 calories per gram?",
+      "options": [
+        "Carbohydrates",
+        "Protein",
+        "Fat",
+        "Fiber"
+      ],
+      "correct": 2,
+      "explanation": "Fat (lipids) is the most energy-dense macronutrient, providing 9 calories per gram. Protein and carbohydrates provide 4 calories per gram.",
+      "source": "USDA Nutritional Data",
+      "tags": [
+        "macronutrients",
+        "calories",
+        "fat"
+      ],
+      "funFact": "The high calorie density of fat helps the body store energy efficiently."
+    },
+    {
+      "id": "q301",
+      "category": "calories",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "Approximately how many calories are in a typical large apple?",
+      "options": [
+        "50 kcal",
+        "95 kcal",
+        "150 kcal",
+        "200 kcal"
+      ],
+      "correct": 1,
+      "explanation": "A large apple (around 220g) typically contains about 110-120 calories, making 95 kcal the closest option for a typical large size.",
+      "source": "USDA FoodData Central",
+      "tags": [
+        "fruit",
+        "calories",
+        "snack"
+      ],
+      "funFact": "Apples are high in fiber, which helps you feel full without consuming many calories."
+    },
+    {
+      "id": "q302",
+      "category": "calories",
+      "difficulty": "medium",
+      "type": "true-false",
+      "question": "True or False: A standard 12-ounce can of regular cola contains over 100 calories.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explanation": "A standard 12-ounce (355 ml) can of regular cola contains approximately 140 calories, all from sugar.",
+      "source": "Beverage Industry Data",
+      "tags": [
+        "empty-calories",
+        "sugar",
+        "beverage"
+      ],
+      "funFact": "These calories are often called 'empty calories' as they provide little to no essential nutrients."
+    },
+    {
+      "id": "q303",
+      "category": "calories",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "question": "How many calories are in 1 gram of protein?",
+      "options": [
+        "2 kcal",
+        "4 kcal",
+        "7 kcal",
+        "9 kcal"
+      ],
+      "correct": 1,
+      "explanation": "Both protein and carbohydrates provide 4 calories per gram.",
+      "source": "General Nutrition Science",
+      "tags": [
+        "macronutrients",
+        "protein",
+        "energy"
+      ],
+      "funFact": "The process of digesting protein also slightly increases the body's energy expenditure."
+    },
+    {
+      "id": "q304",
+      "category": "calories",
+      "difficulty": "hard",
+      "type": "multiple-choice",
+      "question": "Approximately how many calories are in a small serving (1 oz / 28g) of dry-roasted almonds?",
+      "options": [
+        "50 kcal",
+        "100 kcal",
+        "165 kcal",
+        "220 kcal"
+      ],
+      "correct": 2,
+      "explanation": "Almonds are calorie-dense due to their high fat content. A 1 oz serving has approximately 165 calories.",
+      "source": "USDA FoodData Central",
+      "tags": [
+        "nuts",
+        "calories",
+        "snack"
+      ],
+      "funFact": "Due to their high fiber content, the body only absorbs about 80-90% of the listed calories in nuts."
+    },
+    {
+      "id": "q305",
+      "category": "calories",
+      "difficulty": "medium",
+      "type": "true-false",
+      "question": "True or False: A half cup of cooked white rice contains more calories than half a cup of cooked brown rice.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explanation": "False. White and brown rice have a very similar calorie count (approx. 100-110 kcal per 1/2 cup cooked). The main difference is the fiber and nutrient content.",
+      "source": "Rice Nutritional Analysis",
+      "tags": [
+        "grains",
+        "calories",
+        "rice"
+      ],
+      "funFact": "Brown rice offers more fiber, which is beneficial for digestion and blood sugar control."
+    },
+    {
+      "id": "q306",
+      "category": "calories",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "question": "Which of the following is considered an 'empty calorie' food?",
+      "options": [
+        "Broccoli",
+        "Plain Yogurt",
+        "Candy Bar",
+        "Chicken Breast"
+      ],
+      "correct": 2,
+      "explanation": "Empty calories come from foods containing high energy (calories) but little to no essential nutrients, such as a candy bar.",
+      "source": "Dietary Guidelines for Americans",
+      "tags": [
+        "empty-calories",
+        "sugar",
+        "nutrition"
+      ],
+      "funFact": "Foods high in solid fats and/or added sugars are the primary sources of empty calories."
+    },
+    {
+      "id": "q307",
+      "category": "calories",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "The term TDEE stands for the total number of calories the body burns in a day. What does TDEE mean?",
+      "options": [
+        "Total Daily Energy Expenditure",
+        "Total Diet and Eating Estimate",
+        "Thermal Dynamic Energy Equivalent",
+        "Total Digestible Energy Estimate"
+      ],
+      "correct": 0,
+      "explanation": "TDEE stands for Total Daily Energy Expenditure and is the total number of calories you burn each day, including exercise and digestion.",
+      "source": "Exercise Physiology",
+      "tags": [
+        "metabolism",
+        "calories",
+        "weight-management"
+      ],
+      "funFact": "TDEE is made up of your BMR (Basal Metabolic Rate), TEF (Thermic Effect of Food), and your activity level."
+    },
+    {
+      "id": "q308",
+      "category": "calories",
+      "difficulty": "medium",
+      "type": "true-false",
+      "question": "True or False: Black coffee contains virtually no calories.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explanation": "True. A standard cup of black coffee contains only about 2-5 calories.",
+      "source": "USDA FoodData Central",
+      "tags": [
+        "beverage",
+        "calories",
+        "caffeine"
+      ],
+      "funFact": "Adding a splash of milk or sugar is where the majority of coffee calories come from."
+    },
+    {
+      "id": "q309",
+      "category": "calories",
+      "difficulty": "hard",
+      "type": "multiple-choice",
+      "question": "Which component of the Total Daily Energy Expenditure (TDEE) accounts for the largest percentage of calories burned for most sedentary individuals?",
+      "options": [
+        "Thermic Effect of Food (TEF)",
+        "Exercise Activity",
+        "Non-Exercise Activity Thermogenesis (NEAT)",
+        "Basal Metabolic Rate (BMR)"
+      ],
+      "correct": 3,
+      "explanation": "BMR (Basal Metabolic Rate) accounts for the vast majority (60-75%) of calories burned per day, supporting basic life functions.",
+      "source": "Human Metabolism Studies",
+      "tags": [
+        "metabolism",
+        "BMR",
+        "energy"
+      ],
+      "funFact": "Muscle tissue is more metabolically active than fat tissue, contributing to a higher BMR."
+    },
+    {
+      "id": "q310",
+      "category": "calories",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "question": "Which of these vegetables is lowest in calories per 100g?",
+      "options": [
+        "Potatoes",
+        "Avocado",
+        "Celery",
+        "Sweet Corn"
+      ],
+      "correct": 2,
+      "explanation": "Celery is one of the lowest-calorie foods, mostly due to its high water content and fiber.",
+      "source": "Vegetable Nutritional Comparison",
+      "tags": [
+        "vegetable",
+        "calories",
+        "water"
+      ],
+      "funFact": "Foods with high water content, like celery and cucumber, are naturally low in calories."
+    },
+    {
+      "id": "q311",
+      "category": "calories",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "How many calories are in 1 gram of carbohydrate?",
+      "options": [
+        "4 kcal",
+        "7 kcal",
+        "9 kcal",
+        "12 kcal"
+      ],
+      "correct": 0,
+      "explanation": "Carbohydrates, like protein, provide 4 calories per gram.",
+      "source": "General Nutrition Science",
+      "tags": [
+        "macronutrients",
+        "carbohydrate",
+        "energy"
+      ],
+      "funFact": "Carbohydrates are the body's preferred source of energy."
+    },
+    {
+      "id": "q312",
+      "category": "calories",
+      "difficulty": "hard",
+      "type": "true-false",
+      "question": "True or False: The Thermic Effect of Food (TEF) accounts for roughly 25% of the total calories you burn each day.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explanation": "False. TEF, the energy required for digestion, absorption, and disposal of nutrients, accounts for only about 5-10% of TDEE.",
+      "source": "Metabolism Research",
+      "tags": [
+        "metabolism",
+        "TEF",
+        "energy"
+      ],
+      "funFact": "Protein has the highest TEF, meaning your body burns more calories digesting it than fat or carbs."
+    },
+    {
+      "id": "q313",
+      "category": "calories",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "Which type of milk generally contains the most calories per cup (8oz)?",
+      "options": [
+        "Skim Milk (0%)",
+        "1% Milk",
+        "2% Milk",
+        "Whole Milk (3.25%)"
+      ],
+      "correct": 3,
+      "explanation": "Whole milk has the highest fat content (approx. 8g of fat) and therefore the most calories (approx. 150 kcal) per cup.",
+      "source": "Dairy Nutrition Facts",
+      "tags": [
+        "dairy",
+        "calories",
+        "fat"
+      ],
+      "funFact": "Most of the calorie difference between milk types comes from the varying levels of milk fat."
+    },
+    {
+      "id": "q314",
+      "category": "calories",
+      "difficulty": "easy",
+      "type": "true-false",
+      "question": "True or False: One tablespoon of olive oil contains over 100 calories.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explanation": "True. One tablespoon of olive oil, being pure fat, contains approximately 120 calories.",
+      "source": "USDA FoodData Central",
+      "tags": [
+        "fat",
+        "oil",
+        "cooking"
+      ],
+      "funFact": "All cooking oils have approximately the same calorie count per tablespoon."
+    },
+    {
+      "id": "q315",
+      "category": "calories",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "Which of these foods has a higher calorie count per 100 grams?",
+      "options": [
+        "Grilled Chicken Breast",
+        "Cooked Lentils",
+        "Avocado",
+        "Plain Greek Yogurt"
+      ],
+      "correct": 2,
+      "explanation": "Avocado is calorie-dense due to its healthy fat content (approx. 160 kcal/100g), compared to the other options (approx. 100-150 kcal/100g).",
+      "source": "Food Calorie Database",
+      "tags": [
+        "comparison",
+        "calories",
+        "fat"
+      ],
+      "funFact": "Most of the fat in avocados is heart-healthy monounsaturated fat."
+    },
+    {
+      "id": "q316",
+      "category": "calories",
+      "difficulty": "hard",
+      "type": "multiple-choice",
+      "question": "How many calories are in 1 gram of dietary fiber that the body digests?",
+      "options": [
+        "0 kcal",
+        "1-2 kcal",
+        "4 kcal",
+        "9 kcal"
+      ],
+      "correct": 1,
+      "explanation": "While traditionally thought to be 0 kcal, fiber is partially fermented by gut bacteria, providing an estimated 1.5 to 2.5 calories per gram that the body can use.",
+      "source": "Scientific Consensus on Fiber Energy",
+      "tags": [
+        "fiber",
+        "calories",
+        "digestion"
+      ],
+      "funFact": "This partial fermentation contributes to the overall energy value of whole foods."
+    },
+    {
+      "id": "q317",
+      "category": "calories",
+      "difficulty": "medium",
+      "type": "true-false",
+      "question": "True or False: Saturated fat and unsaturated fat both provide the same amount of calories per gram.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explanation": "True. All types of fat—saturated, monounsaturated, and polyunsaturated—contain 9 calories per gram.",
+      "source": "General Nutrition Science",
+      "tags": [
+        "fat",
+        "calories",
+        "macronutrients"
+      ],
+      "funFact": "The calorie count is the same, but their effect on heart health is very different."
+    },
+    {
+      "id": "q318",
+      "category": "calories",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "question": "What unit is commonly used on food labels in the US to measure food energy?",
+      "options": [
+        "Joules (J)",
+        "Kilojoules (kJ)",
+        "Kilocalories (kcal) / Calories",
+        "Watts (W)"
+      ],
+      "correct": 2,
+      "explanation": "Food energy is measured in kilocalories (kcal), which is often simply referred to as a 'Calorie' (capital 'C') on food labels.",
+      "source": "FDA Labeling Requirements",
+      "tags": [
+        "measurement",
+        "calories",
+        "labeling"
+      ],
+      "funFact": "One Calorie (kcal) is equal to 1,000 calories (lowercase 'c')."
+    },
+    {
+      "id": "q319",
+      "category": "calories",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "Which activity burns the most calories per hour for a 150lb/68kg person?",
+      "options": [
+        "Brisk Walking",
+        "Swimming Laps",
+        "Light Housework",
+        "Weightlifting"
+      ],
+      "correct": 1,
+      "explanation": "Swimming laps is a full-body workout that typically burns the most calories per hour, often exceeding 500 kcal.",
+      "source": "Compendium of Physical Activities",
+      "tags": [
+        "exercise",
+        "calories",
+        "metabolism"
+      ],
+      "funFact": "The intensity and duration of an activity are the most significant factors in calorie expenditure."
+    },
+    {
+      "id": "q320",
+      "category": "calories",
+      "difficulty": "easy",
+      "type": "true-false",
+      "question": "True or False: Water contains 0 calories.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explanation": "True. Water provides essential hydration and has zero caloric value.",
+      "source": "Hydration Science",
+      "tags": [
+        "beverage",
+        "calories",
+        "water"
+      ],
+      "funFact": "While water has no calories, cold water can briefly increase your metabolism as your body warms it up."
+    },
+    {
+      "id": "q321",
+      "category": "calories",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "The estimated calorie intake needed to lose 1 pound (0.45 kg) of body fat is to create a deficit of approximately:",
+      "options": [
+        "1,000 calories",
+        "2,500 calories",
+        "3,500 calories",
+        "5,000 calories"
+      ],
+      "correct": 2,
+      "explanation": "The scientific consensus is that a 3,500 calorie deficit is required to lose about one pound of body fat.",
+      "source": "Weight Management Science",
+      "tags": [
+        "weight-loss",
+        "calories",
+        "fat"
+      ],
+      "funFact": "A daily deficit of 500 calories is a common goal to lose about 1 pound per week."
+    },
+    {
+      "id": "q322",
+      "category": "calories",
+      "difficulty": "hard",
+      "type": "multiple-choice",
+      "question": "Which type of sweetener contains 4 calories per gram and is not considered a sugar?",
+      "options": [
+        "Stevia",
+        "Erythritol",
+        "Xylitol",
+        "Sucralose"
+      ],
+      "correct": 2,
+      "explanation": "Xylitol is a sugar alcohol that provides 2.4 calories per gram (closest to 4 kcal/g among sugar alcohols) and is commonly used as a sugar substitute.",
+      "source": "FDA Sweetener Guidelines",
+      "tags": [
+        "sweetener",
+        "sugar-alcohol",
+        "calories"
+      ],
+      "funFact": "Erythritol is another sugar alcohol, but it is much lower, at only about 0.2 calories per gram."
+    },
+    {
+      "id": "q323",
+      "category": "calories",
+      "difficulty": "easy",
+      "type": "true-false",
+      "question": "True or False: Eating a very large meal causes your Basal Metabolic Rate (BMR) to drop significantly.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explanation": "False. Eating food increases your metabolic rate due to the Thermic Effect of Food (TEF) to digest the meal.",
+      "source": "Metabolism Research",
+      "tags": [
+        "metabolism",
+        "BMR",
+        "digestion"
+      ],
+      "funFact": "BMR is largely determined by factors like age, sex, weight, and muscle mass, and doesn't change drastically based on a single meal."
+    },
+    {
+      "id": "q324",
+      "category": "calories",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "Which common condiment is generally lowest in calories per tablespoon?",
+      "options": [
+        "Mayonnaise",
+        "Ketchup",
+        "Mustard (yellow)",
+        "Ranch Dressing"
+      ],
+      "correct": 2,
+      "explanation": "Yellow mustard is very low, often under 5 calories per tablespoon. Mayonnaise and Ranch dressing are fat-based and high in calories.",
+      "source": "Condiment Nutrition Facts",
+      "tags": [
+        "condiment",
+        "calories",
+        "fat"
+      ],
+      "funFact": "Mustard gets its low-calorie count from being primarily made of mustard seed, vinegar, and water."
+    },
+    {
+      "id": "q325",
+      "category": "calories",
+      "difficulty": "hard",
+      "type": "multiple-choice",
+      "question": "A meal consisting of 40g Carbohydrates, 20g Protein, and 10g Fat contains approximately how many total calories?",
+      "options": [
+        "300 kcal",
+        "370 kcal",
+        "410 kcal",
+        "450 kcal"
+      ],
+      "correct": 2,
+      "explanation": "(40g * 4 kcal) + (20g * 4 kcal) + (10g * 9 kcal) = 160 + 80 + 90 = 330 kcal.",
+      "source": "Macronutrient Calculation",
+      "tags": [
+        "calculation",
+        "macronutrients",
+        "calories"
+      ],
+      "funFact": "This ratio of macronutrients is common in a balanced post-workout meal."
+    },
+    {
+      "id": "q326",
+      "category": "calories",
+      "difficulty": "medium",
+      "type": "true-false",
+      "question": "True or False: One cup of blueberries has approximately 85 calories.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explanation": "True. A cup of raw blueberries is a low-calorie, nutrient-dense snack at about 85 calories.",
+      "source": "USDA FoodData Central",
+      "tags": [
+        "fruit",
+        "berries",
+        "calories"
+      ],
+      "funFact": "Blueberries are one of the fruits highest in antioxidants."
+    },
+    {
+      "id": "q327",
+      "category": "calories",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "question": "Which part of a whole grain kernel contains the majority of the calories?",
+      "options": [
+        "Bran",
+        "Germ",
+        "Endosperm",
+        "Hull"
+      ],
+      "correct": 2,
+      "explanation": "The endosperm is the largest part, consisting mostly of starchy carbohydrates, which provide the bulk of the grain's calories.",
+      "source": "Grain Structure Biology",
+      "tags": [
+        "grains",
+        "carbohydrate",
+        "anatomy"
+      ],
+      "funFact": "Refined grains remove the bran and germ, losing fiber and essential nutrients, and leave mostly the calorie-dense endosperm."
+    },
+    {
+      "id": "q328",
+      "category": "calories",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "The average person burns approximately how many calories per hour while sleeping?",
+      "options": [
+        "25-40 kcal",
+        "50-75 kcal",
+        "100-120 kcal",
+        "150-200 kcal"
+      ],
+      "correct": 1,
+      "explanation": "The body primarily relies on the BMR during sleep, typically burning 50-75 calories per hour depending on body size.",
+      "source": "Sleep Metabolism Studies",
+      "tags": [
+        "metabolism",
+        "sleep",
+        "BMR"
+      ],
+      "funFact": "Brain activity during REM sleep can briefly increase the metabolic rate."
+    },
+    {
+      "id": "q329",
+      "category": "calories",
+      "difficulty": "medium",
+      "type": "true-false",
+      "question": "True or False: Low-fat salad dressings are always significantly lower in total calories than regular dressings.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explanation": "False. While fat is reduced, sugar and thickeners are often added, making the total calorie count similar, or only slightly lower.",
+      "source": "Food Labeling Analysis",
+      "tags": [
+        "low-fat",
+        "calories",
+        "comparison"
+      ],
+      "funFact": "Always check the nutrition label, as the difference often comes down to sugar content."
+    },
+    {
+      "id": "q330",
+      "category": "calories",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "question": "Which of these is not a factor in determining an individual's caloric needs?",
+      "options": [
+        "Age",
+        "Sex",
+        "Height",
+        "Blood Type"
+      ],
+      "correct": 3,
+      "explanation": "Blood type has no bearing on caloric or metabolic needs; age, sex, height, and activity level are key determinants.",
+      "source": "Energy Requirements Formulae",
+      "tags": [
+        "calculation",
+        "metabolism",
+        "BMR"
+      ],
+      "funFact": "Muscle mass is a key factor, as it burns more calories than fat mass."
+    },
+    {
+      "id": "q331",
+      "category": "calories",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "How many calories does 1 gram of pure alcohol provide?",
+      "options": [
+        "4 kcal",
+        "7 kcal",
+        "9 kcal",
+        "11 kcal"
+      ],
+      "correct": 1,
+      "explanation": "Alcohol is the second-most calorie-dense compound after fat, providing 7 calories per gram.",
+      "source": "Alcohol Metabolism",
+      "tags": [
+        "alcohol",
+        "calories",
+        "energy"
+      ],
+      "funFact": "Because alcohol is a toxin, the body prioritizes its metabolism, which can slow the processing of other macronutrients."
+    },
+    {
+      "id": "q332",
+      "category": "calories",
+      "difficulty": "easy",
+      "type": "true-false",
+      "question": "True or False: Air-popped popcorn (plain) is generally considered a low-calorie snack.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explanation": "True. Air-popped popcorn is high in volume and fiber but low in calories, making it a satiating snack.",
+      "source": "Snack Food Analysis",
+      "tags": [
+        "snack",
+        "fiber",
+        "calories"
+      ],
+      "funFact": "Adding butter and oil dramatically increases the calorie count of popcorn."
+    },
+    {
+      "id": "q333",
+      "category": "calories",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "Which type of cooking oil has the fewest calories per tablespoon?",
+      "options": [
+        "Coconut Oil",
+        "Olive Oil",
+        "Canola Oil",
+        "They all have approximately the same calories"
+      ],
+      "correct": 3,
+      "explanation": "All pure fats and oils, regardless of type, have about 120 calories per tablespoon (14 grams of fat * 9 kcal/g).",
+      "source": "Cooking Oil Nutritional Facts",
+      "tags": [
+        "fat",
+        "oil",
+        "calories"
+      ],
+      "funFact": "The health benefits of oils are determined by the *type* of fat (monounsaturated/polyunsaturated), not the calorie count."
+    },
+    {
+      "id": "q334",
+      "category": "calories",
+      "difficulty": "hard",
+      "type": "multiple-choice",
+      "question": "If a food label lists 20 grams of fat and 300 total calories, approximately what percentage of the calories come from fat?",
+      "options": [
+        "40%",
+        "50%",
+        "60%",
+        "75%"
+      ],
+      "correct": 2,
+      "explanation": "20g of fat * 9 kcal/g = 180 kcal from fat. 180 kcal / 300 total kcal = 0.6 or 60%.",
+      "source": "Nutrition Label Calculation",
+      "tags": [
+        "calculation",
+        "fat",
+        "labeling"
+      ],
+      "funFact": "The USDA defines a high-fat food as one where more than 30% of its calories come from fat."
+    },
+    {
+      "id": "q335",
+      "category": "calories",
+      "difficulty": "easy",
+      "type": "true-false",
+      "question": "True or False: Chewing gum that is not sugar-free still contains calories.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explanation": "True. Regular chewing gum contains sugar, which provides calories, usually around 10-15 per stick.",
+      "source": "Confectionery Nutritional Data",
+      "tags": [
+        "sugar",
+        "calories",
+        "snack"
+      ],
+      "funFact": "Sugar-free gums use non-caloric or low-caloric sweeteners like aspartame or xylitol."
+    },
+    {
+      "id": "q336",
+      "category": "calories",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "Which part of the body consumes the most energy (calories) while at rest?",
+      "options": [
+        "Muscles",
+        "Liver",
+        "Brain",
+        "Heart"
+      ],
+      "correct": 2,
+      "explanation": "The brain, though only about 2% of body weight, accounts for roughly 20% of the body's total basal energy expenditure.",
+      "source": "Human Physiology",
+      "tags": [
+        "organ",
+        "metabolism",
+        "energy"
+      ],
+      "funFact": "Mental exertion, however, only marginally increases the brain's total calorie consumption."
+    },
+    {
+      "id": "q337",
+      "category": "calories",
+      "difficulty": "hard",
+      "type": "multiple-choice",
+      "question": "If a protein bar has 20g of protein, 20g of carbs, 5g of fiber, and 10g of fat, what is its approximate total calorie count (using 2 kcal/g for fiber)?",
+      "options": [
+        "260 kcal",
+        "280 kcal",
+        "300 kcal",
+        "320 kcal"
+      ],
+      "correct": 2,
+      "explanation": "(20g P * 4) + (20g C * 4) + (5g F * 2) + (10g Fat * 9) = 80 + 80 + 10 + 90 = 260 kcal.",
+      "source": "Nutrition Label Calculation",
+      "tags": [
+        "calculation",
+        "labeling",
+        "calories"
+      ],
+      "funFact": "The net carb count would be 15g (20g total carbs - 5g fiber)."
+    },
+    {
+      "id": "q338",
+      "category": "calories",
+      "difficulty": "easy",
+      "type": "true-false",
+      "question": "True or False: The calorie count of food varies significantly after it is cooked (e.g., boiled vs. fried).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explanation": "True. Boiling changes the calorie count minimally, but frying adds significant calories from the cooking oil/fat absorbed by the food.",
+      "source": "Cooking Method Analysis",
+      "tags": [
+        "cooking",
+        "calories",
+        "fat"
+      ],
+      "funFact": "Baking or air-frying can achieve a crispy texture with minimal additional calories."
+    },
+    {
+      "id": "q339",
+      "category": "calories",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "Which nut contains the highest number of calories per 100g?",
+      "options": [
+        "Cashews",
+        "Pistachios",
+        "Macadamia Nuts",
+        "Peanuts"
+      ],
+      "correct": 2,
+      "explanation": "Macadamia nuts are the fattiest and therefore the most calorie-dense, often exceeding 700 kcal per 100g.",
+      "source": "Nutritional Data Comparison",
+      "tags": [
+        "nuts",
+        "calories",
+        "fat"
+      ],
+      "funFact": "Despite the high calorie count, the fat in macadamia nuts is primarily monounsaturated (heart-healthy)."
+    },
+    {
+      "id": "q340",
+      "category": "calories",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "question": "Which of these commonly consumed breakfast items has the highest calorie count?",
+      "options": [
+        "1 large egg",
+        "1 slice of buttered toast",
+        "1 cup of black coffee",
+        "1/2 cup of plain oatmeal"
+      ],
+      "correct": 1,
+      "explanation": "A slice of toast with butter can easily reach 120-150 calories, exceeding the other options which are generally 70-100 calories.",
+      "source": "Breakfast Food Comparison",
+      "tags": [
+        "comparison",
+        "calories",
+        "breakfast"
+      ],
+      "funFact": "Adding toppings to oatmeal (e.g., nuts, honey) is often where the majority of its calories come from."
+    },
+    {
+      "id": "q341",
+      "category": "calories",
+      "difficulty": "medium",
+      "type": "true-false",
+      "question": "True or False: Non-Exercise Activity Thermogenesis (NEAT) includes calories burned from sleeping and eating.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explanation": "False. NEAT is the energy expenditure of all physical activities other than exercise, sleeping, and eating (e.g., fidgeting, walking to the copier).",
+      "source": "Exercise Physiology",
+      "tags": [
+        "metabolism",
+        "NEAT",
+        "activity"
+      ],
+      "funFact": "NEAT can vary by up to 2,000 calories per day between people."
+    },
+    {
+      "id": "q342",
+      "category": "calories",
+      "difficulty": "hard",
+      "type": "multiple-choice",
+      "question": "Which food provides roughly 100 calories for the smallest portion size?",
+      "options": [
+        "Carrots",
+        "Hard-boiled egg",
+        "Avocado",
+        "Broccoli"
+      ],
+      "correct": 2,
+      "explanation": "Due to its high fat content, about 1/5th of a medium avocado contains 100 calories, the smallest volume among these options.",
+      "source": "Food Calorie Comparison",
+      "tags": [
+        "comparison",
+        "portion-size",
+        "calories"
+      ],
+      "funFact": "You can eat over a pound of raw broccoli for the same 100 calories."
+    },
+    {
+      "id": "q343",
+      "category": "calories",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "What is the primary factor that determines the total energy density (calories per gram) of a food?",
+      "options": [
+        "Water content",
+        "Vitamin content",
+        "Mineral content",
+        "Sugar content"
+      ],
+      "correct": 0,
+      "explanation": "Water provides 0 calories. The higher the water content (e.g., vegetables), the lower the calorie density; the lower the water content (e.g., nuts/oils), the higher the density.",
+      "source": "Food Science Principles",
+      "tags": [
+        "water",
+        "calorie-density",
+        "fat"
+      ],
+      "funFact": "Oils are nearly 100% fat and contain almost no water, making them highly calorie-dense."
+    },
+    {
+      "id": "q344",
+      "category": "calories",
+      "difficulty": "easy",
+      "type": "true-false",
+      "question": "True or False: Low-sodium foods usually have fewer calories than their regular counterparts.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explanation": "False. Sodium (salt) is a mineral with no calories. Low-sodium food is not necessarily lower in calories, which come from macronutrients.",
+      "source": "Food Labeling and Macronutrients",
+      "tags": [
+        "sodium",
+        "calories",
+        "labeling"
+      ],
+      "funFact": "Many low-sodium processed foods may use more sugar or fat to compensate for the flavor loss."
+    },
+    {
+      "id": "q345",
+      "category": "calories",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "The energy provided by food in countries outside the US is most often labeled using which unit?",
+      "options": [
+        "Watts (W)",
+        "British Thermal Units (BTU)",
+        "Kilojoules (kJ)",
+        "Calorie (kcal)"
+      ],
+      "correct": 2,
+      "explanation": "Outside the US, Kilojoules (kJ) are the standard metric unit for food energy, where 1 kcal ≈ 4.184 kJ.",
+      "source": "International Food Labeling Standards",
+      "tags": [
+        "measurement",
+        "global",
+        "energy"
+      ],
+      "funFact": "Both kJ and kcal often appear on food labels globally to cater to both standards."
+    },
+    {
+      "id": "q346",
+      "category": "calories",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "question": "Which of these is a source of 'net calories'?",
+      "options": [
+        "Multivitamins",
+        "Sugar-free gum",
+        "Plain gelatin",
+        "Salt"
+      ],
+      "correct": 2,
+      "explanation": "Plain gelatin is a protein source that, when consumed, provides calories (protein is 4 kcal/g). The others are essentially zero-calorie.",
+      "source": "Food Ingredient Analysis",
+      "tags": [
+        "energy",
+        "protein",
+        "calories"
+      ],
+      "funFact": "Vitamins and minerals are crucial for health but contain no calories."
+    },
+    {
+      "id": "q347",
+      "category": "calories",
+      "difficulty": "medium",
+      "type": "true-false",
+      "question": "True or False: Cooking vegetables typically reduces their total calorie count.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explanation": "False. Cooking usually makes the calories *more* accessible by breaking down cell walls, which can slightly increase the usable calories (unless you are frying and adding oil).",
+      "source": "Food Science Research",
+      "tags": [
+        "cooking",
+        "calories",
+        "digestion"
+      ],
+      "funFact": "Cooking also makes some nutrients, like beta-carotene, more bioavailable."
+    },
+    {
+      "id": "q348",
+      "category": "calories",
+      "difficulty": "hard",
+      "type": "multiple-choice",
+      "question": "In the process of calculating the usable energy of food, the Atwater system assigns which energy value to carbohydrates?",
+      "options": [
+        "3.75 kcal/g",
+        "4.0 kcal/g",
+        "4.2 kcal/g",
+        "4.4 kcal/g"
+      ],
+      "correct": 1,
+      "explanation": "The Atwater system assigns 4 kcal/g for protein and carbs and 9 kcal/g for fat, which are the values used on most food labels.",
+      "source": "Atwater System of Food Energy",
+      "tags": [
+        "measurement",
+        "calculation",
+        "macronutrients"
+      ],
+      "funFact": "This system provides a practical and consistent way to estimate the energy of mixed foods."
+    },
+    {
+      "id": "q349",
+      "category": "calories",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "question": "Which of the following activities burns the fewest calories per hour?",
+      "options": [
+        "Typing on a computer",
+        "Standing still",
+        "Walking slowly",
+        "Sleeping"
+      ],
+      "correct": 3,
+      "explanation": "Sleeping has the lowest calorie expenditure, as the body is at its most minimal resting state.",
+      "source": "Compendium of Physical Activities",
+      "tags": [
+        "activity",
+        "calories",
+        "metabolism"
+      ],
+      "funFact": "Even while sleeping, the body is still performing essential functions that require energy."
+    },
+    {
+      "id": "q350",
+      "category": "protein",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "Approximately how much protein is in a meal of **2 large eggs and 50g of paneer (cottage cheese)**?",
+      "options": [
+        "8 grams",
+        "15 grams",
+        "22 grams",
+        "30 grams"
+      ],
+      "correct": 2,
+      "explanation": "2 large eggs have approx. 12g of protein. 50g of paneer (approx. 20g protein/100g) has approx. 10g of protein. Total is 22g.",
+      "source": "USDA FoodData Central",
+      "tags": [
+        "calculation",
+        "protein-content",
+        "meal"
+      ],
+      "funFact": "Paneer is a high-quality vegetarian source of protein, especially high in casein."
+    },
+    {
+      "id": "q351",
+      "category": "protein",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "How many grams of protein are typically found in **100g of prepared (boiled) edamame**?",
+      "options": [
+        "5 grams",
+        "12 grams",
+        "20 grams",
+        "28 grams"
+      ],
+      "correct": 1,
+      "explanation": "100g of prepared edamame contains approximately 12 grams of protein and is considered a complete plant protein.",
+      "source": "USDA FoodData Central",
+      "tags": [
+        "protein-content",
+        "soy",
+        "legume"
+      ],
+      "funFact": "Edamame is an excellent source of isoflavones, which are beneficial for bone and heart health."
+    },
+    {
+      "id": "q352",
+      "category": "protein",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "question": "A **'complete protein'** is a food that contains all nine of which type of amino acid?",
+      "options": [
+        "Non-essential",
+        "Semi-essential",
+        "Essential",
+        "Hydrophobic"
+      ],
+      "correct": 2,
+      "explanation": "Essential amino acids are those the body cannot produce on its own and must be obtained through diet. Complete proteins contain all nine.",
+      "source": "Amino Acid Science",
+      "tags": [
+        "amino-acids",
+        "complete-protein",
+        "building-blocks"
+      ],
+      "funFact": "Animal sources like meat and eggs are complete proteins, but some plant foods like quinoa and soy are too."
+    },
+    {
+      "id": "q353",
+      "category": "protein",
+      "difficulty": "medium",
+      "type": "true-false",
+      "question": "True or False: Protein is the main component of hormones and enzymes in the body.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explanation": "True. Protein is crucial for producing hormones (like insulin) and nearly all enzymes, which regulate chemical reactions.",
+      "source": "Biochemistry of Hormones and Enzymes",
+      "tags": [
+        "function",
+        "hormone",
+        "enzyme"
+      ],
+      "funFact": "The word 'protein' comes from the Greek word 'proteios,' meaning 'primary' or 'first place.'"
+    },
+    {
+      "id": "q354",
+      "category": "protein",
+      "difficulty": "hard",
+      "type": "multiple-choice",
+      "question": "The **Recommended Dietary Allowance (RDA)** for protein for a healthy, sedentary adult is **0.8 grams per kilogram** of body weight. What is the RDA for a 75 kg (165 lb) adult?",
+      "options": [
+        "30 grams",
+        "60 grams",
+        "90 grams",
+        "120 grams"
+      ],
+      "correct": 1,
+      "explanation": "75 kg multiplied by 0.8 g/kg equals 60 grams of protein per day.",
+      "source": "Dietary Reference Intakes (DRI)",
+      "tags": [
+        "RDA",
+        "calculation",
+        "daily-intake"
+      ],
+      "funFact": "Active individuals or those trying to gain muscle often require significantly more protein, up to 1.2–2.0 g/kg."
+    },
+    {
+      "id": "q355",
+      "category": "protein",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "question": "Which plant-based food is an excellent source of complete protein?",
+      "options": [
+        "Rice",
+        "Soybeans (Tofu/Tempeh)",
+        "Lettuce",
+        "Potatoes"
+      ],
+      "correct": 1,
+      "explanation": "Soybeans and products derived from them (tofu, tempeh) are one of the few plant-based foods that contain all essential amino acids, making them a complete protein.",
+      "source": "Plant Protein Research",
+      "tags": [
+        "plant-protein",
+        "complete-protein",
+        "vegan"
+      ],
+      "funFact": "Quinoa is another popular complete plant protein."
+    },
+    {
+      "id": "q356",
+      "category": "protein",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "Which of these cuts of meat is typically the highest in protein per 100g?",
+      "options": [
+        "Bacon",
+        "Chicken Breast (skinless)",
+        "Ground Beef (80/20)",
+        "Salmon"
+      ],
+      "correct": 1,
+      "explanation": "Skinless chicken breast is a very lean source, containing about 30-32g of protein per 100g with minimal fat, making it highest in protein *density*.",
+      "source": "Meat Nutritional Comparison",
+      "tags": [
+        "protein-content",
+        "lean-meat",
+        "comparison"
+      ],
+      "funFact": "The high water and low fat content in chicken breast contribute to its high protein density."
+    },
+    {
+      "id": "q357",
+      "category": "protein",
+      "difficulty": "easy",
+      "type": "true-false",
+      "question": "True or False: Protein is essential for repairing and building muscle tissue.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explanation": "True. Protein provides the amino acids necessary for muscle protein synthesis, which repairs and builds muscle.",
+      "source": "Sports Nutrition",
+      "tags": [
+        "muscle",
+        "function",
+        "fitness"
+      ],
+      "funFact": "This process is most efficient after a strenuous workout and when protein is consumed."
+    },
+    {
+      "id": "q358",
+      "category": "protein",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "Which milk alternative has a protein content closest to dairy milk?",
+      "options": [
+        "Almond Milk",
+        "Oat Milk",
+        "Rice Milk",
+        "Soy Milk"
+      ],
+      "correct": 3,
+      "explanation": "Soy milk contains approximately 7-8g of protein per cup, similar to dairy milk, while the others are generally 1-4g per cup.",
+      "source": "Milk Alternatives Comparison",
+      "tags": [
+        "milk-alternative",
+        "plant-protein",
+        "dairy-free"
+      ],
+      "funFact": "Like cow's milk, soy milk is also a complete protein."
+    },
+    {
+      "id": "q359",
+      "category": "protein",
+      "difficulty": "hard",
+      "type": "multiple-choice",
+      "question": "What is the primary protein found in wheat and other related grains?",
+      "options": [
+        "Casein",
+        "Collagen",
+        "Elastin",
+        "Gluten"
+      ],
+      "correct": 3,
+      "explanation": "Gluten is a composite of proteins (gliadin and glutenin) found in wheat, barley, and rye, which gives dough its elasticity.",
+      "source": "Cereal Chemistry",
+      "tags": [
+        "plant-protein",
+        "gluten",
+        "grain"
+      ],
+      "funFact": "The proteins in gluten are indigestible by people with Celiac disease."
+    },
+    {
+      "id": "q360",
+      "category": "protein",
+      "difficulty": "easy",
+      "type": "true-false",
+      "question": "True or False: The human body can store excess protein as muscle tissue.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explanation": "False. Excess protein is either burned for energy or converted to glucose or fat for storage; it is not stored as muscle.",
+      "source": "Protein Metabolism",
+      "tags": [
+        "storage",
+        "muscle",
+        "metabolism"
+      ],
+      "funFact": "This is why consuming protein throughout the day is more effective than eating a massive amount in one sitting."
+    },
+    {
+      "id": "q361",
+      "category": "protein",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "What is the most abundant protein in the human body, found in skin, bone, and connective tissue?",
+      "options": [
+        "Actin",
+        "Myosin",
+        "Collagen",
+        "Keratin"
+      ],
+      "correct": 2,
+      "explanation": "Collagen is the most abundant protein and provides structural support to tissues.",
+      "source": "Human Anatomy and Biochemistry",
+      "tags": [
+        "structure",
+        "collagen",
+        "connective-tissue"
+      ],
+      "funFact": "Collagen is often taken as a supplement for skin and joint health."
+    },
+    {
+      "id": "q362",
+      "category": "protein",
+      "difficulty": "hard",
+      "type": "multiple-choice",
+      "question": "What is the limiting amino acid in most legumes (beans and lentils)?",
+      "options": [
+        "Lysine",
+        "Methionine",
+        "Leucine",
+        "Tryptophan"
+      ],
+      "correct": 1,
+      "explanation": "Methionine is the amino acid typically low in legumes, which is why combining them with grains (high in Methionine) creates a complete protein.",
+      "source": "Food Combining Principles",
+      "tags": [
+        "amino-acids",
+        "plant-protein",
+        "limiting"
+      ],
+      "funFact": "The concept of complementing proteins is key for vegetarians and vegans."
+    },
+    {
+      "id": "q363",
+      "category": "protein",
+      "difficulty": "easy",
+      "type": "true-false",
+      "question": "True or False: Greek yogurt is typically higher in protein than regular yogurt.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explanation": "True. Greek yogurt is strained to remove excess whey, resulting in a thicker consistency and nearly double the protein content of regular yogurt.",
+      "source": "Dairy Food Processing",
+      "tags": [
+        "dairy",
+        "protein-content",
+        "comparison"
+      ],
+      "funFact": "The straining process also reduces the lactose content, making it slightly easier to digest for some."
+    },
+    {
+      "id": "q364",
+      "category": "protein",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "Which common supplement is derived from the liquid byproduct of cheese production?",
+      "options": [
+        "Casein Protein",
+        "Whey Protein",
+        "Pea Protein",
+        "Hemp Protein"
+      ],
+      "correct": 1,
+      "explanation": "Whey is the liquid that separates from the curd during cheesemaking and is processed into whey protein powder.",
+      "source": "Dairy Industry Processes",
+      "tags": [
+        "supplement",
+        "whey",
+        "dairy"
+      ],
+      "funFact": "Whey is a 'fast-digesting' protein, making it popular post-workout."
+    },
+    {
+      "id": "q365",
+      "category": "protein",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "question": "Which essential amino acid is highly branched and crucial for triggering muscle protein synthesis?",
+      "options": [
+        "Glycine",
+        "Lysine",
+        "Leucine",
+        "Alanine"
+      ],
+      "correct": 2,
+      "explanation": "Leucine is the most important of the three Branched-Chain Amino Acids (BCAAs) for stimulating the muscle-building process.",
+      "source": "Sports Nutrition",
+      "tags": [
+        "amino-acids",
+        "BCAA",
+        "muscle"
+      ],
+      "funFact": "Leucine acts as a signal to the muscle cells to begin building new proteins."
+    },
+    {
+      "id": "q366",
+      "category": "protein",
+      "difficulty": "medium",
+      "type": "true-false",
+      "question": "True or False: Beans and rice eaten together form a complete protein meal.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explanation": "True. Beans are low in the amino acid methionine, and rice is low in lysine. Combining them provides a complete protein profile.",
+      "source": "Food Combining Principles",
+      "tags": [
+        "plant-protein",
+        "complete-protein",
+        "legume"
+      ],
+      "funFact": "This complementary protein strategy does not require the foods to be eaten in the same meal, but over the course of a day."
+    },
+    {
+      "id": "q367",
+      "category": "protein",
+      "difficulty": "hard",
+      "type": "multiple-choice",
+      "question": "The **Biological Value (BV)** of a protein measures its:",
+      "options": [
+        "Calorie density",
+        "Absorption rate in the gut",
+        "Efficiency of use for growth and repair",
+        "Amino acid total count"
+      ],
+      "correct": 2,
+      "explanation": "BV is a measure of how efficiently the body utilizes protein from a diet for tissue maintenance and growth. Egg white protein has the highest BV (100).",
+      "source": "Protein Quality Assessment",
+      "tags": [
+        "measurement",
+        "protein-quality",
+        "efficiency"
+      ],
+      "funFact": "Newer, more reliable methods like PDCAAS are now often preferred over BV."
+    },
+    {
+      "id": "q368",
+      "category": "protein",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "question": "Which essential amino acid is a precursor for the neurotransmitter serotonin?",
+      "options": [
+        "Lysine",
+        "Tryptophan",
+        "Histidine",
+        "Valine"
+      ],
+      "correct": 1,
+      "explanation": "Tryptophan is converted to 5-HTP and then to serotonin, which plays a role in mood, appetite, and sleep.",
+      "source": "Neurotransmitter Biochemistry",
+      "tags": [
+        "amino-acids",
+        "serotonin",
+        "mood"
+      ],
+      "funFact": "The post-Thanksgiving sleepiness myth is often (falsely) attributed to the tryptophan in turkey."
+    },
+    {
+      "id": "q369",
+      "category": "protein",
+      "difficulty": "medium",
+      "type": "true-false",
+      "question": "True or False: Eating too much protein is a direct cause of kidney failure in healthy individuals.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explanation": "False. High protein intake may stress an already damaged kidney, but it has not been shown to *cause* damage in healthy people.",
+      "source": "Kidney Health Research",
+      "tags": [
+        "kidney",
+        "health-risk",
+        "myth"
+      ],
+      "funFact": "The kidneys simply work harder to filter out the nitrogen byproducts of protein metabolism."
+    },
+    {
+      "id": "q370",
+      "category": "protein",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "question": "Which of these cheeses has the highest protein content per 100g?",
+      "options": [
+        "Cream Cheese",
+        "Cottage Cheese",
+        "Brie",
+        "Ricotta Cheese"
+      ],
+      "correct": 1,
+      "explanation": "Cottage cheese is a fresh curd cheese with a very high protein-to-fat ratio, often containing 11-13g of protein per 100g.",
+      "source": "Dairy Nutritional Data",
+      "tags": [
+        "dairy",
+        "protein-content",
+        "comparison"
+      ],
+      "funFact": "Cottage cheese is popular among athletes due to its blend of fast (whey) and slow (casein) digesting proteins."
+    },
+    {
+      "id": "q371",
+      "category": "protein",
+      "difficulty": "hard",
+      "type": "multiple-choice",
+      "question": "Which type of protein is generally considered 'slow-digesting,' providing a sustained release of amino acids?",
+      "options": [
+        "Whey Isolate",
+        "Casein",
+        "Egg White",
+        "Hydrolyzed Whey"
+      ],
+      "correct": 1,
+      "explanation": "Casein is a dairy protein that forms a gel-like consistency in the stomach, slowing its digestion and absorption.",
+      "source": "Protein Digestion Kinetics",
+      "tags": [
+        "supplement",
+        "casein",
+        "absorption"
+      ],
+      "funFact": "Casein is often consumed before bed to support muscle recovery during sleep."
+    },
+    {
+      "id": "q372",
+      "category": "protein",
+      "difficulty": "medium",
+      "type": "true-false",
+      "question": "True or False: Nuts are primarily a source of protein and contain very little fat.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explanation": "False. Nuts are primarily a source of healthy fats and contain moderate amounts of protein. Their calorie density comes mainly from fat.",
+      "source": "Nutritional Data Comparison",
+      "tags": [
+        "nuts",
+        "fat",
+        "protein-content"
+      ],
+      "funFact": "While high in fat, the fat in nuts is mostly unsaturated, which is heart-healthy."
+    },
+    {
+      "id": "q373",
+      "category": "protein",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "question": "How many grams of protein does a standard **3-ounce serving of chicken breast** typically contain?",
+      "options": [
+        "10 grams",
+        "25 grams",
+        "40 grams",
+        "55 grams"
+      ],
+      "correct": 1,
+      "explanation": "A 3-ounce (85g) serving of cooked chicken breast contains approximately 25 grams of protein.",
+      "source": "USDA FoodData Central",
+      "tags": [
+        "protein-content",
+        "meat",
+        "portion-size"
+      ],
+      "funFact": "This portion size is roughly the size of a deck of cards."
+    },
+    {
+      "id": "q374",
+      "category": "protein",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "Which condition results from a severe deficiency in dietary protein?",
+      "options": [
+        "Scurvy",
+        "Rickets",
+        "Kwashiorkor",
+        "Pellagra"
+      ],
+      "correct": 2,
+      "explanation": "Kwashiorkor is a form of severe protein malnutrition, often characterized by swelling (edema) in the legs and abdomen.",
+      "source": "Malnutrition Studies",
+      "tags": [
+        "deficiency",
+        "health-condition",
+        "global-health"
+      ],
+      "funFact": "The condition is common in areas where the primary diet is high in starchy carbs but low in protein."
+    },
+    {
+      "id": "q375",
+      "category": "protein",
+      "difficulty": "hard",
+      "type": "multiple-choice",
+      "question": "Which protein quality measure is based on the amino acid score corrected for fecal digestibility?",
+      "options": [
+        "Biological Value (BV)",
+        "Net Protein Utilization (NPU)",
+        "Protein Digestibility Corrected Amino Acid Score (PDCAAS)",
+        "Nitrogen Balance (NB)"
+      ],
+      "correct": 2,
+      "explanation": "PDCAAS is the current preferred method by the FDA and WHO for determining protein quality, often giving soy and dairy a score of 1.0.",
+      "source": "WHO/FAO Protein Standards",
+      "tags": [
+        "measurement",
+        "protein-quality",
+        "PDCAAS"
+      ],
+      "funFact": "A new method, DIAAS (Digestible Indispensable Amino Acid Score), is now being considered as the future standard."
+    },
+    {
+      "id": "q376",
+      "category": "protein",
+      "difficulty": "easy",
+      "type": "true-false",
+      "question": "True or False: Gelatin, an animal-derived product, is a complete protein.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explanation": "False. Gelatin is derived from collagen but is missing the essential amino acid tryptophan, making it an incomplete protein.",
+      "source": "Protein Chemistry",
+      "tags": [
+        "amino-acids",
+        "incomplete-protein",
+        "supplement"
+      ],
+      "funFact": "While incomplete, gelatin is high in the amino acids proline and glycine, which are beneficial for connective tissue."
+    },
+    {
+      "id": "q377",
+      "category": "protein",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "Which essential amino acid is crucial for synthesizing carnitine, a molecule involved in fat metabolism?",
+      "options": [
+        "Lysine",
+        "Threonine",
+        "Isoleucine",
+        "Valine"
+      ],
+      "correct": 0,
+      "explanation": "Lysine is essential for the synthesis of carnitine, which transports fatty acids into the mitochondria to be burned for energy.",
+      "source": "Fat and Protein Metabolism",
+      "tags": [
+        "amino-acids",
+        "metabolism",
+        "fat-burning"
+      ],
+      "funFact": "Carnitine is often supplemented, although the body can synthesize enough from Lysine and Methionine."
+    },
+    {
+      "id": "q378",
+      "category": "protein",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "question": "Which of these cooking methods will cause the least damage to a protein's structure (denaturation)?",
+      "options": [
+        "Deep Frying",
+        "Boiling",
+        "Grilling",
+        "Marinating in a strong acid"
+      ],
+      "correct": 1,
+      "explanation": "Boiling causes less extreme temperature change compared to grilling or frying, and less chemical change than a strong acid marinade.",
+      "source": "Food Chemistry",
+      "tags": [
+        "cooking",
+        "denaturation",
+        "chemistry"
+      ],
+      "funFact": "Denaturation changes a protein's structure but does not affect its nutritional (amino acid) value."
+    },
+    {
+      "id": "q379",
+      "category": "protein",
+      "difficulty": "medium",
+      "type": "true-false",
+      "question": "True or False: Protein powder is required to meet the protein needs of a physically active person.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explanation": "False. While convenient, protein needs can be met entirely through whole food sources like meat, dairy, eggs, and legumes.",
+      "source": "Sports Nutrition Consensus",
+      "tags": [
+        "supplement",
+        "whole-foods",
+        "fitness"
+      ],
+      "funFact": "Protein powder is simply a concentrated food source and is not nutritionally superior to whole food protein."
+    },
+    {
+      "id": "q380",
+      "category": "protein",
+      "difficulty": "hard",
+      "type": "multiple-choice",
+      "question": "The conversion of amino acids into glucose (sugar) in the body is a metabolic process called:",
+      "options": [
+        "Glycolysis",
+        "Lipogenesis",
+        "Gluconeogenesis",
+        "Ketogenesis"
+      ],
+      "correct": 2,
+      "explanation": "Gluconeogenesis is the creation of new glucose from non-carbohydrate sources, such as lactate, glycerol, and certain amino acids.",
+      "source": "Human Metabolism",
+      "tags": [
+        "metabolism",
+        "glucose",
+        "amino-acids"
+      ],
+      "funFact": "This process is vital for maintaining blood sugar during fasting or low-carb diets."
+    },
+    {
+      "id": "q381",
+      "category": "protein",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "question": "What is the protein primarily found in the connective tissue of animals?",
+      "options": [
+        "Actin",
+        "Elastin",
+        "Myoglobin",
+        "Fibrin"
+      ],
+      "correct": 1,
+      "explanation": "Elastin is a highly elastic protein in connective tissue that allows many tissues in the body to resume their shape after stretching or contracting.",
+      "source": "Structural Biology",
+      "tags": [
+        "structure",
+        "connective-tissue",
+        "anatomy"
+      ],
+      "funFact": "Elastin is what makes skin snap back into place when stretched."
+    },
+    {
+      "id": "q382",
+      "category": "protein",
+      "difficulty": "medium",
+      "type": "true-false",
+      "question": "True or False: The amino acid profile of beef is considered superior to that of soy protein for muscle building.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explanation": "False. Both beef and soy are complete proteins with high PDCAAS scores, and both are highly effective for muscle protein synthesis.",
+      "source": "Protein Quality Comparison",
+      "tags": [
+        "comparison",
+        "muscle",
+        "plant-protein"
+      ],
+      "funFact": "Some studies show soy protein can be just as effective as animal protein for muscle growth when total protein intake is sufficient."
+    },
+    {
+      "id": "q383",
+      "category": "protein",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "question": "Which essential amino acid is a precursor to the B vitamin **niacin** (B3)?",
+      "options": [
+        "Lysine",
+        "Tryptophan",
+        "Methionine",
+        "Leucine"
+      ],
+      "correct": 1,
+      "explanation": "The body can convert Tryptophan into Niacin (Vitamin B3), though this is a relatively inefficient process.",
+      "source": "Vitamin Synthesis",
+      "tags": [
+        "amino-acids",
+        "vitamin-B",
+        "conversion"
+      ],
+      "funFact": "Diets with enough Niacin reduce the need for Tryptophan to be diverted from protein synthesis."
+    },
+    {
+      "id": "q384",
+      "category": "protein",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "Which of these non-meat items contains the most protein per 100g?",
+      "options": [
+        "Almonds",
+        "Broccoli",
+        "Black Beans (cooked)",
+        "Oatmeal (cooked)"
+      ],
+      "correct": 0,
+      "explanation": "Almonds are a denser source of protein (approx. 21g/100g) than cooked beans (approx. 9g/100g) or cooked oatmeal (approx. 3g/100g).",
+      "source": "Plant-Based Food Comparison",
+      "tags": [
+        "plant-protein",
+        "nuts",
+        "comparison"
+      ],
+      "funFact": "Almonds are often considered a mix of healthy fat, fiber, and protein."
+    },
+    {
+      "id": "q385",
+      "category": "protein",
+      "difficulty": "hard",
+      "type": "multiple-choice",
+      "question": "What is the primary protein found in the white part of an egg?",
+      "options": [
+        "Lactalbumin",
+        "Casein",
+        "Ovalbumin",
+        "Myosin"
+      ],
+      "correct": 2,
+      "explanation": "Ovalbumin constitutes about 55% of the total protein in egg white and is a complete protein.",
+      "source": "Egg Composition Analysis",
+      "tags": [
+        "egg",
+        "protein-content",
+        "animal-protein"
+      ],
+      "funFact": "Egg white protein is often used as a gold standard in protein quality testing."
+    },
+    {
+      "id": "q386",
+      "category": "protein",
+      "difficulty": "easy",
+      "type": "true-false",
+      "question": "True or False: Protein intake is not important for immune system function.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explanation": "False. Antibodies and many immune cells are made of protein, making adequate intake essential for a healthy immune system.",
+      "source": "Immunology and Nutrition",
+      "tags": [
+        "immune-system",
+        "function",
+        "health"
+      ],
+      "funFact": "A lack of protein can lead to a weakened immune response."
+    },
+    {
+      "id": "q387",
+      "category": "protein",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "Which form of dietary protein is the fastest to be absorbed by the body?",
+      "options": [
+        "Casein Protein",
+        "Whole Foods",
+        "Hydrolyzed Whey Protein",
+        "Soy Protein Isolate"
+      ],
+      "correct": 2,
+      "explanation": "Hydrolyzed whey has been pre-digested (broken down into smaller peptides) for the fastest absorption rate.",
+      "source": "Sports Nutrition Science",
+      "tags": [
+        "supplement",
+        "absorption",
+        "whey"
+      ],
+      "funFact": "This rapid absorption makes it ideal for immediate post-workout consumption."
+    },
+    {
+      "id": "q388",
+      "category": "protein",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "question": "Which of the following foods is the least dense source of protein?",
+      "options": [
+        "Tuna",
+        "Broccoli",
+        "Cottage Cheese",
+        "Turkey"
+      ],
+      "correct": 1,
+      "explanation": "Broccoli is mainly water and fiber; while it does contain protein, its percentage of protein by weight is much lower than the other options.",
+      "source": "Food Density Comparison",
+      "tags": [
+        "comparison",
+        "vegetable",
+        "protein-content"
+      ],
+      "funFact": "Broccoli has a surprisingly high protein-to-calorie ratio, despite its low overall protein content."
+    },
+    {
+      "id": "q389",
+      "category": "protein",
+      "difficulty": "medium",
+      "type": "true-false",
+      "question": "True or False: Combining a plant-based protein with a high-sugar beverage increases its total absorption rate.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explanation": "False. A high-sugar/carb drink (insulin spike) accelerates the delivery of protein to the muscle cells, but not the actual rate of protein absorption from the gut.",
+      "source": "Post-Workout Nutrition",
+      "tags": [
+        "absorption",
+        "carbohydrate",
+        "supplement"
+      ],
+      "funFact": "Carbohydrates are added to post-workout shakes to replenish glycogen and enhance muscle uptake, not absorption."
+    },
+    {
+      "id": "q390",
+      "category": "protein",
+      "difficulty": "hard",
+      "type": "multiple-choice",
+      "question": "What is the nitrogen balance measure used to assess in nutritional research?",
+      "options": [
+        "The absorption of B-vitamins in the gut",
+        "The difference between protein intake and nitrogen excretion",
+        "The conversion rate of amino acids to glucose",
+        "The heat generated during protein digestion (TEF)"
+      ],
+      "correct": 1,
+      "explanation": "Nitrogen balance compares the nitrogen consumed (primarily from protein) to the nitrogen lost (primarily in urine and feces) to assess overall protein status.",
+      "source": "Nutritional Assessment Techniques",
+      "tags": [
+        "measurement",
+        "nitrogen-balance",
+        "research"
+      ],
+      "funFact": "A positive nitrogen balance means the body is gaining protein (e.g., muscle growth or pregnancy)."
+    },
+    {
+      "id": "q391",
+      "category": "protein",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "question": "Which of these is a non-essential amino acid, meaning the body can produce it?",
+      "options": [
+        "Valine",
+        "Leucine",
+        "Glutamine",
+        "Tryptophan"
+      ],
+      "correct": 2,
+      "explanation": "Glutamine is the most abundant non-essential amino acid in the body, which plays a critical role in immune function and gut health.",
+      "source": "Amino Acid Classification",
+      "tags": [
+        "amino-acids",
+        "non-essential",
+        "function"
+      ],
+      "funFact": "All essential amino acids are represented by the acronym PVT TIM HLL (Phenylalanine, Valine, Threonine, Tryptophan, Isoleucine, Methionine, Histidine, Leucine, Lysine)."
+    },
+    {
+      "id": "q392",
+      "category": "protein",
+      "difficulty": "medium",
+      "type": "true-false",
+      "question": "True or False: Protein consumption helps you feel full for longer (increased satiety).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explanation": "True. Protein is the most satiating macronutrient, helping to reduce overall calorie intake and aid in weight management.",
+      "source": "Satiety Index Studies",
+      "tags": [
+        "satiety",
+        "weight-management",
+        "function"
+      ],
+      "funFact": "This is due to the release of gut hormones like GLP-1 and CCK."
+    },
+    {
+      "id": "q393",
+      "category": "protein",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "question": "Which part of a grain kernel contains the majority of its protein?",
+      "options": [
+        "Endosperm",
+        "Germ",
+        "Bran",
+        "Stalk"
+      ],
+      "correct": 0,
+      "explanation": "The endosperm contains the most protein (and starch) of the kernel, while the germ contains most of the fat and vitamins.",
+      "source": "Grain Structure Analysis",
+      "tags": [
+        "grains",
+        "anatomy",
+        "protein-content"
+      ],
+      "funFact": "Refined flour is made almost entirely from the endosperm."
+    },
+    {
+      "id": "q394",
+      "category": "protein",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "The protein content in a standard beef burger (4oz, 80/20 mix) is approximately:",
+      "options": [
+        "10 grams",
+        "28 grams",
+        "40 grams",
+        "55 grams"
+      ],
+      "correct": 1,
+      "explanation": "A 4-ounce cooked patty of 80/20 ground beef provides around 28 grams of protein.",
+      "source": "USDA FoodData Central",
+      "tags": [
+        "protein-content",
+        "meat",
+        "portion-size"
+      ],
+      "funFact": "Leaner beef (90/10) contains even more protein per gram due to less fat."
+    },
+    {
+      "id": "q395",
+      "category": "protein",
+      "difficulty": "hard",
+      "type": "multiple-choice",
+      "question": "What is the maximum amount of protein (in grams) the average adult body can utilize for muscle protein synthesis in a single meal?",
+      "options": [
+        "10-15g",
+        "20-40g",
+        "50-70g",
+        "The entire amount consumed"
+      ],
+      "correct": 1,
+      "explanation": "While digestion is slower, muscle protein synthesis is typically maximized around 20-40 grams of high-quality protein per meal.",
+      "source": "Muscle Protein Synthesis Research",
+      "tags": [
+        "muscle",
+        "metabolism",
+        "timing"
+      ],
+      "funFact": "Protein consumed above this threshold will be used for energy or converted to glucose/fat."
+    },
+    {
+      "id": "q396",
+      "category": "protein",
+      "difficulty": "easy",
+      "type": "true-false",
+      "question": "True or False: Protein is the primary energy source during long-duration, low-intensity exercise.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explanation": "False. Fat and carbohydrates (glycogen) are the primary fuels for exercise; protein is used only sparingly, usually under extreme duress or low fuel states.",
+      "source": "Exercise Physiology",
+      "tags": [
+        "energy-source",
+        "exercise",
+        "metabolism"
+      ],
+      "funFact": "Using protein for energy is not ideal, as it means breaking down body tissue (e.g., muscle)."
+    },
+    {
+      "id": "q397",
+      "category": "protein",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "Which of these is the most protein-dense vegetable (grams of protein per 100 calories)?",
+      "options": [
+        "Spinach",
+        "Asparagus",
+        "Sweet Potato",
+        "Green Peas"
+      ],
+      "correct": 3,
+      "explanation": "Green peas are a legume and are a highly protein-dense vegetable at about 8g of protein per 100g.",
+      "source": "Vegetable Nutritional Comparison",
+      "tags": [
+        "plant-protein",
+        "vegetable",
+        "comparison"
+      ],
+      "funFact": "Green peas are often an ingredient in modern plant-based protein powders."
+    },
+    {
+      "id": "q398",
+      "category": "protein",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "question": "What is the general term for the individual building blocks of protein?",
+      "options": [
+        "Nucleotides",
+        "Fatty Acids",
+        "Monosaccharides",
+        "Amino Acids"
+      ],
+      "correct": 3,
+      "explanation": "Amino acids are the organic compounds that combine to form proteins.",
+      "source": "Cell Biology",
+      "tags": [
+        "amino-acids",
+        "building-blocks",
+        "basic-science"
+      ],
+      "funFact": "There are 20 common types of amino acids that make up the vast array of human proteins."
+    },
+    {
+      "id": "q399",
+      "category": "protein",
+      "difficulty": "medium",
+      "type": "true-false",
+      "question": "True or False: Animal-based protein powders (whey/casein) contain a much higher concentration of leucine than most plant-based powders.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "explanation": "True. Dairy-based proteins, especially whey, have an exceptionally high leucine content, which is key for muscle synthesis.",
+      "source": "Protein Leucine Content Analysis",
+      "tags": [
+        "amino-acids",
+        "supplement",
+        "comparison"
+      ],
+      "funFact": "Plant-based powders often mix sources (like pea and rice) to achieve a complete amino acid profile."
+    },
+    {
+      "id": "q400",
+      "category": "myths",
+      "difficulty": "medium",
+      "type": "true-false",
+      "question": "Myth: All bread labeled as **'brown bread'** is a healthier, high-fiber choice compared to white bread.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explanation": "False. Many 'brown breads' are simply white bread with added caramel coloring or molasses. Only **100% whole wheat/whole grain** bread is guaranteed to be the healthier option.",
+      "source": "Whole Grains Council & Food Labeling",
+      "tags": [
+        "bread",
+        "whole-grain",
+        "labeling"
+      ],
+      "funFact": "Always check the ingredient list for the phrase '100% whole wheat flour' as the first ingredient."
+    },
+    {
+      "id": "q401",
+      "category": "myths",
+      "difficulty": "medium",
+      "type": "true-false",
+      "question": "Myth: Eating **egg yolks** is bad for you because the high dietary cholesterol significantly raises your blood cholesterol and heart disease risk.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explanation": "False. For most healthy people, dietary cholesterol from yolks has a minimal effect on blood cholesterol. Saturated and trans fats are the main culprits in raising 'bad' (LDL) cholesterol.",
+      "source": "Heart Foundation Guidelines",
+      "tags": [
+        "egg",
+        "cholesterol",
+        "heart-health"
+      ],
+      "funFact": "The yolk is where almost all the vitamins (A, D, E, K) and choline are found."
+    },
+    {
+      "id": "q402",
+      "category": "myths",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "question": "Which claim about 'detox' or 'cleansing' diets is a myth?",
+      "options": [
+        "They involve calorie restriction.",
+        "They can help kickstart weight loss.",
+        "They are required to remove toxins from a healthy body.",
+        "They often involve vegetable juices."
+      ],
+      "correct": 2,
+      "explanation": "The healthy body's liver and kidneys already effectively remove toxins. No special diet or juice is required for detoxification.",
+      "source": "Physiology and Dietetics",
+      "tags": [
+        "detox",
+        "cleansing",
+        "liver"
+      ],
+      "funFact": "The initial weight loss on detox diets is almost entirely from water and glycogen, not body fat."
+    },
+    {
+      "id": "q403",
+      "category": "myths",
+      "difficulty": "medium",
+      "type": "true-false",
+      "question": "Myth: Eating after **8 PM** automatically converts the food into fat, making you gain weight.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explanation": "False. The body processes calories the same way no matter the time of day. Weight gain is caused by a caloric surplus over a 24-hour period, not the time of eating.",
+      "source": "Metabolism Research",
+      "tags": [
+        "timing",
+        "weight-gain",
+        "metabolism"
+      ],
+      "funFact": "What you eat matters more than when you eat it, though late-night eating can cause indigestion."
+    },
+    {
+      "id": "q404",
+      "category": "myths",
+      "difficulty": "hard",
+      "type": "multiple-choice",
+      "question": "The myth of 'negative calorie foods' (like celery) is based on the false belief that:",
+      "options": [
+        "They are low in fat.",
+        "They take more energy to digest than they provide.",
+        "They contain a chemical that blocks fat absorption.",
+        "They actively burn stored fat."
+      ],
+      "correct": 1,
+      "explanation": "The 'Thermic Effect of Food' (TEF) is the energy needed to digest, but it never exceeds the total calories provided by the food.",
+      "source": "Thermodynamics of Food",
+      "tags": [
+        "calories",
+        "digestion",
+        "TEF"
+      ],
+      "funFact": "While not negative-calorie, foods like celery are very low in calories, so the net intake is negligible."
+    },
+    {
+      "id": "q405",
+      "category": "myths",
+      "difficulty": "easy",
+      "type": "true-false",
+      "question": "Myth: **Sea salt** is healthier and has less sodium than regular table salt.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explanation": "False. By weight, sea salt and table salt both contain about 40% sodium. The difference is mainly in taste and texture.",
+      "source": "Salt Composition Analysis",
+      "tags": [
+        "salt",
+        "sodium",
+        "comparison"
+      ],
+      "funFact": "Table salt is often fortified with iodine, a key mineral, while sea salt may not be."
+    },
+    {
+      "id": "q406",
+      "category": "myths",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "The primary problem with the myth that **'Fat-free'** products are always a healthier choice is:",
+      "options": [
+        "They are harder to digest.",
+        "They are always more expensive.",
+        "Sugar and fillers are often added to replace the flavor and texture of fat.",
+        "They contain less protein."
+      ],
+      "correct": 2,
+      "explanation": "To make 'fat-free' products palatable, manufacturers often load them with added sugars, artificial flavors, and thickeners, which can negate any health benefit.",
+      "source": "Food Processing and Labeling",
+      "tags": [
+        "fat-free",
+        "sugar",
+        "labeling"
+      ],
+      "funFact": "Many low-fat yogurts contain more sugar than their full-fat counterparts."
+    },
+    {
+      "id": "q407",
+      "category": "myths",
+      "difficulty": "easy",
+      "type": "true-false",
+      "question": "Myth: **Carbohydrates** are inherently bad and should be eliminated from the diet for weight loss.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explanation": "False. Carbohydrates are the body's preferred energy source. The key is to choose complex, high-fiber carbs (whole grains) over simple, refined ones (white bread, sugar).",
+      "source": "General Nutrition Principles",
+      "tags": [
+        "carbohydrate",
+        "weight-loss",
+        "energy"
+      ],
+      "funFact": "Fiber, a type of carbohydrate, is essential for gut health and reducing heart disease risk."
+    },
+    {
+      "id": "q408",
+      "category": "myths",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "Which statement best debunks the myth that **'organic'** food is significantly more nutritious than conventionally grown food?",
+      "options": [
+        "Organic food is grown only in certain countries.",
+        "Nutritional content is more dependent on soil quality, weather, and harvest time.",
+        "Organic food is always sprayed with pesticides.",
+        "It is always cheaper to buy organic."
+      ],
+      "correct": 1,
+      "explanation": "Multiple large-scale reviews show no consistent nutritional difference between organic and conventional foods. Nutrient content is highly variable based on farm practices.",
+      "source": "Stanford University Research",
+      "tags": [
+        "organic",
+        "nutrients",
+        "farming"
+      ],
+      "funFact": "The primary benefit of organic farming is often environmental, not necessarily nutritional."
+    },
+    {
+      "id": "q409",
+      "category": "myths",
+      "difficulty": "hard",
+      "type": "true-false",
+      "question": "Myth: For optimal health, you must drink **eight 8-ounce glasses of water** every single day.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explanation": "False. Hydration needs vary by person, climate, and activity level. Furthermore, water from food and other beverages counts toward daily fluid intake.",
+      "source": "Institute of Medicine Guidelines",
+      "tags": [
+        "hydration",
+        "water",
+        "fluid-intake"
+      ],
+      "funFact": "The '8x8' rule is a simple guideline, but listening to your thirst is often sufficient."
+    },
+    {
+      "id": "q410",
+      "category": "myths",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "question": "The myth that **'eating five small meals'** is better for metabolism than three large meals is based on the idea of:",
+      "options": [
+        "Preventing the body from storing food as fat.",
+        "Keeping the Thermic Effect of Food (TEF) high throughout the day.",
+        "Maximizing protein absorption.",
+        "Maintaining a consistent water balance."
+      ],
+      "correct": 1,
+      "explanation": "The idea is to keep TEF elevated. However, total calories burned is the same regardless of meal frequency; the benefit is usually better hunger control.",
+      "source": "Metabolism and Meal Frequency",
+      "tags": [
+        "metabolism",
+        "timing",
+        "TEF"
+      ],
+      "funFact": "Intermittent fasting, which involves fewer, larger meals, can be equally effective for weight management."
+    },
+    {
+      "id": "q411",
+      "category": "myths",
+      "difficulty": "medium",
+      "type": "true-false",
+      "question": "Myth: **Frozen vegetables** are less nutritious than fresh vegetables.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explanation": "False. Frozen vegetables are often picked at peak ripeness and flash-frozen, locking in nutrients, while 'fresh' produce can lose vitamins during transit and storage.",
+      "source": "Food Preservation Research",
+      "tags": [
+        "vegetable",
+        "nutrients",
+        "freezing"
+      ],
+      "funFact": "In many cases, frozen vegetables have a higher vitamin C and folate content than fresh."
+    },
+    {
+      "id": "q412",
+      "category": "myths",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "question": "Which of these is NOT a myth related to sugar consumption?",
+      "options": [
+        "Sugar makes kids hyperactive.",
+        "Sugar is highly addictive.",
+        "Sugar directly causes Type 1 Diabetes.",
+        "Excess sugar consumption contributes to weight gain."
+      ],
+      "correct": 3,
+      "explanation": "Excess calorie intake from any source causes weight gain, and sugar is a highly common source of excess calories.",
+      "source": "General Nutrition and Health",
+      "tags": [
+        "sugar",
+        "health-risk",
+        "weight-gain"
+      ],
+      "funFact": "Studies show that sugar does not inherently cause hyperactivity in children; the excitement of the occasion is a stronger factor."
+    },
+    {
+      "id": "q413",
+      "category": "myths",
+      "difficulty": "medium",
+      "type": "true-false",
+      "question": "Myth: **Keto diets** and other low-carb diets are the only effective way to lose weight.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explanation": "False. Weight loss is fundamentally determined by maintaining a calorie deficit. Low-carb diets simply achieve this by restricting a major food group, which works for some people.",
+      "source": "Weight Management Science",
+      "tags": [
+        "keto",
+        "low-carb",
+        "weight-loss"
+      ],
+      "funFact": "A calorie is a calorie, regardless of whether it comes from a carb, fat, or protein."
+    },
+    {
+      "id": "q414",
+      "category": "myths",
+      "difficulty": "hard",
+      "type": "multiple-choice",
+      "question": "The myth of 'spot-reduction' of fat is debunked by the fact that fat is mobilized from cells based on:",
+      "options": [
+        "The proximity to muscle being exercised.",
+        "The time of day the exercise is performed.",
+        "Genetic and hormonal factors.",
+        "The intensity of the exercise only."
+      ],
+      "correct": 2,
+      "explanation": "The body decides where to store and release fat based on genetics and hormone-signaling, not the specific muscle you are exercising.",
+      "source": "Fat Metabolism Research",
+      "tags": [
+        "fat-loss",
+        "spot-reduction",
+        "genetics"
+      ],
+      "funFact": "While exercising a muscle makes it stronger, it won't specifically burn the fat directly on top of it."
+    },
+    {
+      "id": "q415",
+      "category": "myths",
+      "difficulty": "easy",
+      "type": "true-false",
+      "question": "Myth: **Skipping breakfast** is a guaranteed way to slow your metabolism and cause weight gain.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explanation": "False. Intermittent fasting and skipping breakfast are common strategies for weight management. Metabolism is not 'broken' by missing a meal.",
+      "source": "Intermittent Fasting Research",
+      "tags": [
+        "breakfast",
+        "metabolism",
+        "fasting"
+      ],
+      "funFact": "The key is to avoid overeating later in the day to compensate for the missed meal."
+    },
+    {
+      "id": "q416",
+      "category": "myths",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "The idea that **vegetarians/vegans** must painstakingly combine proteins in every meal (e.g., beans and rice) is:",
+      "options": [
+        "Scientifically proven and necessary for health.",
+        "An outdated concern, as the body can combine proteins from foods eaten over the course of a day.",
+        "Only true for children and the elderly.",
+        "Required to obtain iron and Vitamin B12."
+      ],
+      "correct": 1,
+      "explanation": "The body stores a pool of amino acids, so the 'complementary proteins' do not need to be consumed in the same meal to achieve a complete protein profile.",
+      "source": "Academy of Nutrition and Dietetics",
+      "tags": [
+        "plant-protein",
+        "complete-protein",
+        "vegan"
+      ],
+      "funFact": "This myth led to a lot of unnecessary anxiety for people starting a plant-based diet."
+    },
+    {
+      "id": "q417",
+      "category": "myths",
+      "difficulty": "easy",
+      "type": "true-false",
+      "question": "Myth: Eating a bowl of **oatmeal** is equivalent to eating a bowl of sugar because they are both carbohydrates.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explanation": "False. Oatmeal is a complex carbohydrate, rich in fiber, that is digested slowly. Table sugar (sucrose) is a simple carbohydrate that causes a rapid blood sugar spike.",
+      "source": "Glycemic Index Research",
+      "tags": [
+        "carbohydrate",
+        "sugar",
+        "fiber"
+      ],
+      "funFact": "The fiber in oatmeal helps reduce the overall glycemic impact of the meal."
+    },
+    {
+      "id": "q418",
+      "category": "myths",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "Which statement about the myth that **canned food** has no nutritional value is false?",
+      "options": [
+        "Canning involves heat, which destroys some heat-sensitive vitamins (like Vitamin C).",
+        "Canning locks in nutrients at the peak of freshness, similar to freezing.",
+        "Canned food is always higher in sodium than fresh food.",
+        "Canning removes all protein and fiber."
+      ],
+      "correct": 3,
+      "explanation": "Canning does not remove protein or fiber; these are preserved. While Vitamin C may be lower, the nutrient density of fiber and minerals often remains high.",
+      "source": "Food Preservation and Nutrition",
+      "tags": [
+        "canning",
+        "nutrients",
+        "storage"
+      ],
+      "funFact": "Canned tomatoes, for example, have higher amounts of the antioxidant lycopene than fresh tomatoes."
+    },
+    {
+      "id": "q419",
+      "category": "myths",
+      "difficulty": "hard",
+      "type": "true-false",
+      "question": "Myth: **Vitamin C** supplements can cure the common cold.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explanation": "False. Research indicates that Vitamin C supplementation may slightly shorten the duration of a cold, but it cannot cure it or prevent it in the general population.",
+      "source": "Cochrane Reviews",
+      "tags": [
+        "vitamin-C",
+        "cold",
+        "supplement"
+      ],
+      "funFact": "The myth originated from the work of chemist Linus Pauling in the 1970s."
+    },
+    {
+      "id": "q420",
+      "category": "myths",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "question": "Which food has a common myth that it aids in 'cleansing' the colon and digestive tract?",
+      "options": [
+        "White rice",
+        "Lean pork",
+        "Cayenne pepper",
+        "High-fiber whole foods"
+      ],
+      "correct": 2,
+      "explanation": "Cayenne pepper is often promoted in 'Master Cleanses,' but this is a myth. Fiber-rich foods are what naturally cleanse the colon.",
+      "source": "Detox Diet Analysis",
+      "tags": [
+        "cleansing",
+        "spices",
+        "digestion"
+      ],
+      "funFact": "The burning sensation from cayenne pepper is mistakenly interpreted as 'cleansing' action."
+    },
+    {
+      "id": "q421",
+      "category": "myths",
+      "difficulty": "medium",
+      "type": "true-false",
+      "question": "Myth: The human body is not designed to consume **dairy** after infancy, and it is harmful to the gut.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explanation": "False. About two-thirds of the global population is lactose intolerant, but this is a normal genetic variation. Dairy is a beneficial food for those who can digest it.",
+      "source": "Lactose Persistence Genetics",
+      "tags": [
+        "dairy",
+        "lactose",
+        "genetics"
+      ],
+      "funFact": "The ability to digest lactose into adulthood (lactose persistence) is a genetic mutation that spread with the rise of dairy farming."
+    },
+    {
+      "id": "q422",
+      "category": "myths",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "question": "The claim that you must eat a large number of **protein shakes** to build muscle is a myth because:",
+      "options": [
+        "Shakes are only for professional bodybuilders.",
+        "Protein from whole foods is just as effective.",
+        "Protein shakes contain no amino acids.",
+        "Shakes slow down your metabolism."
+      ],
+      "correct": 1,
+      "explanation": "Protein shakes are a convenient way to consume protein, but whole food sources (chicken, eggs, legumes) provide the same essential amino acids for muscle growth.",
+      "source": "Sports Nutrition",
+      "tags": [
+        "protein-shake",
+        "muscle",
+        "supplement"
+      ],
+      "funFact": "Shakes are most useful when convenience or high volume is a priority."
+    },
+    {
+      "id": "q423",
+      "category": "myths",
+      "difficulty": "medium",
+      "type": "true-false",
+      "question": "Myth: **Artificial sweeteners** cause cancer in humans and should be completely avoided.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explanation": "False. Major regulatory bodies (FDA, EFSA) consider common artificial sweeteners safe at typical consumption levels, based on decades of research, including no consistent link to cancer.",
+      "source": "FDA Safety Guidelines",
+      "tags": [
+        "sweetener",
+        "health-risk",
+        "cancer"
+      ],
+      "funFact": "The myth stems from early studies in rats using doses far higher than a human would ever consume."
+    },
+    {
+      "id": "q424",
+      "category": "myths",
+      "difficulty": "hard",
+      "type": "multiple-choice",
+      "question": "Which of these is a myth about **fruit**?",
+      "options": [
+        "Fruit contains natural sugar.",
+        "Fiber in fruit helps slow sugar absorption.",
+        "Fruit is inherently fattening and should be eliminated due to its fructose content.",
+        "Fruit contains essential vitamins and antioxidants."
+      ],
+      "correct": 2,
+      "explanation": "Fructose is only problematic in large, concentrated doses (e.g., HFCS in soda). The fiber, water, and nutrient content of whole fruit make it a non-fattening, healthy food.",
+      "source": "Whole Foods and Fructose Metabolism",
+      "tags": [
+        "fruit",
+        "fructose",
+        "weight-loss"
+      ],
+      "funFact": "It's difficult to eat enough whole fruit to consume the problematic amount of fructose."
+    },
+    {
+      "id": "q425",
+      "category": "myths",
+      "difficulty": "easy",
+      "type": "true-false",
+      "question": "Myth: **Natural sugar** (like honey or maple syrup) is significantly healthier for you than white table sugar.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explanation": "False. While natural sugars contain trace minerals, they are all ultimately processed as glucose and fructose by the body and have a similar caloric and metabolic effect.",
+      "source": "Sugar Metabolism",
+      "tags": [
+        "sugar",
+        "natural",
+        "comparison"
+      ],
+      "funFact": "Maple syrup is composed of sucrose, fructose, and glucose, much like table sugar."
+    },
+    {
+      "id": "q426",
+      "category": "myths",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "Which food has a myth that it is an **'alkaline'** food that can drastically change your body's pH balance?",
+      "options": [
+        "Lemon water",
+        "Red meat",
+        "White bread",
+        "Cheese"
+      ],
+      "correct": 0,
+      "explanation": "The 'alkaline diet' myth claims lemon water changes the body's pH. This is impossible; the kidneys and lungs tightly regulate blood pH, which is unaffected by food.",
+      "source": "Acid-Base Homeostasis",
+      "tags": [
+        "alkaline",
+        "pH",
+        "lemon-water"
+      ],
+      "funFact": "While lemon water is healthy, its benefit is primarily from hydration and Vitamin C."
+    },
+    {
+      "id": "q427",
+      "category": "myths",
+      "difficulty": "easy",
+      "type": "true-false",
+      "question": "Myth: **Eating small amounts of arsenic** (found naturally in some foods) will slowly kill you.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explanation": "False. Low levels of naturally occurring, less toxic *inorganic* arsenic are found in many foods (like rice), and the body can safely excrete it.",
+      "source": "Toxicology and Food Safety",
+      "tags": [
+        "food-safety",
+        "arsenic",
+        "toxin"
+      ],
+      "funFact": "The concern is with industrial or contaminated sources, not the trace amounts in a normal diet."
+    },
+    {
+      "id": "q428",
+      "category": "myths",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "The myth that **milk** causes excess mucus production and makes colds worse is primarily due to:",
+      "options": [
+        "Its high fat content coating the throat.",
+        "The milk protein (casein) being indigestible.",
+        "A cultural belief with no consistent scientific backing.",
+        "Its high sugar content."
+      ],
+      "correct": 2,
+      "explanation": "Multiple clinical trials have failed to find a link between milk consumption and increased mucus production or asthma symptoms in adults or children.",
+      "source": "Clinical Trials on Dairy and Mucus",
+      "tags": [
+        "dairy",
+        "cold",
+        "mucus"
+      ],
+      "funFact": "The sensation of milk coating the throat is mistaken for mucus production."
+    },
+    {
+      "id": "q429",
+      "category": "myths",
+      "difficulty": "hard",
+      "type": "true-false",
+      "question": "Myth: **Eating too much protein** increases the risk of gout because protein is high in purines.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explanation": "False. Gout is caused by high uric acid (from purines). High-protein foods are not necessarily high in purines; high purine foods are primarily offal meat and some seafood.",
+      "source": "Gout and Purine Research",
+      "tags": [
+        "protein",
+        "uric-acid",
+        "gout"
+      ],
+      "funFact": "Gout is more strongly linked to high consumption of fructose and alcohol than overall protein intake."
+    },
+    {
+      "id": "q430",
+      "category": "myths",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "question": "Which of these is a common myth about **red meat** consumption?",
+      "options": [
+        "It is a poor source of iron.",
+        "It is harmful to the gut biome.",
+        "It is the direct cause of all heart disease.",
+        "It is a complete protein."
+      ],
+      "correct": 2,
+      "explanation": "While heavy consumption of processed or poor-quality red meat may increase risk, red meat itself is not the direct cause of all heart disease in a balanced diet.",
+      "source": "Cardiovascular Health and Diet",
+      "tags": [
+        "red-meat",
+        "heart-health",
+        "risk"
+      ],
+      "funFact": "Red meat is a vital source of heme iron and Vitamin B12."
+    },
+    {
+      "id": "q431",
+      "category": "myths",
+      "difficulty": "medium",
+      "type": "true-false",
+      "question": "Myth: You can train your stomach to be smaller by eating less, thus **permanently reducing your appetite**.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explanation": "False. The stomach is a flexible organ that returns to its original size. Appetite is regulated by hormones, not stomach size.",
+      "source": "Gastroenterology",
+      "tags": [
+        "stomach",
+        "appetite",
+        "hormone"
+      ],
+      "funFact": "While stomach size doesn't shrink, *ghrelin* (the hunger hormone) regulation may change, making it easier to feel full on less food."
+    },
+    {
+      "id": "q432",
+      "category": "myths",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "question": "Which vegetable is often claimed to be a **'superfood'** due to its supposed unique fat-burning properties (a myth)?",
+      "options": [
+        "Broccoli",
+        "Kale",
+        "Cauliflower",
+        "Brussels Sprouts"
+      ],
+      "correct": 1,
+      "explanation": "Kale is a nutrient-dense food, but no single food, including kale, has unique properties that actively burn body fat.",
+      "source": "Superfood Marketing Analysis",
+      "tags": [
+        "superfood",
+        "fat-burning",
+        "vegetable"
+      ],
+      "funFact": "The term 'superfood' is a marketing term with no official scientific definition."
+    },
+    {
+      "id": "q433",
+      "category": "myths",
+      "difficulty": "medium",
+      "type": "true-false",
+      "question": "Myth: Eating **grapefruit** with a meal will block the absorption of calories and fat from the rest of the food.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explanation": "False. No food can 'block' the absorption of all calories/fat. Grapefruit can, however, interfere with the metabolism of certain medications.",
+      "source": "Metabolism and Drug Interactions",
+      "tags": [
+        "grapefruit",
+        "fat-blocking",
+        "weight-loss"
+      ],
+      "funFact": "Grapefruit can block an enzyme called CYP3A4, which breaks down certain medications, leading to a dangerous buildup of the drug in the system."
+    },
+    {
+      "id": "q434",
+      "category": "myths",
+      "difficulty": "hard",
+      "type": "multiple-choice",
+      "question": "The myth that microwaving food destroys all its nutrients is most specifically false because:",
+      "options": [
+        "Microwaves add nutrients to the food.",
+        "Nutrient loss is primarily dependent on cooking time and liquid volume.",
+        "Microwaving only destroys fat-soluble vitamins.",
+        "The microwave creates a protective barrier around the nutrients."
+      ],
+      "correct": 1,
+      "explanation": "Microwaving uses very short cooking times and minimal water, often preserving nutrients better than boiling or steaming.",
+      "source": "Food Science and Cooking Methods",
+      "tags": [
+        "cooking",
+        "nutrients",
+        "microwave"
+      ],
+      "funFact": "Any cooking method that uses heat and water will cause some loss of water-soluble vitamins."
+    },
+    {
+      "id": "q435",
+      "category": "myths",
+      "difficulty": "easy",
+      "type": "true-false",
+      "question": "Myth: **Brown eggs** are more nutritious than white eggs.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explanation": "False. Eggshell color is determined solely by the breed of the hen and has no bearing on the egg's nutritional value, flavor, or quality.",
+      "source": "Poultry Science",
+      "tags": [
+        "egg",
+        "color",
+        "nutrition"
+      ],
+      "funFact": "Hens with white feathers and white earlobes typically lay white eggs; red-feathered chickens with red earlobes lay brown eggs."
+    },
+    {
+      "id": "q436",
+      "category": "myths",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "Which supplement has a myth of being a **'magical weight-loss pill'** by melting fat without diet or exercise?",
+      "options": [
+        "Creatine",
+        "Fish Oil",
+        "Garcinia Cambogia",
+        "B-Vitamins"
+      ],
+      "correct": 2,
+      "explanation": "Garcinia cambogia is a common ingredient in diet pills often touted for its fat-blocking properties, which are not supported by strong clinical evidence for significant weight loss.",
+      "source": "Clinical Trials on Weight Loss Supplements",
+      "tags": [
+        "supplement",
+        "weight-loss",
+        "fat-burning"
+      ],
+      "funFact": "Most supplements that claim to 'melt fat' work by simply adding caffeine or other mild stimulants."
+    },
+    {
+      "id": "q437",
+      "category": "myths",
+      "difficulty": "easy",
+      "type": "true-false",
+      "question": "Myth: **Dairy** products should be avoided entirely for people struggling with acne.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explanation": "False. While some studies suggest a link between *skim* milk and acne, the evidence is not strong enough to warrant a total avoidance of all dairy for all acne sufferers.",
+      "source": "Dermatology and Nutrition",
+      "tags": [
+        "dairy",
+        "acne",
+        "skin-health"
+      ],
+      "funFact": "Individual responses to dairy vary widely, and other factors like sugar intake are stronger predictors of acne."
+    },
+    {
+      "id": "q438",
+      "category": "myths",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "The myth that a **'sugar rush'** causes hyperactivity in children is primarily attributed to:",
+      "options": [
+        "Genetic sensitivity to glucose.",
+        "The excitement of the occasion (like a party) where sugary treats are served.",
+        "Severe insulin resistance.",
+        "A lack of specific gut bacteria."
+      ],
+      "correct": 1,
+      "explanation": "Multiple double-blind, placebo-controlled studies have failed to find a link. The perceived hyperactivity is a psychological response to context and expectation.",
+      "source": "Pediatric Behavioral Science",
+      "tags": [
+        "sugar",
+        "hyperactivity",
+        "children"
+      ],
+      "funFact": "In one study, mothers who were told their child received sugar (even when they hadn't) rated their children as more hyperactive."
+    },
+    {
+      "id": "q439",
+      "category": "myths",
+      "difficulty": "hard",
+      "type": "true-false",
+      "question": "Myth: A food's **Glycemic Index (GI)** is the most important factor for determining its health value and should be followed strictly.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explanation": "False. GI is a single measure that can be misleading. Factors like Glycemic Load, fiber, vitamins, and how the food is cooked are equally, if not more, important.",
+      "source": "Glycemic Load vs. Glycemic Index",
+      "tags": [
+        "GI",
+        "glycemic-load",
+        "carbohydrate"
+      ],
+      "funFact": "A GI of 70 is considered high, but the overall effect on the body also depends on the portion size (Glycemic Load)."
+    },
+    {
+      "id": "q440",
+      "category": "myths",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "question": "Which is a myth regarding **butter and margarine**?",
+      "options": [
+        "Margarine is always made with partially hydrogenated oils (trans fats).",
+        "Butter is primarily saturated fat.",
+        "Margarine is an emulsion of oil and water.",
+        "Butter contains Vitamin A and D."
+      ],
+      "correct": 0,
+      "explanation": "Modern margarines have largely eliminated trans fats (partially hydrogenated oils) due to health concerns and regulation.",
+      "source": "Food Manufacturing History",
+      "tags": [
+        "fat",
+        "margarine",
+        "trans-fat"
+      ],
+      "funFact": "The trans-fat myth about margarine is true for older formulations, but not most modern ones."
+    },
+    {
+      "id": "q441",
+      "category": "myths",
+      "difficulty": "medium",
+      "type": "true-false",
+      "question": "Myth: The human body is constantly in 'starvation mode' if you don't eat every few hours.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explanation": "False. Starvation mode (metabolic slowdown) only occurs after a long period (several days) of extreme calorie restriction, not a few hours between meals.",
+      "source": "Metabolism and Fasting",
+      "tags": [
+        "starvation-mode",
+        "metabolism",
+        "fasting"
+      ],
+      "funFact": "The body is simply shifting into a fat-burning state (ketosis) during short fasts."
+    },
+    {
+      "id": "q442",
+      "category": "myths",
+      "difficulty": "easy",
+      "type": "multiple-choice",
+      "question": "The primary problem with the myth that **gluten** is unhealthy for everyone is that:",
+      "options": [
+        "Gluten is essential for all body functions.",
+        "Only people with Celiac disease or a non-celiac sensitivity need to avoid it.",
+        "Gluten is a source of Vitamin C.",
+        "Gluten makes you gain weight."
+      ],
+      "correct": 1,
+      "explanation": "Gluten is a protein that is perfectly safe for the vast majority of the population who do not have Celiac disease or an intolerance.",
+      "source": "Celiac Disease Research",
+      "tags": [
+        "gluten",
+        "celiac",
+        "protein"
+      ],
+      "funFact": "Many gluten-free packaged foods substitute with refined starches that can be lower in fiber and nutrients."
+    },
+    {
+      "id": "q443",
+      "category": "myths",
+      "difficulty": "medium",
+      "type": "true-false",
+      "question": "Myth: **Dairy fat** (in whole milk or cheese) is inherently bad for heart health because it is mostly saturated fat.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explanation": "False. Recent research suggests that saturated fat from whole dairy is metabolically complex and may not have the same negative impact on heart health as saturated fat from processed meats.",
+      "source": "Dairy and Cardiovascular Health Studies",
+      "tags": [
+        "dairy",
+        "saturated-fat",
+        "heart-health"
+      ],
+      "funFact": "Full-fat dairy products may even be associated with a lower risk of obesity and Type 2 diabetes."
+    },
+    {
+      "id": "q444",
+      "category": "myths",
+      "difficulty": "hard",
+      "type": "multiple-choice",
+      "question": "Which myth is related to the consumption of **raw vegetables**?",
+      "options": [
+        "Raw vegetables contain more calories.",
+        "They are difficult for the stomach to digest.",
+        "Raw vegetables are a poor source of fiber.",
+        "Raw vegetables have lower levels of certain antioxidants than cooked."
+      ],
+      "correct": 3,
+      "explanation": "Cooking can increase the bioavailability of certain fat-soluble antioxidants, like lycopene in tomatoes and beta-carotene in carrots, by breaking down tough cell walls.",
+      "source": "Food Bioavailability Studies",
+      "tags": [
+        "cooking",
+        "antioxidant",
+        "vegetable"
+      ],
+      "funFact": "The best approach is to eat a mix of both raw and cooked vegetables."
+    },
+    {
+      "id": "q445",
+      "category": "myths",
+      "difficulty": "easy",
+      "type": "true-false",
+      "question": "Myth: **Eating fat** will directly make you fat, and a zero-fat diet is the best way to lose weight.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explanation": "False. Eating any macronutrient (fat, carbs, or protein) in excess of your energy needs will lead to weight gain. Healthy fats are essential for hormone production and vitamin absorption.",
+      "source": "Macronutrient Metabolism",
+      "tags": [
+        "fat",
+        "weight-loss",
+        "essential-nutrients"
+      ],
+      "funFact": "Healthy fats actually help with satiety, which can prevent overeating."
+    },
+    {
+      "id": "q446",
+      "category": "myths",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "The myth that **caffeine** is a dangerous drug that must be eliminated from a healthy diet is false because:",
+      "options": [
+        "Caffeine provides 4 calories per gram.",
+        "Moderate caffeine intake is associated with a lower risk of Type 2 Diabetes and Parkinson’s.",
+        "Caffeine does not affect the central nervous system.",
+        "Caffeine is only found in coffee."
+      ],
+      "correct": 1,
+      "explanation": "Moderate coffee/caffeine consumption has been shown in many studies to have various health benefits, making the blanket 'dangerous' label a myth.",
+      "source": "Caffeine and Health Research",
+      "tags": [
+        "caffeine",
+        "health-benefit",
+        "coffee"
+      ],
+      "funFact": "The safe limit for most healthy adults is around 400mg of caffeine per day (about 4 cups of coffee)."
+    },
+    {
+      "id": "q447",
+      "category": "myths",
+      "difficulty": "easy",
+      "type": "true-false",
+      "question": "Myth: **Vitamin supplements** can entirely make up for a poor diet.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explanation": "False. Supplements cannot replace the fiber, phytonutrients, and macronutrient balance of a whole-food diet.",
+      "source": "Dietary Guidelines for Americans",
+      "tags": [
+        "supplement",
+        "whole-foods",
+        "nutrients"
+      ],
+      "funFact": "Supplements are best used to cover specific, identified deficiencies."
+    },
+    {
+      "id": "q448",
+      "category": "myths",
+      "difficulty": "medium",
+      "type": "multiple-choice",
+      "question": "The belief that **'going Paleo'** (eating only foods from the Paleolithic era) is the optimal human diet is flawed because:",
+      "options": [
+        "Hunter-gatherer diets varied greatly by location.",
+        "It eliminates all protein sources.",
+        "Paleo foods are all very high in sugar.",
+        "It eliminates all healthy fats."
+      ],
+      "correct": 0,
+      "explanation": "There was no single 'Paleo diet.' Diets varied drastically based on geography, climate, and season, and often included foods (like legumes) that the modern Paleo diet restricts.",
+      "source": "Anthropological Nutrition",
+      "tags": [
+        "paleo",
+        "diet-trend",
+        "history"
+      ],
+      "funFact": "Modern agriculture has changed many foods, meaning even a 'true Paleo' diet is impossible to replicate."
+    },
+    {
+      "id": "q449",
+      "category": "myths",
+      "difficulty": "hard",
+      "type": "true-false",
+      "question": "Myth: **Unpasteurized (raw) milk** is nutritionally superior and has stronger immune-boosting properties than pasteurized milk.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "explanation": "False. Pasteurization (heating) causes minimal nutritional change but drastically reduces the risk of serious, life-threatening bacterial infections (e.g., E. coli, Salmonella).",
+      "source": "CDC and FDA Food Safety Guidelines",
+      "tags": [
+        "dairy",
+        "raw-milk",
+        "food-safety"
+      ],
+      "funFact": "Raw milk is one of the riskiest foods because of potential bacterial contamination."
     }
   ]
 }
