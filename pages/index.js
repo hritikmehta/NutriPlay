@@ -16,18 +16,19 @@ const GAME_STATES = {
 
 // Available categories
 const CATEGORIES = [
+  // Reordered categories based on user request
   { id: 'random', name: 'Random', description: 'Mix of all categories' },
-  { id: 'myths', name: 'Myths', description: 'Nutrition myths and facts' },
+  { id: 'protein', name: 'Protein', description: 'Protein and muscle building' },
+  { id: 'calories', name: 'Calories', description: 'Calorie content and metabolism' },
   { id: 'indian-foods', name: 'Indian Foods', description: 'Traditional Indian nutrition' },
+  { id: 'myths', name: 'Myths', description: 'Nutrition myths and facts' },
+  { id: 'fats', name: 'Fats', description: 'Fats and healthy lipids' },
+  { id: 'carbohydrates', name: 'Carbohydrates', description: 'Carbs and energy' },
   { id: 'vitamins', name: 'Vitamins', description: 'Vitamin knowledge' },
   { id: 'hydration', name: 'Hydration', description: 'Water and hydration' },
-  { id: 'protein', name: 'Protein', description: 'Protein and muscle building' },
-  { id: 'carbohydrates', name: 'Carbohydrates', description: 'Carbs and energy' },
   { id: 'cooking', name: 'Cooking', description: 'Cooking methods and nutrition' },
   { id: 'healthy-habits', name: 'Healthy Habits', description: 'Daily health practices' },
-  { id: 'food-swaps', name: 'Food Swaps', description: 'Healthy food alternatives' },
-  { id: 'fats', name: 'Fats', description: 'Healthy and unhealthy fats' },
-  { id: 'calories', name: 'Calories', description: 'Calorie knowledge' }
+  { id: 'food-swaps', name: 'Food Swaps', description: 'Healthy food alternatives' }
 ]
 
 export default function Home() {
@@ -606,7 +607,7 @@ export default function Home() {
     const selectedCategoryNames = selectedCategories.map(catId =>
       CATEGORIES.find(c => c.id === catId)?.name || 'Random'
     ).join(', ')
-    const selectedDifficultyNames = selectedDifficulties.length ? selectedDifficulties.map(d => d[0].toUpperCase() + d.slice(1)).join(', ') : 'Any'
+    const selectedDifficultyNames = selectedDifficulties.length ? selectedDifficulties.map(d => d[0].toUpperCase() + d.slice(1)).join(', ') : 'Random'
     
     return (
       <div className="min-h-screen bg-orangePrimary flex items-center justify-center p-4">
@@ -672,7 +673,7 @@ export default function Home() {
              </div>
            </div>
            
-           <p className="text-sm text-orangePrimary font-medium mb-6">Current Selection: {selectedCategoryNames} • Difficulty: {selectedDifficultyNames}</p>
+           <p className="text-sm text-orangePrimary font-medium mb-6">Current Selection: {selectedCategoryNames} • {selectedDifficultyNames}</p>
 
           <button
             onClick={() => startGameWithCategories(selectedCategories)}
@@ -690,7 +691,7 @@ export default function Home() {
     const selectedCategoryNames = selectedCategories.map(catId =>
       CATEGORIES.find(c => c.id === catId)?.name || 'Random'
     ).join(', ')
-    const selectedDifficultyNames = selectedDifficulties.length ? selectedDifficulties.map(d => d[0].toUpperCase() + d.slice(1)).join(', ') : 'Any'
+    const selectedDifficultyNames = selectedDifficulties.length ? selectedDifficulties.map(d => d[0].toUpperCase() + d.slice(1)).join(', ') : 'Random'
     return (
       <div className="min-h-screen bg-orangePrimary flex items-center justify-center p-4">
         <div className="w-full max-w-md bg-white rounded-2xl shadow-lg p-8 text-center">
