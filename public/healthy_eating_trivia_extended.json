@@ -670,15 +670,15 @@
       "category": "healthy-habits",
       "difficulty": "medium",
       "type": "multiple-choice",
-      "question": "What gives tomatoes their red color and antioxidant properties?",
+      "question": "How much protein is in 100g of boiled eggs (roughly 2 medium eggs)?",
       "options": [
-        "Beta-carotene",
-        "Lycopene",
-        "Anthocyanins",
-        "Chlorophyll"
+        "7g",
+        "13g",
+        "20g",
+        "28g"
       ],
       "correct": 1,
-      "explanation": "Lycopene is a powerful antioxidant that gives tomatoes their characteristic red color.",
+      "explanation": "100g of boiled eggs contains about 13g of protein, making eggs one of the most cost-effective protein sources.",
       "source": "Journal of Agricultural Chemistry",
       "tags": [
         "phytonutrients",
@@ -713,15 +713,15 @@
       "category": "random",
       "difficulty": "hard",
       "type": "multiple-choice",
-      "question": "Which compound in tea and coffee reduces iron absorption?",
+      "question": "Approximately how many calories are in one medium samosa (about 60g)?",
       "options": [
-        "Caffeine",
-        "Tannins",
-        "Antioxidants",
-        "Flavonoids"
+        "80",
+        "130",
+        "160",
+        "220"
       ],
-      "correct": 1,
-      "explanation": "Tannins in tea and coffee bind to iron, reducing its absorption by up to 60% when consumed with meals.",
+      "correct": 2,
+      "explanation": "A medium samosa (deep-fried) contains roughly 150–170 calories, depending on the filling and size.",
       "source": "American Journal of Clinical Nutrition",
       "tags": [
         "bioavailability",
@@ -757,15 +757,15 @@
       "category": "healthy-habits",
       "difficulty": "medium",
       "type": "multiple-choice",
-      "question": "Which gland requires iodine for hormone production?",
+      "question": "How many calories are in 200ml of whole cow's milk?",
       "options": [
-        "Pituitary",
-        "Thyroid",
-        "Adrenal",
-        "Pancreas"
+        "60",
+        "90",
+        "122",
+        "150"
       ],
-      "correct": 1,
-      "explanation": "The thyroid gland needs iodine to produce thyroid hormones that regulate metabolism.",
+      "correct": 2,
+      "explanation": "200ml of whole milk provides around 120–125 calories along with calcium, protein, and fat.",
       "source": "WHO Iodine Guidelines",
       "tags": [
         "iodine",
@@ -1279,15 +1279,15 @@
       "category": "healthy-habits",
       "difficulty": "medium",
       "type": "multiple-choice",
-      "question": "Which mineral is essential for red blood cell formation along with iron?",
+      "question": "Approximately how many calories are in one bowl of cooked white rice (150g)?",
       "options": [
-        "Zinc",
-        "Copper",
-        "Manganese",
-        "Chromium"
+        "120",
+        "195",
+        "240",
+        "300"
       ],
       "correct": 1,
-      "explanation": "Copper works with iron in hemoglobin synthesis and is essential for iron absorption and utilization.",
+      "explanation": "150g of cooked white rice has about 195 calories. It's a common staple but can spike blood sugar quickly.",
       "source": "ICMR-NIN 2020",
       "tags": [
         "copper",
@@ -1321,15 +1321,15 @@
       "category": "vitamins",
       "difficulty": "hard",
       "type": "multiple-choice",
-      "question": "Which carotenoid is converted to vitamin A in the body?",
+      "question": "How much Vitamin C is in one medium orange (approximately 130g)?",
       "options": [
-        "Lycopene",
-        "Lutein",
-        "Beta-carotene",
-        "Zeaxanthin"
+        "20mg",
+        "45mg",
+        "70mg",
+        "130mg"
       ],
       "correct": 2,
-      "explanation": "Beta-carotene is a provitamin A carotenoid that the body converts to vitamin A as needed.",
+      "explanation": "One medium orange provides about 70mg of Vitamin C, which meets the recommended daily intake for most adults.",
       "source": "Vitamin A Research",
       "tags": [
         "carotenoids",
@@ -1939,15 +1939,15 @@
       "category": "healthy-habits",
       "difficulty": "medium",
       "type": "multiple-choice",
-      "question": "Which vegetable is rich in sulfur compounds beneficial for detoxification?",
+      "question": "Approximately how many calories are in 1 tablespoon (15ml) of ghee?",
       "options": [
-        "Potato",
-        "Garlic",
-        "Carrot",
-        "Cucumber"
+        "50",
+        "90",
+        "135",
+        "180"
       ],
-      "correct": 1,
-      "explanation": "Garlic contains sulfur compounds like allicin that support liver detoxification and boost immunity.",
+      "correct": 2,
+      "explanation": "One tablespoon of ghee has about 112–135 calories. It's calorie-dense so portion control is important.",
       "source": "Phytochemistry Research",
       "tags": [
         "sulfur-sources",
@@ -1981,15 +1981,15 @@
       "category": "healthy-habits",
       "difficulty": "hard",
       "type": "multiple-choice",
-      "question": "Which food is rich in tryptophan that helps improve sleep?",
+      "question": "Which of these foods can help improve sleep quality through its natural compounds?",
       "options": [
-        "Cucumber",
-        "Pumpkin seeds",
-        "White bread",
-        "Soft drinks"
+        "Coffee",
+        "Warm milk with honey",
+        "Energy drinks",
+        "Alcohol"
       ],
       "correct": 1,
-      "explanation": "Pumpkin seeds are rich in tryptophan, an amino acid that converts to serotonin and melatonin for better sleep.",
+      "explanation": "Warm milk contains compounds that may aid relaxation, making it a traditional sleep-promoting drink.",
       "source": "Sleep Medicine Research",
       "tags": [
         "tryptophan-sources",
@@ -2003,13 +2003,13 @@
       "category": "healthy-habits",
       "difficulty": "medium",
       "type": "true-false",
-      "question": "True or False: Mushrooms contain beta-glucans that boost immunity.",
+      "question": "True or False: Eating mushrooms can provide Vitamin D, especially if they've been sun-dried.",
       "options": [
         "True",
         "False"
       ],
       "correct": 0,
-      "explanation": "Mushrooms are rich in beta-glucans, compounds that enhance immune function and reduce inflammation.",
+      "explanation": "Mushrooms are one of the few plant-based sources of Vitamin D. Sun-drying them increases their D content significantly.",
       "source": "Immunology Research",
       "tags": [
         "beta-glucan-sources",
@@ -2045,15 +2045,15 @@
       "category": "healthy-habits",
       "difficulty": "medium",
       "type": "multiple-choice",
-      "question": "Which fruit contains the enzyme bromelain that aids digestion?",
+      "question": "Approximately how many calories are in 100g of fresh pineapple?",
       "options": [
-        "Watermelon",
-        "Pineapple",
-        "Orange",
-        "Grape"
+        "25",
+        "50",
+        "85",
+        "120"
       ],
       "correct": 1,
-      "explanation": "Pineapple contains bromelain, a group of enzymes that break down proteins and have anti-inflammatory properties.",
+      "explanation": "100g of fresh pineapple has about 50 calories, making it a low-calorie, refreshing fruit rich in Vitamin C.",
       "source": "Enzyme Research",
       "tags": [
         "bromelain-sources",
@@ -2067,13 +2067,13 @@
       "category": "healthy-habits",
       "difficulty": "medium",
       "type": "true-false",
-      "question": "True or False: Papaya contains papain enzyme that aids digestion.",
+      "question": "True or False: Papaya is a good source of Vitamin C and supports healthy digestion.",
       "options": [
         "True",
         "False"
       ],
       "correct": 0,
-      "explanation": "Papaya contains papain, a digestive enzyme that breaks down proteins and soothes the digestive tract.",
+      "explanation": "Papaya is rich in Vitamin C and contains natural compounds that support digestion. It's also low in calories.",
       "source": "Digestive Enzymes Research",
       "tags": [
         "papain-sources",
@@ -2301,15 +2301,15 @@
       "category": "calories",
       "difficulty": "hard",
       "type": "multiple-choice",
-      "question": "Which component of the Total Daily Energy Expenditure (TDEE) accounts for the largest percentage of calories burned for most sedentary individuals?",
+      "question": "Approximately how many calories are in one plate of paneer butter masala (250g serving at a restaurant)?",
       "options": [
-        "Thermic Effect of Food (TEF)",
-        "Exercise Activity",
-        "Non-Exercise Activity Thermogenesis (NEAT)",
-        "Basal Metabolic Rate (BMR)"
+        "200",
+        "350",
+        "480",
+        "620"
       ],
-      "correct": 3,
-      "explanation": "BMR (Basal Metabolic Rate) accounts for the vast majority (60-75%) of calories burned per day, supporting basic life functions.",
+      "correct": 2,
+      "explanation": "A typical restaurant-style paneer butter masala (250g) has roughly 400–500 calories due to cream, butter, and oil.",
       "source": "Human Metabolism Studies",
       "tags": [
         "metabolism",
@@ -2367,13 +2367,13 @@
       "category": "calories",
       "difficulty": "hard",
       "type": "true-false",
-      "question": "True or False: The Thermic Effect of Food (TEF) accounts for roughly 25% of the total calories you burn each day.",
+      "question": "True or False: Drinking one can of regular cola (330ml) adds approximately 140 calories to your diet.",
       "options": [
         "True",
         "False"
       ],
-      "correct": 1,
-      "explanation": "False. TEF, the energy required for digestion, absorption, and disposal of nutrients, accounts for only about 5-10% of TDEE.",
+      "correct": 0,
+      "explanation": "A 330ml can of regular cola has about 139–142 calories, mostly from added sugar (about 35g).",
       "source": "Metabolism Research",
       "tags": [
         "metabolism",
@@ -2579,15 +2579,15 @@
       "category": "calories",
       "difficulty": "hard",
       "type": "multiple-choice",
-      "question": "Which type of sweetener contains 4 calories per gram and is not considered a sugar?",
+      "question": "Which of these sweeteners has virtually zero calories?",
       "options": [
-        "Stevia",
-        "Erythritol",
-        "Xylitol",
-        "Sucralose"
+        "Honey",
+        "White sugar",
+        "Maple syrup",
+        "Stevia"
       ],
-      "correct": 2,
-      "explanation": "Xylitol is a sugar alcohol that provides 2.4 calories per gram (closest to 4 kcal/g among sugar alcohols) and is commonly used as a sugar substitute.",
+      "correct": 3,
+      "explanation": "Stevia is a plant-derived sweetener with no calories. It can be 200–300 times sweeter than sugar.",
       "source": "FDA Sweetener Guidelines",
       "tags": [
         "sweetener",
@@ -2685,15 +2685,15 @@
       "category": "calories",
       "difficulty": "easy",
       "type": "multiple-choice",
-      "question": "Which part of a whole grain kernel contains the majority of the calories?",
+      "question": "Approximately how many calories are in 100g of dry (uncooked) oats?",
       "options": [
-        "Bran",
-        "Germ",
-        "Endosperm",
-        "Hull"
+        "150",
+        "250",
+        "370",
+        "450"
       ],
       "correct": 2,
-      "explanation": "The endosperm is the largest part, consisting mostly of starchy carbohydrates, which provide the bulk of the grain's calories.",
+      "explanation": "100g of dry oats contains about 370 calories. Once cooked with water, the same portion dilutes to roughly 70 calories per 100g.",
       "source": "Grain Structure Biology",
       "tags": [
         "grains",
@@ -2877,15 +2877,15 @@
       "category": "calories",
       "difficulty": "medium",
       "type": "multiple-choice",
-      "question": "Which part of the body consumes the most energy (calories) while at rest?",
+      "question": "Approximately how many calories does a 70kg adult burn during 30 minutes of brisk walking?",
       "options": [
-        "Muscles",
-        "Liver",
-        "Brain",
-        "Heart"
+        "80",
+        "150",
+        "250",
+        "350"
       ],
-      "correct": 2,
-      "explanation": "The brain, though only about 2% of body weight, accounts for roughly 20% of the body's total basal energy expenditure.",
+      "correct": 1,
+      "explanation": "A 70kg person burns roughly 150 calories during 30 minutes of brisk walking (5–6 km/h).",
       "source": "Human Physiology",
       "tags": [
         "organ",
@@ -3027,15 +3027,15 @@
       "category": "calories",
       "difficulty": "medium",
       "type": "multiple-choice",
-      "question": "What is the primary factor that determines the total energy density (calories per gram) of a food?",
+      "question": "Approximately how many calories are in 100ml of fresh orange juice (no added sugar)?",
       "options": [
-        "Water content",
-        "Vitamin content",
-        "Mineral content",
-        "Sugar content"
+        "20",
+        "45",
+        "90",
+        "120"
       ],
-      "correct": 0,
-      "explanation": "Water provides 0 calories. The higher the water content (e.g., vegetables), the lower the calorie density; the lower the water content (e.g., nuts/oils), the higher the density.",
+      "correct": 1,
+      "explanation": "100ml of fresh orange juice has about 45 calories. It's healthier than packaged juice but lacks the fiber of whole fruit.",
       "source": "Food Science Principles",
       "tags": [
         "water",
@@ -3133,15 +3133,15 @@
       "category": "calories",
       "difficulty": "hard",
       "type": "multiple-choice",
-      "question": "In the process of calculating the usable energy of food, the Atwater system assigns which energy value to carbohydrates?",
+      "question": "How many calories are approximately in one plain dosa (thin, no filling, about 70g)?",
       "options": [
-        "3.75 kcal/g",
-        "4.0 kcal/g",
-        "4.2 kcal/g",
-        "4.4 kcal/g"
+        "60",
+        "120",
+        "200",
+        "280"
       ],
       "correct": 1,
-      "explanation": "The Atwater system assigns 4 kcal/g for protein and carbs and 9 kcal/g for fat, which are the values used on most food labels.",
+      "explanation": "A plain thin dosa has about 112–130 calories. Fillings like potato masala add significantly more.",
       "source": "Atwater System of Food Energy",
       "tags": [
         "measurement",
@@ -3371,15 +3371,15 @@
       "category": "protein",
       "difficulty": "hard",
       "type": "multiple-choice",
-      "question": "What is the primary protein found in wheat and other related grains?",
+      "question": "Approximately how much protein is in 100g of cooked rajma (kidney beans)?",
       "options": [
-        "Casein",
-        "Collagen",
-        "Elastin",
-        "Gluten"
+        "4g",
+        "9g",
+        "14g",
+        "20g"
       ],
-      "correct": 3,
-      "explanation": "Gluten is a composite of proteins (gliadin and glutenin) found in wheat, barley, and rye, which gives dough its elasticity.",
+      "correct": 1,
+      "explanation": "100g of cooked rajma contains about 8–9g of protein. Pairing it with rice creates a more complete protein meal.",
       "source": "Cereal Chemistry",
       "tags": [
         "plant-protein",
@@ -3413,15 +3413,15 @@
       "category": "protein",
       "difficulty": "medium",
       "type": "multiple-choice",
-      "question": "What is the most abundant protein in the human body, found in skin, bone, and connective tissue?",
+      "question": "How much protein does 200g of low-fat paneer contain?",
       "options": [
-        "Actin",
-        "Myosin",
-        "Collagen",
-        "Keratin"
+        "14g",
+        "22g",
+        "28g",
+        "36g"
       ],
       "correct": 2,
-      "explanation": "Collagen is the most abundant protein and provides structural support to tissues.",
+      "explanation": "Low-fat paneer has about 14g of protein per 100g, so 200g gives roughly 28g — making it a great vegetarian protein source.",
       "source": "Human Anatomy and Biochemistry",
       "tags": [
         "structure",
@@ -3435,15 +3435,15 @@
       "category": "protein",
       "difficulty": "hard",
       "type": "multiple-choice",
-      "question": "What is the limiting amino acid in most legumes (beans and lentils)?",
+      "question": "Which combination best provides complete protein for a vegetarian?",
       "options": [
-        "Lysine",
-        "Methionine",
-        "Leucine",
-        "Tryptophan"
+        "Rice and oil",
+        "Dal and rice",
+        "Roti and pickle",
+        "Salad and juice"
       ],
       "correct": 1,
-      "explanation": "Methionine is the amino acid typically low in legumes, which is why combining them with grains (high in Methionine) creates a complete protein.",
+      "explanation": "Dal (lentils) and rice together cover all essential amino acids, making it a nutritionally complete protein combination.",
       "source": "Food Combining Principles",
       "tags": [
         "amino-acids",
@@ -3499,15 +3499,15 @@
       "category": "protein",
       "difficulty": "easy",
       "type": "multiple-choice",
-      "question": "Which essential amino acid is highly branched and crucial for triggering muscle protein synthesis?",
+      "question": "Approximately how much protein is in 300g of cooked chicken breast?",
       "options": [
-        "Glycine",
-        "Lysine",
-        "Leucine",
-        "Alanine"
+        "45g",
+        "60g",
+        "75g",
+        "93g"
       ],
-      "correct": 2,
-      "explanation": "Leucine is the most important of the three Branched-Chain Amino Acids (BCAAs) for stimulating the muscle-building process.",
+      "correct": 3,
+      "explanation": "Cooked chicken breast has about 31g of protein per 100g, so 300g gives roughly 93g — one of the highest protein-dense foods.",
       "source": "Sports Nutrition",
       "tags": [
         "amino-acids",
@@ -3541,15 +3541,13 @@
       "category": "protein",
       "difficulty": "hard",
       "type": "multiple-choice",
-      "question": "The **Biological Value (BV)** of a protein measures its:",
+      "question": "True or False: Eggs are considered one of the highest-quality protein sources available.",
       "options": [
-        "Calorie density",
-        "Absorption rate in the gut",
-        "Efficiency of use for growth and repair",
-        "Amino acid total count"
+        "True",
+        "False"
       ],
-      "correct": 2,
-      "explanation": "BV is a measure of how efficiently the body utilizes protein from a diet for tissue maintenance and growth. Egg white protein has the highest BV (100).",
+      "correct": 0,
+      "explanation": "Eggs score very high in protein quality because they contain all essential amino acids in proportions the body uses efficiently.",
       "source": "Protein Quality Assessment",
       "tags": [
         "measurement",
@@ -3563,15 +3561,15 @@
       "category": "protein",
       "difficulty": "easy",
       "type": "multiple-choice",
-      "question": "Which essential amino acid is a precursor for the neurotransmitter serotonin?",
+      "question": "Which of these is the richest plant-based protein source per 100g?",
       "options": [
-        "Lysine",
-        "Tryptophan",
-        "Histidine",
-        "Valine"
+        "Brown rice",
+        "Boiled peas",
+        "Tofu",
+        "Tempeh"
       ],
-      "correct": 1,
-      "explanation": "Tryptophan is converted to 5-HTP and then to serotonin, which plays a role in mood, appetite, and sleep.",
+      "correct": 3,
+      "explanation": "Tempeh (fermented soybean) has about 18–19g of protein per 100g — more than tofu and most other plant-based foods.",
       "source": "Neurotransmitter Biochemistry",
       "tags": [
         "amino-acids",
@@ -3627,15 +3625,15 @@
       "category": "protein",
       "difficulty": "hard",
       "type": "multiple-choice",
-      "question": "Which type of protein is generally considered 'slow-digesting,' providing a sustained release of amino acids?",
+      "question": "Approximately how much protein is in a 250ml glass of regular cow's milk?",
       "options": [
-        "Whey Isolate",
-        "Casein",
-        "Egg White",
-        "Hydrolyzed Whey"
+        "4g",
+        "8g",
+        "12g",
+        "16g"
       ],
       "correct": 1,
-      "explanation": "Casein is a dairy protein that forms a gel-like consistency in the stomach, slowing its digestion and absorption.",
+      "explanation": "250ml of cow's milk provides about 8g of protein along with calcium and other nutrients.",
       "source": "Protein Digestion Kinetics",
       "tags": [
         "supplement",
@@ -3713,15 +3711,15 @@
       "category": "protein",
       "difficulty": "hard",
       "type": "multiple-choice",
-      "question": "Which protein quality measure is based on the amino acid score corrected for fecal digestibility?",
+      "question": "How much protein does 100g of dry roasted peanuts contain?",
       "options": [
-        "Biological Value (BV)",
-        "Net Protein Utilization (NPU)",
-        "Protein Digestibility Corrected Amino Acid Score (PDCAAS)",
-        "Nitrogen Balance (NB)"
+        "10g",
+        "18g",
+        "26g",
+        "34g"
       ],
       "correct": 2,
-      "explanation": "PDCAAS is the current preferred method by the FDA and WHO for determining protein quality, often giving soy and dairy a score of 1.0.",
+      "explanation": "100g of peanuts contains about 25–26g of protein, making them one of the most protein-rich plant-based snacks.",
       "source": "WHO/FAO Protein Standards",
       "tags": [
         "measurement",
@@ -3735,13 +3733,13 @@
       "category": "protein",
       "difficulty": "easy",
       "type": "true-false",
-      "question": "True or False: Gelatin, an animal-derived product, is a complete protein.",
+      "question": "True or False: 100g of cooked masoor dal (red lentils) contains more than 8g of protein.",
       "options": [
         "True",
         "False"
       ],
-      "correct": 1,
-      "explanation": "False. Gelatin is derived from collagen but is missing the essential amino acid tryptophan, making it an incomplete protein.",
+      "correct": 0,
+      "explanation": "Cooked masoor dal contains around 9g of protein per 100g, making it an excellent everyday vegetarian protein source.",
       "source": "Protein Chemistry",
       "tags": [
         "amino-acids",
@@ -3755,15 +3753,15 @@
       "category": "protein",
       "difficulty": "medium",
       "type": "multiple-choice",
-      "question": "Which essential amino acid is crucial for synthesizing carnitine, a molecule involved in fat metabolism?",
+      "question": "Approximately how many calories are in 100g of cheddar cheese?",
       "options": [
-        "Lysine",
-        "Threonine",
-        "Isoleucine",
-        "Valine"
+        "200",
+        "280",
+        "400",
+        "500"
       ],
-      "correct": 0,
-      "explanation": "Lysine is essential for the synthesis of carnitine, which transports fatty acids into the mitochondria to be burned for energy.",
+      "correct": 2,
+      "explanation": "100g of cheddar cheese has about 400 calories. It's also high in protein (~25g) and calcium, but portion control matters.",
       "source": "Fat and Protein Metabolism",
       "tags": [
         "amino-acids",
@@ -3777,15 +3775,15 @@
       "category": "protein",
       "difficulty": "easy",
       "type": "multiple-choice",
-      "question": "Which of these cooking methods will cause the least damage to a protein's structure (denaturation)?",
+      "question": "Which cooking method helps retain the most nutrients when cooking vegetables?",
       "options": [
-        "Deep Frying",
-        "Boiling",
-        "Grilling",
-        "Marinating in a strong acid"
+        "Deep frying",
+        "Boiling in lots of water",
+        "Steaming",
+        "Microwaving with no water"
       ],
-      "correct": 1,
-      "explanation": "Boiling causes less extreme temperature change compared to grilling or frying, and less chemical change than a strong acid marinade.",
+      "correct": 2,
+      "explanation": "Steaming preserves more water-soluble vitamins (like B and C) than boiling, which leaches nutrients into the water.",
       "source": "Food Chemistry",
       "tags": [
         "cooking",
@@ -3819,15 +3817,15 @@
       "category": "protein",
       "difficulty": "hard",
       "type": "multiple-choice",
-      "question": "The conversion of amino acids into glucose (sugar) in the body is a metabolic process called:",
+      "question": "How much protein is in 1 cup (240ml) of plain Greek yogurt?",
       "options": [
-        "Glycolysis",
-        "Lipogenesis",
-        "Gluconeogenesis",
-        "Ketogenesis"
+        "8g",
+        "12g",
+        "17g",
+        "25g"
       ],
       "correct": 2,
-      "explanation": "Gluconeogenesis is the creation of new glucose from non-carbohydrate sources, such as lactate, glycerol, and certain amino acids.",
+      "explanation": "Greek yogurt has around 10g per 100g, so a 240ml cup gives roughly 17g. It's much higher in protein than regular yogurt.",
       "source": "Human Metabolism",
       "tags": [
         "metabolism",
@@ -3841,15 +3839,15 @@
       "category": "protein",
       "difficulty": "easy",
       "type": "multiple-choice",
-      "question": "What is the protein primarily found in the connective tissue of animals?",
+      "question": "Approximately how many calories are in one serving of rasmalai (2 pieces, ~100g)?",
       "options": [
-        "Actin",
-        "Elastin",
-        "Myoglobin",
-        "Fibrin"
+        "80",
+        "130",
+        "186",
+        "260"
       ],
-      "correct": 1,
-      "explanation": "Elastin is a highly elastic protein in connective tissue that allows many tissues in the body to resume their shape after stretching or contracting.",
+      "correct": 2,
+      "explanation": "Two pieces of rasmalai (~100g) contain about 180–190 calories, coming mainly from sugar, milk solids, and cream.",
       "source": "Structural Biology",
       "tags": [
         "structure",
@@ -3863,13 +3861,13 @@
       "category": "protein",
       "difficulty": "medium",
       "type": "true-false",
-      "question": "True or False: The amino acid profile of beef is considered superior to that of soy protein for muscle building.",
+      "question": "True or False: 100g of dry soya chunks contains more protein than 100g of raw chicken breast.",
       "options": [
         "True",
         "False"
       ],
-      "correct": 1,
-      "explanation": "False. Both beef and soy are complete proteins with high PDCAAS scores, and both are highly effective for muscle protein synthesis.",
+      "correct": 0,
+      "explanation": "Dry soya chunks have about 52g of protein per 100g, while raw chicken breast has about 31g — making soy chunks extremely protein-dense.",
       "source": "Protein Quality Comparison",
       "tags": [
         "comparison",
@@ -3883,15 +3881,15 @@
       "category": "protein",
       "difficulty": "easy",
       "type": "multiple-choice",
-      "question": "Which essential amino acid is a precursor to the B vitamin **niacin** (B3)?",
+      "question": "Which of these Indian breakfast options is highest in protein?",
       "options": [
-        "Lysine",
-        "Tryptophan",
-        "Methionine",
-        "Leucine"
+        "Idli with sambar",
+        "Plain poha",
+        "White bread toast with butter",
+        "Plain upma"
       ],
-      "correct": 1,
-      "explanation": "The body can convert Tryptophan into Niacin (Vitamin B3), though this is a relatively inefficient process.",
+      "correct": 0,
+      "explanation": "Idli with sambar provides a good protein combination from fermented rice/lentil batter and lentil-based sambar.",
       "source": "Vitamin Synthesis",
       "tags": [
         "amino-acids",
@@ -3927,15 +3925,15 @@
       "category": "protein",
       "difficulty": "hard",
       "type": "multiple-choice",
-      "question": "What is the primary protein found in the white part of an egg?",
+      "question": "How many grams of protein are in 2 whole boiled eggs?",
       "options": [
-        "Lactalbumin",
-        "Casein",
-        "Ovalbumin",
-        "Myosin"
+        "6g",
+        "10g",
+        "13g",
+        "18g"
       ],
       "correct": 2,
-      "explanation": "Ovalbumin constitutes about 55% of the total protein in egg white and is a complete protein.",
+      "explanation": "Each large egg has about 6–7g of protein, so 2 eggs give roughly 12–13g of high-quality protein.",
       "source": "Egg Composition Analysis",
       "tags": [
         "egg",
@@ -3969,15 +3967,15 @@
       "category": "protein",
       "difficulty": "medium",
       "type": "multiple-choice",
-      "question": "Which form of dietary protein is the fastest to be absorbed by the body?",
+      "question": "Approximately how much protein does 100g of plain low-fat dahi (yogurt) contain?",
       "options": [
-        "Casein Protein",
-        "Whole Foods",
-        "Hydrolyzed Whey Protein",
-        "Soy Protein Isolate"
+        "2g",
+        "4g",
+        "7g",
+        "10g"
       ],
-      "correct": 2,
-      "explanation": "Hydrolyzed whey has been pre-digested (broken down into smaller peptides) for the fastest absorption rate.",
+      "correct": 1,
+      "explanation": "100g of plain low-fat curd/dahi contains about 3.5–4g of protein and is a good probiotic food.",
       "source": "Sports Nutrition Science",
       "tags": [
         "supplement",
@@ -4013,13 +4011,13 @@
       "category": "protein",
       "difficulty": "medium",
       "type": "true-false",
-      "question": "True or False: Combining a plant-based protein with a high-sugar beverage increases its total absorption rate.",
+      "question": "True or False: Eating a protein-rich meal after a workout helps with muscle recovery.",
       "options": [
         "True",
         "False"
       ],
-      "correct": 1,
-      "explanation": "False. A high-sugar/carb drink (insulin spike) accelerates the delivery of protein to the muscle cells, but not the actual rate of protein absorption from the gut.",
+      "correct": 0,
+      "explanation": "Consuming protein (20–40g) within a few hours after exercise helps repair and build muscle tissue effectively.",
       "source": "Post-Workout Nutrition",
       "tags": [
         "absorption",
@@ -4033,15 +4031,15 @@
       "category": "protein",
       "difficulty": "hard",
       "type": "multiple-choice",
-      "question": "What is the nitrogen balance measure used to assess in nutritional research?",
+      "question": "Approximately how many calories are in one medium-sized plain chapati/roti (30g)?",
       "options": [
-        "The absorption of B-vitamins in the gut",
-        "The difference between protein intake and nitrogen excretion",
-        "The conversion rate of amino acids to glucose",
-        "The heat generated during protein digestion (TEF)"
+        "50",
+        "80",
+        "110",
+        "150"
       ],
       "correct": 1,
-      "explanation": "Nitrogen balance compares the nitrogen consumed (primarily from protein) to the nitrogen lost (primarily in urine and feces) to assess overall protein status.",
+      "explanation": "A 30g whole wheat roti has about 70–90 calories. Thicker rotis or those made with maida are higher in calories.",
       "source": "Nutritional Assessment Techniques",
       "tags": [
         "measurement",
@@ -4097,15 +4095,15 @@
       "category": "protein",
       "difficulty": "easy",
       "type": "multiple-choice",
-      "question": "Which part of a grain kernel contains the majority of its protein?",
+      "question": "How much protein is in 100g of cooked yellow moong dal?",
       "options": [
-        "Endosperm",
-        "Germ",
-        "Bran",
-        "Stalk"
+        "3g",
+        "7g",
+        "14g",
+        "20g"
       ],
-      "correct": 0,
-      "explanation": "The endosperm contains the most protein (and starch) of the kernel, while the germ contains most of the fat and vitamins.",
+      "correct": 1,
+      "explanation": "Cooked moong dal has about 7g of protein per 100g, and it's also easy to digest, making it great for all age groups.",
       "source": "Grain Structure Analysis",
       "tags": [
         "grains",
@@ -4141,15 +4139,15 @@
       "category": "protein",
       "difficulty": "hard",
       "type": "multiple-choice",
-      "question": "What is the maximum amount of protein (in grams) the average adult body can utilize for muscle protein synthesis in a single meal?",
+      "question": "What is the recommended daily protein intake for a moderately active adult weighing 70kg?",
       "options": [
-        "10-15g",
-        "20-40g",
-        "50-70g",
-        "The entire amount consumed"
+        "30–40g",
+        "56–84g",
+        "100–120g",
+        "150g+"
       ],
       "correct": 1,
-      "explanation": "While digestion is slower, muscle protein synthesis is typically maximized around 20-40 grams of high-quality protein per meal.",
+      "explanation": "Moderately active adults need about 0.8–1.2g of protein per kg of body weight — that's roughly 56–84g for a 70kg person.",
       "source": "Muscle Protein Synthesis Research",
       "tags": [
         "muscle",
@@ -4205,15 +4203,15 @@
       "category": "protein",
       "difficulty": "easy",
       "type": "multiple-choice",
-      "question": "What is the general term for the individual building blocks of protein?",
+      "question": "Which Indian food is one of the best plant-based protein sources per 100g?",
       "options": [
-        "Nucleotides",
-        "Fatty Acids",
-        "Monosaccharides",
-        "Amino Acids"
+        "White rice",
+        "Soya chunks",
+        "Potato",
+        "Wheat flour"
       ],
-      "correct": 3,
-      "explanation": "Amino acids are the organic compounds that combine to form proteins.",
+      "correct": 1,
+      "explanation": "Dry soya chunks have about 52g of protein per 100g, making them one of the richest plant-based protein sources available.",
       "source": "Cell Biology",
       "tags": [
         "amino-acids",
@@ -4227,13 +4225,13 @@
       "category": "protein",
       "difficulty": "medium",
       "type": "true-false",
-      "question": "True or False: Animal-based protein powders (whey/casein) contain a much higher concentration of leucine than most plant-based powders.",
+      "question": "True or False: You must use protein powder supplements to meet your protein needs as an active person.",
       "options": [
         "True",
         "False"
       ],
-      "correct": 0,
-      "explanation": "True. Dairy-based proteins, especially whey, have an exceptionally high leucine content, which is key for muscle synthesis.",
+      "correct": 1,
+      "explanation": "Most active people can meet protein needs through whole foods like eggs, dairy, legumes, and meat. Supplements are optional.",
       "source": "Protein Leucine Content Analysis",
       "tags": [
         "amino-acids",
@@ -4247,7 +4245,7 @@
       "category": "myths",
       "difficulty": "medium",
       "type": "true-false",
-      "question": "Myth: All bread labeled as **'brown bread'** is a healthier, high-fiber choice compared to white bread.",
+      "question": "All bread labeled as **'brown bread'** is a healthier, high-fiber choice compared to white bread.",
       "options": [
         "True",
         "False"
@@ -4267,7 +4265,7 @@
       "category": "myths",
       "difficulty": "medium",
       "type": "true-false",
-      "question": "Myth: Eating **egg yolks** is bad for you because the high dietary cholesterol significantly raises your blood cholesterol and heart disease risk.",
+      "question": "Eating **egg yolks** is bad for you because the high dietary cholesterol significantly raises your blood cholesterol and heart disease risk.",
       "options": [
         "True",
         "False"
@@ -4287,7 +4285,7 @@
       "category": "myths",
       "difficulty": "easy",
       "type": "multiple-choice",
-      "question": "Which claim about 'detox' or 'cleansing' diets is a myth?",
+      "question": "Which claim about 'detox' or 'cleansing' diets is FALSE?",
       "options": [
         "They involve calorie restriction.",
         "They can help kickstart weight loss.",
@@ -4309,7 +4307,7 @@
       "category": "myths",
       "difficulty": "medium",
       "type": "true-false",
-      "question": "Myth: Eating after **8 PM** automatically converts the food into fat, making you gain weight.",
+      "question": "Eating after **8 PM** automatically converts the food into fat, making you gain weight.",
       "options": [
         "True",
         "False"
@@ -4329,7 +4327,7 @@
       "category": "myths",
       "difficulty": "hard",
       "type": "multiple-choice",
-      "question": "The myth of 'negative calorie foods' (like celery) is based on the false belief that:",
+      "question": "The idea of 'negative calorie foods' (like celery) is based on the false belief that:",
       "options": [
         "They are low in fat.",
         "They take more energy to digest than they provide.",
@@ -4351,7 +4349,7 @@
       "category": "myths",
       "difficulty": "easy",
       "type": "true-false",
-      "question": "Myth: **Sea salt** is healthier and has less sodium than regular table salt.",
+      "question": "**Sea salt** is healthier and has less sodium than regular table salt.",
       "options": [
         "True",
         "False"
@@ -4371,7 +4369,7 @@
       "category": "myths",
       "difficulty": "medium",
       "type": "multiple-choice",
-      "question": "The primary problem with the myth that **'Fat-free'** products are always a healthier choice is:",
+      "question": "The primary problem with the false claim that **'Fat-free'** products are always a healthier choice is:",
       "options": [
         "They are harder to digest.",
         "They are always more expensive.",
@@ -4393,7 +4391,7 @@
       "category": "myths",
       "difficulty": "easy",
       "type": "true-false",
-      "question": "Myth: **Carbohydrates** are inherently bad and should be eliminated from the diet for weight loss.",
+      "question": "**Carbohydrates** are inherently bad and should be eliminated from the diet for weight loss.",
       "options": [
         "True",
         "False"
@@ -4413,7 +4411,7 @@
       "category": "myths",
       "difficulty": "medium",
       "type": "multiple-choice",
-      "question": "Which statement best debunks the myth that **'organic'** food is significantly more nutritious than conventionally grown food?",
+      "question": "Which statement best debunks the false claim that **'organic'** food is significantly more nutritious than conventionally grown food?",
       "options": [
         "Organic food is grown only in certain countries.",
         "Nutritional content is more dependent on soil quality, weather, and harvest time.",
@@ -4435,7 +4433,7 @@
       "category": "myths",
       "difficulty": "hard",
       "type": "true-false",
-      "question": "Myth: For optimal health, you must drink **eight 8-ounce glasses of water** every single day.",
+      "question": "For optimal health, you must drink **eight 8-ounce glasses of water** every single day.",
       "options": [
         "True",
         "False"
@@ -4455,7 +4453,7 @@
       "category": "myths",
       "difficulty": "easy",
       "type": "multiple-choice",
-      "question": "The myth that **'eating five small meals'** is better for metabolism than three large meals is based on the idea of:",
+      "question": "The false claim that **'eating five small meals'** is better for metabolism than three large meals is based on the idea of:",
       "options": [
         "Preventing the body from storing food as fat.",
         "Keeping the Thermic Effect of Food (TEF) high throughout the day.",
@@ -4477,7 +4475,7 @@
       "category": "myths",
       "difficulty": "medium",
       "type": "true-false",
-      "question": "Myth: **Frozen vegetables** are less nutritious than fresh vegetables.",
+      "question": "**Frozen vegetables** are less nutritious than fresh vegetables.",
       "options": [
         "True",
         "False"
@@ -4497,7 +4495,7 @@
       "category": "myths",
       "difficulty": "easy",
       "type": "multiple-choice",
-      "question": "Which of these is NOT a myth related to sugar consumption?",
+      "question": "Which of these statements about sugar consumption is TRUE?",
       "options": [
         "Sugar makes kids hyperactive.",
         "Sugar is highly addictive.",
@@ -4519,7 +4517,7 @@
       "category": "myths",
       "difficulty": "medium",
       "type": "true-false",
-      "question": "Myth: **Keto diets** and other low-carb diets are the only effective way to lose weight.",
+      "question": "**Keto diets** and other low-carb diets are the only effective way to lose weight.",
       "options": [
         "True",
         "False"
@@ -4539,7 +4537,7 @@
       "category": "myths",
       "difficulty": "hard",
       "type": "multiple-choice",
-      "question": "The myth of 'spot-reduction' of fat is debunked by the fact that fat is mobilized from cells based on:",
+      "question": "The false belief of 'spot-reduction' of fat is debunked by the fact that fat is mobilized from cells based on:",
       "options": [
         "The proximity to muscle being exercised.",
         "The time of day the exercise is performed.",
@@ -4561,7 +4559,7 @@
       "category": "myths",
       "difficulty": "easy",
       "type": "true-false",
-      "question": "Myth: **Skipping breakfast** is a guaranteed way to slow your metabolism and cause weight gain.",
+      "question": "**Skipping breakfast** is a guaranteed way to slow your metabolism and cause weight gain.",
       "options": [
         "True",
         "False"
@@ -4603,7 +4601,7 @@
       "category": "myths",
       "difficulty": "easy",
       "type": "true-false",
-      "question": "Myth: Eating a bowl of **oatmeal** is equivalent to eating a bowl of sugar because they are both carbohydrates.",
+      "question": "Eating a bowl of **oatmeal** is equivalent to eating a bowl of sugar because they are both carbohydrates.",
       "options": [
         "True",
         "False"
@@ -4623,7 +4621,7 @@
       "category": "myths",
       "difficulty": "medium",
       "type": "multiple-choice",
-      "question": "Which statement about the myth that **canned food** has no nutritional value is false?",
+      "question": "Which statement about the false claim that **canned food** has no nutritional value is false?",
       "options": [
         "Canning involves heat, which destroys some heat-sensitive vitamins (like Vitamin C).",
         "Canning locks in nutrients at the peak of freshness, similar to freezing.",
@@ -4645,7 +4643,7 @@
       "category": "myths",
       "difficulty": "hard",
       "type": "true-false",
-      "question": "Myth: **Vitamin C** supplements can cure the common cold.",
+      "question": "**Vitamin C** supplements can cure the common cold.",
       "options": [
         "True",
         "False"
@@ -4665,7 +4663,7 @@
       "category": "myths",
       "difficulty": "easy",
       "type": "multiple-choice",
-      "question": "Which food has a common myth that it aids in 'cleansing' the colon and digestive tract?",
+      "question": "Which food is falsely claimed to aid in 'cleansing' the colon and digestive tract?",
       "options": [
         "White rice",
         "Lean pork",
@@ -4687,7 +4685,7 @@
       "category": "myths",
       "difficulty": "medium",
       "type": "true-false",
-      "question": "Myth: The human body is not designed to consume **dairy** after infancy, and it is harmful to the gut.",
+      "question": "The human body is not designed to consume **dairy** after infancy, and it is harmful to the gut.",
       "options": [
         "True",
         "False"
@@ -4707,7 +4705,7 @@
       "category": "myths",
       "difficulty": "easy",
       "type": "multiple-choice",
-      "question": "The claim that you must eat a large number of **protein shakes** to build muscle is a myth because:",
+      "question": "The claim that you must eat a large number of **protein shakes** to build muscle is FALSE because:",
       "options": [
         "Shakes are only for professional bodybuilders.",
         "Protein from whole foods is just as effective.",
@@ -4729,7 +4727,7 @@
       "category": "myths",
       "difficulty": "medium",
       "type": "true-false",
-      "question": "Myth: **Artificial sweeteners** cause cancer in humans and should be completely avoided.",
+      "question": "**Artificial sweeteners** cause cancer in humans and should be completely avoided.",
       "options": [
         "True",
         "False"
@@ -4749,7 +4747,7 @@
       "category": "myths",
       "difficulty": "hard",
       "type": "multiple-choice",
-      "question": "Which of these is a myth about **fruit**?",
+      "question": "Which of these is a false belief about **fruit**?",
       "options": [
         "Fruit contains natural sugar.",
         "Fiber in fruit helps slow sugar absorption.",
@@ -4771,7 +4769,7 @@
       "category": "myths",
       "difficulty": "easy",
       "type": "true-false",
-      "question": "Myth: **Natural sugar** (like honey or maple syrup) is significantly healthier for you than white table sugar.",
+      "question": "**Natural sugar** (like honey or maple syrup) is significantly healthier for you than white table sugar.",
       "options": [
         "True",
         "False"
@@ -4791,7 +4789,7 @@
       "category": "myths",
       "difficulty": "medium",
       "type": "multiple-choice",
-      "question": "Which food has a myth that it is an **'alkaline'** food that can drastically change your body's pH balance?",
+      "question": "Which food is falsely believed to be an **'alkaline'** food that can drastically change your body's pH balance?",
       "options": [
         "Lemon water",
         "Red meat",
@@ -4813,7 +4811,7 @@
       "category": "myths",
       "difficulty": "easy",
       "type": "true-false",
-      "question": "Myth: **Eating small amounts of arsenic** (found naturally in some foods) will slowly kill you.",
+      "question": "**Eating small amounts of arsenic** (found naturally in some foods) will slowly kill you.",
       "options": [
         "True",
         "False"
@@ -4833,7 +4831,7 @@
       "category": "myths",
       "difficulty": "medium",
       "type": "multiple-choice",
-      "question": "The myth that **milk** causes excess mucus production and makes colds worse is primarily due to:",
+      "question": "The false claim that **milk** causes excess mucus production and makes colds worse is primarily due to:",
       "options": [
         "Its high fat content coating the throat.",
         "The milk protein (casein) being indigestible.",
@@ -4855,7 +4853,7 @@
       "category": "myths",
       "difficulty": "hard",
       "type": "true-false",
-      "question": "Myth: **Eating too much protein** increases the risk of gout because protein is high in purines.",
+      "question": "**Eating too much protein** increases the risk of gout because protein is high in purines.",
       "options": [
         "True",
         "False"
@@ -4875,7 +4873,7 @@
       "category": "myths",
       "difficulty": "easy",
       "type": "multiple-choice",
-      "question": "Which of these is a common myth about **red meat** consumption?",
+      "question": "Which of these is a common false belief about **red meat** consumption?",
       "options": [
         "It is a poor source of iron.",
         "It is harmful to the gut biome.",
@@ -4897,7 +4895,7 @@
       "category": "myths",
       "difficulty": "medium",
       "type": "true-false",
-      "question": "Myth: You can train your stomach to be smaller by eating less, thus **permanently reducing your appetite**.",
+      "question": "You can train your stomach to be smaller by eating less, thus **permanently reducing your appetite**.",
       "options": [
         "True",
         "False"
@@ -4917,7 +4915,7 @@
       "category": "myths",
       "difficulty": "easy",
       "type": "multiple-choice",
-      "question": "Which vegetable is often claimed to be a **'superfood'** due to its supposed unique fat-burning properties (a myth)?",
+      "question": "Which vegetable is often claimed to be a **'superfood'** due to its supposed unique fat-burning properties ?",
       "options": [
         "Broccoli",
         "Kale",
@@ -4939,7 +4937,7 @@
       "category": "myths",
       "difficulty": "medium",
       "type": "true-false",
-      "question": "Myth: Eating **grapefruit** with a meal will block the absorption of calories and fat from the rest of the food.",
+      "question": "Eating **grapefruit** with a meal will block the absorption of calories and fat from the rest of the food.",
       "options": [
         "True",
         "False"
@@ -4959,7 +4957,7 @@
       "category": "myths",
       "difficulty": "hard",
       "type": "multiple-choice",
-      "question": "The myth that microwaving food destroys all its nutrients is most specifically false because:",
+      "question": "The claim that microwaving food destroys all its nutrients is wrong because:",
       "options": [
         "Microwaves add nutrients to the food.",
         "Nutrient loss is primarily dependent on cooking time and liquid volume.",
@@ -4981,7 +4979,7 @@
       "category": "myths",
       "difficulty": "easy",
       "type": "true-false",
-      "question": "Myth: **Brown eggs** are more nutritious than white eggs.",
+      "question": "**Brown eggs** are more nutritious than white eggs.",
       "options": [
         "True",
         "False"
@@ -5001,7 +4999,7 @@
       "category": "myths",
       "difficulty": "medium",
       "type": "multiple-choice",
-      "question": "Which supplement has a myth of being a **'magical weight-loss pill'** by melting fat without diet or exercise?",
+      "question": "Which supplement is falsely marketed as a **'magical weight-loss pill'** by melting fat without diet or exercise?",
       "options": [
         "Creatine",
         "Fish Oil",
@@ -5023,7 +5021,7 @@
       "category": "myths",
       "difficulty": "easy",
       "type": "true-false",
-      "question": "Myth: **Dairy** products should be avoided entirely for people struggling with acne.",
+      "question": "**Dairy** products should be avoided entirely for people struggling with acne.",
       "options": [
         "True",
         "False"
@@ -5043,7 +5041,7 @@
       "category": "myths",
       "difficulty": "medium",
       "type": "multiple-choice",
-      "question": "The myth that a **'sugar rush'** causes hyperactivity in children is primarily attributed to:",
+      "question": "The false claim that a **'sugar rush'** causes hyperactivity in children is primarily attributed to:",
       "options": [
         "Genetic sensitivity to glucose.",
         "The excitement of the occasion (like a party) where sugary treats are served.",
@@ -5065,7 +5063,7 @@
       "category": "myths",
       "difficulty": "hard",
       "type": "true-false",
-      "question": "Myth: A food's **Glycemic Index (GI)** is the most important factor for determining its health value and should be followed strictly.",
+      "question": "A food's **Glycemic Index (GI)** is the most important factor for determining its health value and should be followed strictly.",
       "options": [
         "True",
         "False"
@@ -5085,7 +5083,7 @@
       "category": "myths",
       "difficulty": "easy",
       "type": "multiple-choice",
-      "question": "Which is a myth regarding **butter and margarine**?",
+      "question": "Which is a false belief regarding **butter and margarine**?",
       "options": [
         "Margarine is always made with partially hydrogenated oils (trans fats).",
         "Butter is primarily saturated fat.",
@@ -5107,7 +5105,7 @@
       "category": "myths",
       "difficulty": "medium",
       "type": "true-false",
-      "question": "Myth: The human body is constantly in 'starvation mode' if you don't eat every few hours.",
+      "question": "The human body is constantly in 'starvation mode' if you don't eat every few hours.",
       "options": [
         "True",
         "False"
@@ -5127,7 +5125,7 @@
       "category": "myths",
       "difficulty": "easy",
       "type": "multiple-choice",
-      "question": "The primary problem with the myth that **gluten** is unhealthy for everyone is that:",
+      "question": "The primary problem with the false claim that **gluten** is unhealthy for everyone is that:",
       "options": [
         "Gluten is essential for all body functions.",
         "Only people with Celiac disease or a non-celiac sensitivity need to avoid it.",
@@ -5149,7 +5147,7 @@
       "category": "myths",
       "difficulty": "medium",
       "type": "true-false",
-      "question": "Myth: **Dairy fat** (in whole milk or cheese) is inherently bad for heart health because it is mostly saturated fat.",
+      "question": "**Dairy fat** (in whole milk or cheese) is inherently bad for heart health because it is mostly saturated fat.",
       "options": [
         "True",
         "False"
@@ -5169,7 +5167,7 @@
       "category": "myths",
       "difficulty": "hard",
       "type": "multiple-choice",
-      "question": "Which myth is related to the consumption of **raw vegetables**?",
+      "question": "Which false belief is related to the consumption of **raw vegetables**?",
       "options": [
         "Raw vegetables contain more calories.",
         "They are difficult for the stomach to digest.",
@@ -5191,7 +5189,7 @@
       "category": "myths",
       "difficulty": "easy",
       "type": "true-false",
-      "question": "Myth: **Eating fat** will directly make you fat, and a zero-fat diet is the best way to lose weight.",
+      "question": "**Eating fat** will directly make you fat, and a zero-fat diet is the best way to lose weight.",
       "options": [
         "True",
         "False"
@@ -5211,7 +5209,7 @@
       "category": "myths",
       "difficulty": "medium",
       "type": "multiple-choice",
-      "question": "The myth that **caffeine** is a dangerous drug that must be eliminated from a healthy diet is false because:",
+      "question": "The false claim that **caffeine** is a dangerous drug that must be eliminated from a healthy diet is false because:",
       "options": [
         "Caffeine provides 4 calories per gram.",
         "Moderate caffeine intake is associated with a lower risk of Type 2 Diabetes and Parkinson’s.",
@@ -5233,7 +5231,7 @@
       "category": "myths",
       "difficulty": "easy",
       "type": "true-false",
-      "question": "Myth: **Vitamin supplements** can entirely make up for a poor diet.",
+      "question": "**Vitamin supplements** can entirely make up for a poor diet.",
       "options": [
         "True",
         "False"
@@ -5275,7 +5273,7 @@
       "category": "myths",
       "difficulty": "hard",
       "type": "true-false",
-      "question": "Myth: **Unpasteurized (raw) milk** is nutritionally superior and has stronger immune-boosting properties than pasteurized milk.",
+      "question": "**Unpasteurized (raw) milk** is nutritionally superior and has stronger immune-boosting properties than pasteurized milk.",
       "options": [
         "True",
         "False"
