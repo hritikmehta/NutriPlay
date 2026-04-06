@@ -13,6 +13,8 @@ export const authOptions = {
   secret: process.env.NEXTAUTH_SECRET,
   session: {
     strategy: "jwt",
+    maxAge: 30 * 24 * 60 * 60, // 30 days — keeps user signed in across browser closes
+    updateAge: 24 * 60 * 60,   // only refresh token once per day
   },
   callbacks: {
     // 1. JWT Callback: Copy profile info into the token
